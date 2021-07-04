@@ -614,11 +614,41 @@ color: white;
 
 } 
 
-.welcome {
+.Hébergements__cellule {
 
-    
-
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start ;
+   
+   margin-left: 1px;
+   width: 551px;
 
 }
+
+
+.Populaires__Cellule {
+
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   margin-left: 1px;
+   width: 100px;
+
+}
+
+.Informations {
+
+
+   position: relative;
+   left: 50px;
+   top: 50px;
+   bottom: 150px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+  
+   
+  }
+
 
 }
