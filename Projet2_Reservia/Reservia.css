@@ -606,6 +606,18 @@ color: blue;
 
 {
 
+   .General__rules {
+
+      width: 551px;
+      height:2000px;
+      margin:auto;
+      font-family: 'Raleway' ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 1em;
+      
+     } 
+
+
+
 header {
 
     display: flex;
@@ -657,7 +669,7 @@ color: white;
    justify-content: flex-start;
    margin-left: 1px;
    width: 100px;
-
+   flex: 1;
 }
 
 
@@ -674,7 +686,6 @@ color: white;
 
 .Informations {
 
-
    position: relative;
    left: 50px;
    top: 50px;
@@ -682,7 +693,6 @@ color: white;
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
-  
    
   }
 
