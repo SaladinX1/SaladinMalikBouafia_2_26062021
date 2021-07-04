@@ -608,11 +608,15 @@ color: blue;
 
    .General__rules {
 
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
       width: 551px;
       height:2000px;
       margin:auto;
       font-family: 'Raleway' ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-size: 1em;
+
       
      } 
 
