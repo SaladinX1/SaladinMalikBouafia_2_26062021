@@ -614,6 +614,16 @@ color: white;
 
 } 
 
+.Seconde_Section {
+
+
+   display: flex;
+   flex-direction: column ;
+   justify-content: flex-end ;
+   
+
+}
+
 .Hébergements {
 
    
