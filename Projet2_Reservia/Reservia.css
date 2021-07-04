@@ -544,7 +544,7 @@ color: blue;
     margin-top: 180px;
     height: 250px;
     width: 1300px;
-    background-color: rgba(238, 238, 231, 0.973)
+    background-color: rgba(238, 238, 231, 0.973);
 
 }
 
@@ -602,6 +602,15 @@ color: blue;
     font-weight: normal;
 }
 
+
+
+
+
+
+
+
+
+
 @media all and (max-width: 551px)
 
 {
@@ -611,6 +620,7 @@ color: blue;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
+      margin-left: 100px;
       width: 551px;
       height:2000px;
       margin:auto;
@@ -641,7 +651,6 @@ color: white;
    display: flex;
    flex-direction: column ;
    justify-content: flex-end ;
-   
 
 }
 
@@ -687,18 +696,31 @@ color: white;
 
 }
 
+.quatrième_section {
+
+   display:flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   margin-top: 180px;
+   height: 550px;
+   width: 551px;
+   background-color: rgba(238, 238, 231, 0.973);
+
+}
+
 
 .Informations {
 
-   position: relative;
-   left: 50px;
-   top: 50px;
+   
    bottom: 150px;
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
-   
+   width: 551px;
+   margin-left: 0px;
+
   }
 
+  
 
 }
