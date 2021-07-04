@@ -37,12 +37,11 @@ header {
   }
 
  
+  .logo {
 
- .logo {
-
-    height: 50px ;
-    width: 80px ;
-
+   height: 50px ;
+   width: 80px ;
+ 
  }
 
  .logo__devise {
@@ -61,14 +60,21 @@ header {
 
      font-weight: normal;
      
+     
  } 
 
- .filtre img {
-  
-    height: 18px;
-    width: 18px;
+ .unbold--single i {
 
- }
+   
+   color: rgb(51, 194, 230);
+   
+} 
+ 
+
+}
+ 
+
+ 
 
 .filtre__recherche {
 
@@ -80,12 +86,15 @@ header {
     
 }
 
-.filtre__recherche img {
+.filtre__recherche i {
 
-  height: 25px;
-  width: 30px;
+  height: 30px;
+  width: 25px;
+  padding-left: 15px;
+  padding-top: 10px;
   background-color: rgb(202, 205, 207);
   border-radius: 10px 0 0 10px;
+
   
 }
 
@@ -102,6 +111,7 @@ label a{
     color: white;
     padding: 10px 17px 8px 10px;
     border-radius:  0 10px  10px 0;
+    text-decoration: none;
 }
 
  .filtre--recherche--align  {
@@ -126,13 +136,16 @@ label a{
     
  }
 
-  .align img {
+  .align i {
     
     border-radius: 20px 20px 20px 20px;
-    height: 27px;
-    width: 24px;
+    height: 22px;
+    width: 30px;
     margin-right: 5px;
+    padding-top: 5px;
     background-color: rgb(113, 213, 238)
+    
+     
 
   }
 
@@ -603,7 +616,7 @@ color: white;
 
 .welcome {
 
- width: 600px;
+    
 
 
 }
