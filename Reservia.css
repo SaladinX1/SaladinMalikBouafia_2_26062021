@@ -1,0 +1,611 @@
+.General__rules {
+
+  
+  width: 1300px;
+  height:2000px;
+  margin:auto;
+  font-family: 'Raleway' ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 1em;
+  
+  
+ } 
+
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("static/Raleway-ExtraBold.ttf") format('truetype'),
+    src: url("static/Raleway-ExtraBold.eot") format('eot'),
+    src: url("static/Raleway-ExtraBold.woff") format('woff'),
+    src: url("static/Raleway-ExtraBold.svg") format('svg');
+    
+  }
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+  
+
+  .welcome {
+
+    margin-top: 40px;
+    line-height: 1.8em;
+  
+  }
+
+ 
+
+ .logo {
+
+    height: 50px ;
+    width: 80px ;
+
+ }
+
+ .logo__devise {
+
+    line-height: 0.4em;
+ }
+
+ .unbold {
+
+    font-weight: normal;
+    font-size: 0.8em;
+
+ }
+
+ .unbold--single {
+
+     font-weight: normal;
+     
+ } 
+
+ .filtre img {
+  
+    height: 18px;
+    width: 18px;
+
+ }
+
+.filtre__recherche {
+
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    width: 323px;
+    border-radius: 10px;
+    
+}
+
+.filtre__recherche img {
+
+  height: 25px;
+  width: 30px;
+  background-color: rgb(202, 205, 207);
+  border-radius: 10px 0 0 10px;
+  
+}
+
+.filtre__recherche input {
+
+    line-height: 2.1em ;
+    border: 1px solid white;
+    
+}
+    
+label a{
+
+    background-color: rgb(10, 105, 247);
+    color: white;
+    padding: 10px 17px 8px 10px;
+    border-radius:  0 10px  10px 0;
+}
+
+ .filtre--recherche--align  {
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: -8px;
+    
+ }
+
+ .align {
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    border: 1px solid gray;
+    border-radius: 17px ;
+    padding : 0px 20px 2px 0px;
+    width: 180px;
+    height: 25px;
+    text-align: center;
+    
+ }
+
+  .align img {
+    
+    border-radius: 20px 20px 20px 20px;
+    height: 27px;
+    width: 24px;
+    margin-right: 5px;
+    background-color: rgb(113, 213, 238)
+
+  }
+
+  
+
+ 
+
+
+
+  .align--single {
+
+    margin-right: 30px;
+    padding : 5px 5px 5px 5px;
+
+ }
+
+
+
+.nav ul {
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+.nav ul li {
+    
+    
+    margin-right: 30px ;
+    padding-top: 40px;
+    color: black;
+
+}
+
+.nav ul li a {
+
+text-decoration: none;
+color: black;
+
+ }
+
+
+.nav li:hover {
+
+    border-top: 2px solid rgb(72, 162, 247) ;
+    color: rgb(72, 162, 247);
+}
+
+
+.Hébergements {
+
+   background-color: rgb(241, 232, 232);
+   border-radius: 15px;
+   width: 870px;
+   height: 550px;
+   
+
+}
+
+.Hébergements__titre {
+
+   padding-top: 30px;
+   margin-left: 25px;
+}
+
+.Hébergements__cellule {
+
+   display: flex;
+   flex-direction: row ;
+   justify-content: flex-start ;
+   flex-wrap: wrap;
+   margin-left: 1px;
+   width: 850px;
+   
+   
+
+}
+
+.Hébergements__cellule img {
+
+   
+       width: 233px;
+       height: 100px;
+       margin-left: 3px;
+       margin-top: -8px;
+       border-radius: 10px 10px 0 0 ;
+}
+
+strong {
+
+ font-weight: bold;
+
+}
+
+
+.Nuit {
+
+  font-weight: normal;
+  margin-bottom: 0px;
+
+}
+
+.Nuit_Populaires {
+
+  font-weight: normal;
+  margin-bottom: 27px;
+
+}
+
+
+.Hébergements__Cellule--Hotel {
+
+   background-color: white;
+   margin: 0px 20px 30px 20px;
+   height: 190px;
+   width: 240px;
+   line-height: 0.6em;
+   border-radius: 10px;
+
+}
+
+.Hébergements__Cellule--Hotel p {
+
+       font-size: 0.8em;
+       margin-left: 1px;
+
+}
+
+.Hébergements__Cellule--Desc {
+
+   margin-left: 13px;
+   line-height: 0.8em;
+}
+
+.Rating_Star {
+
+display: flex;
+flex-direction: row;
+margin-top: 0px;
+padding: 0px;
+color: blue;
+
+
+}
+
+.Hébergements__Cellule--Desc img {
+
+   height: 15px;
+   width: 65px;
+   color:rgb(10, 105, 247);
+   margin-left: -1px;
+
+}
+
+
+
+ .Seconde_Section {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+ }
+
+ .Populaires {
+
+    background-color:rgb(241, 232, 232);
+    width: 390px;
+    height: 550px;
+    border-radius: 15px;
+
+ }
+
+
+ .Populaires__titre {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-left: 25px;
+    width: 330px;
+
+ }
+
+ .Populaires__titre img {
+
+     height: 10px;
+     width: 10px;
+ }
+
+ .Populaires__Cellule {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 1px;
+    width: 100px;
+
+ }
+
+ .Populaires__Cellule img {
+
+    width: 150px;
+    height: 120px;
+    margin-left: 3px;
+    margin-top: -8px;
+    border-radius: 10px 0 0 10px ;
+
+ }
+
+
+ .Populaires__Cellule--Hôtel {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: white;
+    margin: 0 20px 30px 20px;
+    height: 130px;
+    width: 340px;
+    line-height: 0.6em;
+    border-radius: 10px;
+
+ }
+
+
+ .Populaires__Cellule--Hôtel p {
+
+    font-size: 0.8em;
+    margin-left: 1px;
+
+ }
+
+ .Populaires__Cellule--Desc {
+
+  display: flex;
+  flex-direction: column ;
+  justify-content: flex-start;
+  line-height: 0.7em;
+  word-break: normal;
+  margin-left: 18px;
+
+ }
+
+ .Populaires__Cellule--Desc img {
+
+    height: 15px;
+    width: 65px;
+    color:rgb(10, 105, 247);
+    margin-left: -1px;
+    margin-top: 14px;
+
+ }
+
+ .Troisième_section {
+
+    
+    margin-top: 50px;
+    height: 450px;
+    
+ }
+
+.Activités {
+
+    margin-top: -15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+}
+ 
+ .Activités img {
+
+    height: 450px;
+    width: 300px;
+    border-radius: 15px 15px 0 0;
+    margin-left: 0px;
+    
+ }
+
+
+ figure {
+
+    margin-left: 0px;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgb(211, 206, 206);
+    height: 510px;
+    width: 299px;
+    
+}
+
+
+.Activités__Vieux-Port--align {
+
+    margin-left: 0px;
+}
+
+
+ .Activités__Vieux-Port--Desc {
+
+    padding-left: 20px;
+ }
+
+ .Activités__Fort-et-Iles {
+
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+
+ }
+
+ .Activités__Fort-et-Iles p {
+
+    margin-left: 18px;
+ }
+
+ 
+ .Activités__Fort-de-Pomègues--align {
+
+    height: 280px;
+
+ }
+
+ .Activités__Fort-de-Pomègues--align img {
+
+    height: 220px;
+ }
+
+ .Activités__Iles-du-Frioul--align {
+
+    height: 195px;
+ }
+
+ .Activités__Iles-du-Frioul--align img {
+
+    height: 135px;
+ }
+
+ .Activités__Parc-national-des-Calanques p {
+
+    margin-left: 18px;
+ }
+
+
+ .Activités__Notre-Dame-de-la-Garde--align {
+
+    height: 200px;
+    width: 275px;
+ }
+
+ .Activités__Notre-Dame-de-la-Garde--align img {
+
+      height: 150px;
+      width: 275px;
+
+}
+
+ .Activités__Parc-Longchamp--align {
+
+    height: 268px;
+    width: 275px;
+    margin-top: 40px;
+
+ }
+
+ .Activités__Parc-Longchamp--align img {
+
+    height: 210px;
+    width: 275px;
+}
+
+.Activités__Dame-et-Parc p {
+
+    margin-left: 18px;
+}
+
+
+
+ .quatrième_section {
+
+    display:flex;
+    flex-direction: row;
+    margin-top: 180px;
+    height: 250px;
+    width: 1300px;
+    background-color: rgba(238, 238, 231, 0.973)
+
+}
+
+.Informations {
+
+
+ position: relative;
+ left: 50px;
+ top: 50px;
+ bottom: 150px;
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+
+ 
+}
+
+
+.Informations__A-propos--Site {
+
+    margin-left: 20px;
+    
+}
+
+
+.Informations__A-propos {
+
+    padding-left: 240px;
+    
+}
+
+.Informations__A-propos--Site strong {
+
+    font-weight: bolder;
+
+}
+
+
+.Informations__A-propos--Site p {
+
+    font-weight: normal;
+
+}
+
+
+
+.Informations__A-propos strong {
+
+    font-weight: bolder;
+
+}
+
+.Informations__A-propos p {
+
+    font-weight: normal;
+}
+
+@media all and (max-width: 551px)
+
+{
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+nav li {
+
+padding-top: 10px;
+color: white;
+
+} 
+
+.welcome {
+
+ width: 600px;
+
+
+}
+
+}
