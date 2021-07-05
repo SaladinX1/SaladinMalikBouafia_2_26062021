@@ -39,14 +39,16 @@ header {
  
   .logo {
 
+   padding-top: 15px;
    height: 50px ;
    width: 80px ;
- 
+
  }
 
  .logo__devise {
 
     line-height: 0.4em;
+    padding-top: 15px;
  }
 
  .unbold {
@@ -81,6 +83,7 @@ header {
     display: flex;
     justify-content: space-between;
     border: 1px solid gray;
+
     width: 323px;
     border-radius: 10px;
     
@@ -624,7 +627,7 @@ color: blue;
       justify-content: flex-start;
       margin-left: 100px;
       width: 551px;
-      height:2500px;
+      height:4800px;
       margin:auto;
       font-family: 'Raleway' ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-size: 1em;
@@ -641,21 +644,30 @@ header {
     justify-content: flex-start;
 }
 
-.logo {
+.welcome {
+
+   display: flex;
+   flex-direction: column;
+}
+
+
+.logo:nth-child(1) {
 
    height: 50px ;
    width: 80px ;
+   order: 1;
  
  }
 
- .logo__devise {
+ .logo__devise:nth-child(2) {
 
+   order: 3;
     line-height: 0.4em;
  }
 
- .nav {
+ .nav:nth-child(5) {
 
-
+  order: 2;
 
  }
 
@@ -666,21 +678,25 @@ color: white;
 
 } 
 
-.filtre__recherche {
+.filtre__recherche:nth-child(3) {
 
    display: flex;
    justify-content: space-between;
+   order: 4;
    border: 1px solid gray;
    width: 323px;
    border-radius: 10px;
    
 }
 
-.filtre--recherche--align  {
+.filtre--recherche--align:nth-child(4)  {
 
    display: flex;
+   flex-wrap: wrap;
+   order: 5;
    justify-content: space-around;
    margin-left: -8px;
+
    
 }
 
@@ -747,10 +763,18 @@ color: white;
    flex: 1;
 }
 
+.Troisième_section {
 
+   position: relative;
+   top: 1000px;
+   margin-left: 100px;
+   margin-top: 50px;
+   height: 450px;
+   
+}
 .Activités {
 
-   margin-top: -15px;
+   margin-left: -15px;
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
@@ -758,13 +782,34 @@ color: white;
 
 }
 
+.Activités img {
+
+   height: 200px;
+   width: 350px;
+   border-radius: 15px 15px 0 0;
+   margin-left: 0px;
+   
+}
+
+figure {
+
+   margin-left: 0px;
+   border: 1px solid white;
+   border-radius: 15px;
+   box-shadow: 0 2px 5px rgb(211, 206, 206);
+   height: 200px;
+   width: 350px;
+   
+}
+
+
 .quatrième_section {
 
    display:flex;
    flex-direction: column;
    justify-content: flex-start;
-   position: relative;
-   bottom: 0px;
+   position: absolute;
+   top: 4800px;
    margin-top: 180px;
    height: 550px;
    width: 551px;
@@ -775,7 +820,6 @@ color: white;
 
 .Informations {
 
-   
    bottom: 150px;
    display: flex;
    flex-direction: column;
