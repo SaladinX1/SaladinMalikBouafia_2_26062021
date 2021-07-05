@@ -563,27 +563,24 @@ color: blue;
 }
 
 
-.Informations__A-propos--Site {
-
-    margin-left: 20px;
-    
-}
-
-
 .Informations__A-propos {
 
-    padding-left: 240px;
-    
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.Informations__A-propos--Site strong {
+
+
+.Informations__A-propos strong {
 
     font-weight: bolder;
 
 }
 
 
-.Informations__A-propos--Site p {
+.Informations__A-propos p {
 
     font-weight: normal;
 
@@ -610,7 +607,6 @@ color: blue;
 
 
 
-
 @media all and (max-width: 551px)
 
 {
@@ -622,7 +618,7 @@ color: blue;
       justify-content: flex-start;
       margin-left: 100px;
       width: 551px;
-      height:2000px;
+      height:2500px;
       margin:auto;
       font-family: 'Raleway' ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-size: 1em;
@@ -701,6 +697,8 @@ color: white;
    display:flex;
    flex-direction: column;
    justify-content: flex-start;
+   position: relative;
+   bottom: 0px;
    margin-top: 180px;
    height: 550px;
    width: 551px;
@@ -722,5 +720,48 @@ color: white;
   }
 
   
+  .Informations__A-propos--Site {
+
+   margin-left: 20px;
+   
+}
+
+
+.Informations__A-propos {
+
+   padding-left: 240px;
+   
+}
+
+.Informations__A-propos strong {
+
+   font-weight: bolder;
+
+}
+
+
+.Informations__A-propos p {
+
+   font-weight: normal;
+
+}
+
+
+
+.Informations__A-propos strong {
+
+   font-weight: bolder;
+
+}
+
+.Informations__A-propos p {
+
+   font-weight: normal;
+}
+
+
+
+
+
 
 }
