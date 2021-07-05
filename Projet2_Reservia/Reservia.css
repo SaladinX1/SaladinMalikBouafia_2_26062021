@@ -376,7 +376,6 @@ color: blue;
 
  .Populaires__Cellule--Hôtel {
 
-
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -642,12 +641,49 @@ header {
     justify-content: flex-start;
 }
 
+.logo {
+
+   height: 50px ;
+   width: 80px ;
+ 
+ }
+
+ .logo__devise {
+
+    line-height: 0.4em;
+ }
+
+ .nav {
+
+
+
+ }
+
 nav li {
 
 padding-top: 10px;
 color: white;
 
 } 
+
+.filtre__recherche {
+
+   display: flex;
+   justify-content: space-between;
+   border: 1px solid gray;
+   width: 323px;
+   border-radius: 10px;
+   
+}
+
+.filtre--recherche--align  {
+
+   display: flex;
+   justify-content: space-around;
+   margin-left: -8px;
+   
+}
+
 
 .Seconde_Section {
 
