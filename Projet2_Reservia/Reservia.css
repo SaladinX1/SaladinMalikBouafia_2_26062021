@@ -627,15 +627,13 @@ color: blue;
       justify-content: flex-start;
       margin-left: 100px;
       width: 551px;
-      height:4800px;
+      height:3950px;
       margin:auto;
       font-family: 'Raleway' ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-size: 1em;
 
       
      } 
-
-
 
 header {
 
@@ -661,8 +659,9 @@ header {
 
  .logo__devise:nth-child(2) {
 
-   order: 3;
+    order: 3;
     line-height: 0.4em;
+    padding-top: 15px;
  }
 
  .nav:nth-child(5) {
@@ -723,9 +722,8 @@ color: white;
    display: flex;
    flex-direction: column;
    justify-content: flex-start ;
-   
-   margin-left: 1px;
-   width: 551px;
+   margin-left: -50px;
+   width: 370px;
 
 }
 
@@ -736,11 +734,21 @@ color: white;
    background-color: white;
    margin: 0px 20px 30px 20px;
    height: 190px;
-   width: 240px;
+   width: 360px;
    line-height: 0.6em;
    border-radius: 10px;
-
 }
+
+.Hébergements__cellule img {
+
+   width: 360px;
+   height: 100px;
+   margin-left: 3px;
+   margin-top: -8px;
+   border-radius: 10px 10px 0 0 ;
+}
+
+
 
 .Populaires {
 
@@ -766,7 +774,7 @@ color: white;
 .Troisième_section {
 
    position: relative;
-   top: 1750px;
+   top: 900px;
    margin-left: 100px;
    margin-top: 50px;
    height: 650px;
@@ -775,7 +783,7 @@ color: white;
 
 .Marseille-align {
 
-
+margin-left: -35px;
 
 }
 
@@ -818,7 +826,7 @@ color: white;
    flex-direction: column;
    justify-content: flex-start;
    position: absolute;
-   top: 4800px;
+   top: 3950px;
    margin-top: 180px;
    height: 550px;
    width: 551px;
