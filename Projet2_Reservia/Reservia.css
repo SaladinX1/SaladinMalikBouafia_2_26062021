@@ -2,7 +2,7 @@
 
   
   width: 1300px;
-  height:2000px;
+  height:2100px;
   margin:auto;
   font-family: 'Raleway' ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bolder;
@@ -21,6 +21,10 @@
     
   }
 
+
+                                                           /* HEADER */
+        
+        
 header {
 
     display: flex;
@@ -71,19 +75,17 @@ header {
    color: rgb(51, 194, 230);
    
 } 
- 
 
 }
  
-
- 
+                                                            /*HEADER -- Filtre Part*/
 
 .filtre__recherche {
 
     display: flex;
     justify-content: space-between;
     border: 1px solid gray;
-
+    
     width: 323px;
     border-radius: 10px;
     
@@ -125,7 +127,9 @@ label a{
     
  }
 
- .align {
+                                                               /* HEADER -- Filtre - Rubrique  */
+
+ .money {
 
     display: flex;
     justify-content: space-between;
@@ -139,7 +143,49 @@ label a{
     
  }
 
-  .align i {
+ .Romantique {
+
+   display: flex;
+   justify-content: space-between;
+   margin-right: 15px;
+   border: 1px solid gray;
+   border-radius: 17px ;
+   padding : 0px 20px 2px 0px;
+   width: 180px;
+   height: 25px;
+   text-align: center;
+   
+}
+.Familial {
+
+   display: flex;
+   justify-content: space-between;
+   margin-right: 15px;
+   border: 1px solid gray;
+   border-radius: 17px ;
+   padding : 0px 20px 2px 0px;
+   width: 180px;
+   height: 25px;
+   text-align: center;
+   
+}
+
+.Animaux {
+
+   display: flex;
+   justify-content: space-between;
+   margin-right: 15px;
+   border: 1px solid gray;
+   border-radius: 17px ;
+   padding : 0px 20px 2px 0px;
+   width: 180px;
+   height: 25px;
+   text-align: center;
+   
+}
+
+
+  .money i {
     
     border-radius: 20px 20px 20px 20px;
     height: 22px;
@@ -148,15 +194,41 @@ label a{
     padding-top: 5px;
     background-color: rgb(113, 213, 238)
     
-     
-
   }
 
+  .Familial i {
+    
+   border-radius: 20px 20px 20px 20px;
+   height: 22px;
+   width: 30px;
+   margin-right: 5px;
+   padding-top: 5px;
+   background-color: rgb(113, 213, 238)
+   
+ }
+
+ .Romantique i {
+    
+   border-radius: 20px 20px 20px 20px;
+   height: 22px;
+   width: 30px;
+   margin-right: 5px;
+   padding-top: 5px;
+   background-color: rgb(113, 213, 238)
+   
+ }
+
+ .Animaux i {
+    
+   border-radius: 20px 20px 20px 20px;
+   height: 22px;
+   width: 30px;
+   margin-right: 5px;
+   padding-top: 5px;
+   background-color: rgb(113, 213, 238)
+   
+ }
   
-
- 
-
-
 
   .align--single {
 
@@ -165,7 +237,7 @@ label a{
 
  }
 
-
+                                                      /* NAVIGATION LINKS*/
 
 .nav ul {
 
@@ -198,6 +270,10 @@ color: black;
     border-top: 2px solid rgb(72, 162, 247) ;
     color: rgb(72, 162, 247);
 }
+
+       
+                                                              /* Hébergements */
+
 
 
 .Hébergements {
@@ -316,7 +392,7 @@ color: blue;
    bottom:15px;
 }
 
-
+                                                              /* 2ND SECTION POPULAIRES*/
  .Seconde_Section {
 
 
@@ -419,7 +495,7 @@ color: blue;
     margin-top: 14px;
 
  }
-
+                                                            /* 3RD SECTION ACTIVITES*/
  .Troisième_section {
 
     
@@ -545,7 +621,7 @@ color: blue;
 }
 
 
-
+                                          /* 4TH SECTION FOOTER */
  .quatrième_section {
 
     display:flex;
@@ -627,7 +703,7 @@ color: blue;
       justify-content: flex-start;
       margin-left: 100px;
       width: 551px;
-      height:3950px;
+      height:4000px;
       margin:auto;
       font-family: 'Raleway' ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-size: 1em;
@@ -640,6 +716,9 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    height: 400px;
+    width: 400px;
+    
 }
 
 .welcome {
@@ -659,14 +738,14 @@ header {
 
  .logo__devise:nth-child(2) {
 
-    order: 3;
-    line-height: 0.4em;
-    padding-top: 15px;
+    order: 2;
+    line-height: 0.8em;
+    font-size: 1.5em;
  }
 
  .nav:nth-child(5) {
 
-  order: 2;
+  order: 5;
 
  }
 
@@ -681,30 +760,77 @@ color: white;
 
    display: flex;
    justify-content: space-between;
-   order: 4;
+   order: 3;
    border: 1px solid gray;
-   width: 323px;
+   width: 333px;
+   margin-left: 50px;
    border-radius: 10px;
    
 }
 
-.filtre--recherche--align:nth-child(4)  {
+label a {
 
-   display: flex;
-   flex-wrap: wrap;
-   order: 5;
-   justify-content: space-around;
-   margin-left: -8px;
-
-   
+   background-color: rgb(10, 105, 247);
+   color: white;
+   padding: 10px 17px 12px 10px;
+   border-radius:  0 10px  10px 0;
+   text-decoration: none;
 }
 
+.money:nth-child(4)  {
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   
+   height: 25px;
+   width: 600px;
+   padding-right: -50px;
+   order: 4;
+}
+
+.Familial:nth-child(4)  {
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   
+   height: 25px;
+   width: 600px;
+   padding-right: -50px;
+   order: 4;
+}
+
+.Animaux:nth-child(4)  {
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   
+   height: 25px;
+   width: 600px;
+   padding-right: -50px;
+   order: 4;
+}
+
+.Romantique:nth-child(4)  {
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   
+   height: 25px;
+   width: 600px;
+   padding-right: -50px;
+   order: 4;
+}
 
 .Seconde_Section {
 
    display: flex;
    flex-direction: column-reverse ;
    justify-content: flex-start ;
+   margin-top: 50px;
 
 }
 
