@@ -766,14 +766,22 @@ color: white;
 .Troisième_section {
 
    position: relative;
-   top: 1000px;
+   top: 1750px;
    margin-left: 100px;
    margin-top: 50px;
-   height: 450px;
+   height: 650px;
    
 }
+
+.Marseille-align {
+
+
+
+}
+
 .Activités {
 
+   
    margin-left: -15px;
    display: flex;
    flex-direction: column;
@@ -784,24 +792,25 @@ color: white;
 
 .Activités img {
 
-   height: 200px;
+   height: 150px;
    width: 350px;
    border-radius: 15px 15px 0 0;
    margin-left: 0px;
    
 }
 
-figure {
+.Activités figure {
 
-   margin-left: 0px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+   margin-left: -20px;
    border: 1px solid white;
    border-radius: 15px;
-   box-shadow: 0 2px 5px rgb(211, 206, 206);
+   box-shadow: 0 3px 5px rgb(153, 139, 139);
    height: 200px;
    width: 350px;
    
 }
-
 
 .quatrième_section {
 
@@ -817,7 +826,6 @@ figure {
 
 }
 
-
 .Informations {
 
    bottom: 150px;
@@ -826,11 +834,7 @@ figure {
    justify-content: flex-start;
    width: 551px;
    margin-left: 0px;
-
   }
-
-
-
 
 .Informations__A-propos {
 
@@ -845,14 +849,11 @@ figure {
 
 }
 
-
 .Informations__A-propos p {
 
    font-weight: normal;
 
 }
-
-
 
 .Informations__A-propos strong {
 
@@ -864,9 +865,6 @@ figure {
 
    font-weight: normal;
 }
-
-
-
 
 
 
