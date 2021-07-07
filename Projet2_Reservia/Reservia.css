@@ -130,6 +130,15 @@ label a{
  }
 
                                                                /* HEADER -- Filtre - Rubrique  */
+                                                               
+                                                               
+ .Rubriques    {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+ }        
+
 
  .money {
 
@@ -188,9 +197,9 @@ label a{
 
   .money i {
     
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 50px;
     height: 22px;
-    width: 30px;
+    width: 35px;
     margin-right: 5px;
     padding-top: 5px;
     background-color: rgb(113, 213, 238)
@@ -199,9 +208,9 @@ label a{
 
   .Familial i {
     
-   border-radius: 20px 20px 20px 20px;
+   border-radius: 50px;
    height: 22px;
-   width: 30px;
+   width: 35px;
    margin-right: 5px;
    padding-top: 5px;
    background-color: rgb(113, 213, 238)
@@ -210,7 +219,7 @@ label a{
 
  .Romantique i {
     
-   border-radius: 20px 20px 20px 20px;
+   border-radius: 50px;
    height: 22px;
    width: 30px;
    margin-right: 5px;
@@ -221,7 +230,7 @@ label a{
 
  .Animaux i {
     
-   border-radius: 20px 20px 20px 20px;
+   border-radius: 50px;
    height: 22px;
    width: 30px;
    margin-right: 5px;
@@ -733,7 +742,7 @@ header {
    height: 60px ;
    width: 100px ;
    position: relative;
-   top: 0px;
+   top: -130px;
    left: 20px;
    margin-bottom: 10px;
  }
@@ -749,6 +758,8 @@ header {
     padding-top: 0px;
     line-height: 0.8em;
     font-size: 1.5em;
+    margin-top: -50px;
+    margin-left: 15px;
  }
 
 
@@ -763,7 +774,8 @@ header {
 
  .nav ul li {
     
-      margin-right: 0px ;
+      
+      margin-right: 80px ;
       padding-top: 2px;
       padding-bottom: 5px;
       color: rgb(12, 140, 245);
@@ -777,16 +789,23 @@ header {
     color: rgb(72, 162, 247);
 }
 
+.Inscription:nth-child(3) {
 
-.filtre__recherche {
+   align-self: flex-end;
+
+}
+
+
+.filtre__recherche:nth-child(2) {
 
    display: flex;
    justify-content: space-between;
    order: 4;
    border: 1px solid gray;
    width: 333px;
-   margin-left: 50px;
+   margin-left: 60px;
    border-radius: 10px;
+   order:4 ;
    
 }
 
@@ -802,13 +821,35 @@ label a {
 .filtre--recherche--align  {
 
    display: flex;
-   flex-direction: row;
-   justify-content: space-around;
+   flex-direction: column;
+   justify-content: flex-start;
    Flex-wrap: wrap;
-   margin-left: -10px;
-   width: 425px;
+   margin-left: 10px;
+   width: 340px;
    
 }
+
+.filtre--recherche--align p {
+
+   
+   border-radius: 50px;
+   margin-top:0px;
+   padding: 8px;
+   Flex-wrap: wrap;
+   margin-left: 5px;
+   width: 180px;
+   
+}
+
+.Rubriques    {
+
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   width: 440px;
+
+}        
 
 .money  {
 
@@ -818,7 +859,7 @@ label a {
    height: 25px;
    width: 130px;
    padding-right: -50px;
-   order: 5;
+   
 }
 
 .Familial  {
@@ -829,7 +870,7 @@ label a {
    height: 25px;
    width: 130px;
    padding-right: -50px;
-   order: 5;
+   
 }
 
 .Animaux  {
@@ -840,7 +881,7 @@ label a {
    height: 25px;
    width: 180px;
    padding-right: -50px;
-   order: 5;
+   
 }
 
 .Romantique  {
@@ -851,8 +892,9 @@ label a {
    height: 25px;
    width: 130px;
    padding-right: -50px;
-   order: 5;
+   
 }
+
 
 .Seconde_Section {
 
