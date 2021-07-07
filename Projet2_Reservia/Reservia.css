@@ -728,26 +728,28 @@ header {
    flex-direction: column;
 }
 
-.welcome:nth-child(1) {
+header .logo:nth-child(1) {
 
-  order: 1;
-
-}   
+   order: 1;
+}
 
 
 
 
 .logo {
 
-   height: 50px ;
-   width: 80px ;
-   order: 1;
+   height: 60px ;
+   width: 100px ;
+   position: relative;
+   top: 0px;
+   left: 20px;
+   margin-bottom: 10px;
  
  }
 
  .logo__devise {
 
-    order: 3;
+    
     line-height: 0.8em;
     font-size: 1.5em;
  }
