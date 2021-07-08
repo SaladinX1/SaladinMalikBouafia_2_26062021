@@ -43,7 +43,8 @@ header {
  
   .logo {
 
-   padding-top: 15px;
+   position: relative;
+   top: -20px;
    height: 50px ;
    width: 80px ;
 
@@ -53,6 +54,8 @@ header {
 
     line-height: 0.4em;
     padding-top: 15px;
+    position: relative;
+    top: -20px;
  }
 
  .unbold {
@@ -313,8 +316,7 @@ color: black;
    flex-wrap: wrap;
    margin-left: 1px;
    width: 850px;
-   
-   
+    
 
 }
 
@@ -381,7 +383,6 @@ flex-direction: row;
 margin-top: 0px;
 padding: 0px;
 color: blue;
-
 
 }
 
@@ -756,7 +757,7 @@ header {
  .logo__devise {
 
     padding-top: 0px;
-    line-height: 0.8em;
+    line-height: 1em;
     font-size: 1.5em;
     margin-top: -50px;
     margin-left: 15px;
@@ -768,9 +769,15 @@ header {
 
          position: relative;
          top: 100px;
-         left:60px;
+         left: 0px;
    }
-                                                         
+                  
+   
+   .nav ul {
+
+      border-bottom: 1px solid rgb(37, 113, 228);
+  }
+
 .nav ul li a {
 
    text-decoration: none;
@@ -787,19 +794,35 @@ header {
    padding-top: 2px;
    padding-bottom: 15px;
    color: rgb(12, 140, 245);
-   border-bottom: 1px solid rgb(39, 130, 250);
+   border-bottom: none;
    font-size: 1.2em;
+}
+
+.nav ul li:nth-child(1) {
+
+   padding-left: 100px;
+   margin-left: -100px;
+}
+
+.nav ul li:nth-child(2) {
+
+  padding-right: 80px;
+  margin-left: 130px;
 }
 
  .nav ul li:nth-child(3) {
 
+      position: relative;
+      bottom: 85px;
+      font-weight: bold;
       order: 2;
       margin-bottom: 5px;
-      margin-left: 50px;
+      margin-left: -170px;
       padding-top: 2px;
       padding-bottom: 5px;
       color: rgb(12, 140, 245);
       border-bottom: none;
+      
   
   }
 
