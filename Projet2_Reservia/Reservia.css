@@ -719,7 +719,7 @@ color: blue;
 
       
      } 
-
+                                                          /* HEADER QUERRIES IPHONE */
 header {
 
     display: flex;
@@ -763,39 +763,54 @@ header {
  }
 
 
+                                                      /* NAVIGATION LINKS - QUERRIES - IPHONE*/
+ .nav {
+
+         position: relative;
+         top: 100px;
+         left:60px;
+   }
+                                                         
 .nav ul li a {
 
    text-decoration: none;
    color: rgb(46, 135, 250);
-   font-size: 0.9em;
+   
    
  }
 
-
  .nav ul li {
-    
-      
-      margin-right: 80px ;
+
+   order: 2;
+   margin-right: 10px ;
+   margin-left: -10px;
+   padding-top: 2px;
+   padding-bottom: 15px;
+   color: rgb(12, 140, 245);
+   border-bottom: 1px solid rgb(39, 130, 250);
+   font-size: 1.2em;
+}
+
+ .nav ul li:nth-child(3) {
+
+      order: 2;
+      margin-bottom: 5px;
+      margin-left: 50px;
       padding-top: 2px;
       padding-bottom: 5px;
       color: rgb(12, 140, 245);
-      border-bottom: 1px solid rgb(39, 130, 250);
+      border-bottom: none;
   
   }
 
   .nav li:hover {
 
-   border-top: 1px solid white ;
-    color: rgb(72, 162, 247);
-}
-
-.Inscription:nth-child(3) {
-
-   align-self: flex-end;
-
+   border-top: none ;
+   color: rgb(72, 162, 247);
 }
 
 
+                                                              /* HEADER -- Filtre - Rubrique - QUERRIES - IPHONE */
 .filtre__recherche:nth-child(2) {
 
    display: flex;
@@ -806,7 +821,6 @@ header {
    margin-left: 60px;
    border-radius: 10px;
    order:4 ;
-   
 }
 
 label a {
@@ -894,7 +908,7 @@ label a {
    padding-right: -50px;
    
 }
-
+                                                            /* 2ND SECTION QUERRIES - IPHONE*/
 
 .Seconde_Section {
 
@@ -903,7 +917,7 @@ label a {
    justify-content: flex-start ;
    margin-top: 200px;
 
-}
+}                                                            /* Hébergements - QUERRIES - IPHONE*/
 
 .Hébergements__titre {
 
@@ -972,7 +986,7 @@ label a {
    width: 100px;
    flex: 1;
 }
-
+                                                            /* 3RD SECTION ACTIVITES - QUERRIES - IPHONE*/
 .Troisième_section {
 
    position: relative;
@@ -1021,7 +1035,7 @@ margin-left: -35px;
    width: 350px;
    
 }
-
+                                                                   /* 4TH SECTION FOOTER - QUERRIES IPHONE */  
 .quatrième_section {
 
    display:flex;
