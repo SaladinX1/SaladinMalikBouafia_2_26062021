@@ -1,0 +1,117 @@
+                                 /* Hébergements */
+
+
+
+                                 .Hébergements {
+
+                                    background-color: rgb(241, 232, 232);
+                                    border-radius: 15px;
+                                    width: 870px;
+                                    height: 600px;
+                                    
+                                 
+                                 }
+                                 
+                                 .Hébergements__titre {
+                                 
+                                    
+                                    padding-top: 30px;
+                                    padding-bottom: 20px;
+                                    margin-left: 25px;
+                                    margin-bottom: 20px;
+                                    font-weight: bolder;
+                                 }
+                                 
+                                 .Hébergements__cellule {
+                                 
+                                    display: flex;
+                                    flex-direction: row ;
+                                    justify-content: flex-start ;
+                                    flex-wrap: wrap;
+                                    margin-left: 1px;
+                                    width: 850px;
+                                     
+                                 
+                                 }
+                                 
+                                 .Hébergements__cellule img {
+                                 
+                                    
+                                        width: 233px;
+                                        height: 100px;
+                                        margin-left: 3px;
+                                        margin-top: -8px;
+                                        border-radius: 10px 10px 0 0 ;
+                                 }
+                                 
+                                 strong {
+                                 
+                                  font-weight: bold;
+                                 
+                                 }
+                                 
+                                 
+                                 .Nuit {
+                                 
+                                   font-weight: normal;
+                                   margin-bottom: 0px;
+                                 
+                                 }
+                                 
+                                 .Nuit_Populaires {
+                                 
+                                   font-weight: normal;
+                                   margin-bottom: 27px;
+                                 
+                                 }
+                                 
+                                 
+                                 .Hébergements__Cellule--Hotel {
+                                 
+                                    background-color: white;
+                                    margin: 0px 20px 30px 20px;
+                                    height: 190px;
+                                    width: 240px;
+                                    line-height: 0.6em;
+                                    border-radius: 10px;
+                                 
+                                 }
+                                 
+                                 .Hébergements__Cellule--Hotel p {
+                                 
+                                        font-size: 0.8em;
+                                        margin-left: 1px;
+                                 
+                                 }
+                                 
+                                 .Hébergements__Cellule--Desc {
+                                 
+                                    margin-left: 13px;
+                                    line-height: 0.8em;
+                                 }
+                                 
+                                 .Rating_Star {
+                                 
+                                 display: flex;
+                                 flex-direction: row;
+                                 margin-top: 0px;
+                                 padding: 0px;
+                                 color: blue;
+                                 
+                                 }
+                                 
+                                 .Hébergements__Cellule--Desc img {
+                                 
+                                    height: 15px;
+                                    width: 65px;
+                                    color:rgb(10, 105, 247);
+                                    margin-left: -1px;
+                                 
+                                 }
+                                 
+                                 .Afficher_plus {
+                                 
+                                    position: relative;
+                                    left: 20px;
+                                    bottom:15px;
+                                 }

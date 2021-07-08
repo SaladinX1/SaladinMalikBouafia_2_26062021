@@ -1,0 +1,62 @@
+ /* 4TH SECTION FOOTER */
+ .quatrième_section {
+
+    display:flex;
+    flex-direction: row;
+    margin-top: 180px;
+    height: 250px;
+    width: 1300px;
+    background-color: rgba(238, 238, 231, 0.973);
+
+}
+
+.Informations {
+
+
+ position: relative;
+ left: 50px;
+ top: 50px;
+ bottom: 110px;
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+
+ 
+}
+
+
+.Informations__A-propos {
+
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-left: 100px;
+    padding-right: 100px; 
+}
+
+
+
+.Informations__A-propos strong {
+
+    font-weight: bolder;
+
+}
+
+
+.Informations__A-propos p {
+
+    font-weight: normal;
+
+}
+
+
+
+.Informations__A-propos strong {
+
+    font-weight: bolder;
+
+}
+
+.Informations__A-propos p {
+
+    font-weight: normal;
+}

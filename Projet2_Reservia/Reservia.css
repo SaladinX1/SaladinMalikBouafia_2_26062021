@@ -697,7 +697,7 @@ color: blue;
 
 
 
-                                /*MEDIA QUERRIES */
+                                /*MEDIA QUERRIES - IPHONE FORMAT */
 
 
 
@@ -813,7 +813,7 @@ header {
   margin-left: 0px;
   padding-left: 80px;
   border-bottom: 3px solid gray;
-  
+  color:rgb(153, 139, 139)
 
 }
 
