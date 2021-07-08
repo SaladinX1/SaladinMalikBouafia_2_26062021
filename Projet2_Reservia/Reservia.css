@@ -740,10 +740,10 @@ header {
 
 .logo {
 
-   height: 60px ;
+   height: 50px ;
    width: 100px ;
    position: relative;
-   top: -130px;
+   top: -145px;
    left: 20px;
    margin-bottom: 10px;
  }
@@ -770,12 +770,13 @@ header {
          position: relative;
          top: 100px;
          left: 0px;
+         margin-bottom: 20px;
    }
                   
    
    .nav ul {
 
-      border-bottom: 1px solid rgb(37, 113, 228);
+      border-bottom: none;
   }
 
 .nav ul li a {
@@ -793,31 +794,39 @@ header {
    margin-left: -10px;
    padding-top: 2px;
    padding-bottom: 15px;
-   color: rgb(12, 140, 245);
+   color: rgb(10, 232, 248);
    border-bottom: none;
    font-size: 1.2em;
 }
 
 .nav ul li:nth-child(1) {
 
+   padding-right: 50px;
    padding-left: 100px;
    margin-left: -100px;
+   border-bottom: 3px solid rgb(33, 144, 235);
 }
 
 .nav ul li:nth-child(2) {
 
   padding-right: 80px;
-  margin-left: 130px;
+  margin-left: 0px;
+  padding-left: 80px;
+  border-bottom: 3px solid gray;
+  
+
 }
+
+
 
  .nav ul li:nth-child(3) {
 
       position: relative;
-      bottom: 85px;
+      bottom: 95px;
       font-weight: bold;
       order: 2;
       margin-bottom: 5px;
-      margin-left: -170px;
+      margin-left: -130px;
       padding-top: 2px;
       padding-bottom: 5px;
       color: rgb(12, 140, 245);
@@ -988,6 +997,21 @@ label a {
 }
 
 
+                                  /*Populaires Medias Querries */
+
+
+.Populaires__titre {
+
+   display: flex;
+   justify-content: space-between;
+   padding-top: 30px;
+   margin-left: 25px;
+   width: 330px;
+   font-weight: bolder;
+   font-size: 1.2em ;
+
+}                                       
+
 
 .Populaires {
 
@@ -996,6 +1020,7 @@ label a {
    width: 390px;
    height: 600px;
    border-radius: 15px;
+   margin-top: -15px;
 
 }
 
