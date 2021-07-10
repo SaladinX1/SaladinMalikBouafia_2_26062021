@@ -282,3 +282,10 @@
       border-top: 2px solid rgb(72, 162, 247) ;
       color: rgb(72, 162, 247);
   }
+
+ .nav li a:hover {
+
+    color:rgb(72, 162, 247);
+ }
+
+ 

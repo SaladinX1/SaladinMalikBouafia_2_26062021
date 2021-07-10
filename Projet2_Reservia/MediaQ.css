@@ -95,7 +95,6 @@
     margin-left: -10px;
     padding-top: 2px;
     padding-bottom: 15px;
-    color: rgb(10, 232, 248);
     border-bottom: none;
     font-size: 1.2em;
  }
@@ -106,6 +105,7 @@
     padding-left: 100px;
     margin-left: -100px;
     border-bottom: 3px solid rgb(33, 144, 235);
+    color:rgb(72, 162, 247);
  }
  
  .nav ul li:nth-child(2) {
@@ -114,10 +114,9 @@
    margin-left: 0px;
    padding-left: 80px;
    border-bottom: 3px solid gray;
-   color:rgb(153, 139, 139)
+   color:rgb(153, 139, 139);
  
  }
- 
  
  
   .nav ul li:nth-child(3) {
