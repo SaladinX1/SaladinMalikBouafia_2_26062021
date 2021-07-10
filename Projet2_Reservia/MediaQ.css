@@ -154,6 +154,11 @@
     border-radius: 10px;
     order:4 ;
  }
+
+ form {
+
+    margin-left: 20px;
+ }
  
  label a {
  
@@ -186,6 +191,14 @@
     width: 180px;
     
  }
+
+ .unbold--single {
+  
+    font-weight: normal;
+    margin-left: 20px;
+    
+} 
+
  
  .Rubriques    {
  
