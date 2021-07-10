@@ -13,10 +13,10 @@
   
   @font-face {
       font-family: 'Raleway';
-      src: url("static/Raleway-ExtraBold.ttf") format('truetype'),
-      src: url("static/Raleway-ExtraBold.eot") format('eot'),
-      src: url("static/Raleway-ExtraBold.woff") format('woff'),
-      src: url("static/Raleway-ExtraBold.svg") format('svg');
+      src: url("../static/Raleway-ExtraBold.ttf") format('truetype'),
+      src: url("../static/Raleway-ExtraBold.eot") format('eot'),
+      src: url("../static/Raleway-ExtraBold.woff") format('woff'),
+      src: url("../static/Raleway-ExtraBold.svg") format('svg');
       
     }
   
