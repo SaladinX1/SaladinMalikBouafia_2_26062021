@@ -1,5 +1,5 @@
 /* 3RD SECTION ACTIVITES*/
-.Troisième_section {
+.Troisieme_section {
 
     
    margin-top: 50px;
@@ -7,7 +7,7 @@
    
 }
 
-.Activités {
+.Activites {
 
    margin-top: -15px;
    display: flex;
@@ -17,7 +17,7 @@
 
 }
 
-.Activités img {
+.Activites img {
 
    height: 450px;
    width: 300px;
@@ -39,18 +39,18 @@ figure {
 }
 
 
-.Activités__Vieux-Port--align {
+.Activites__Vieux-Port--align {
 
    margin-left: 0px;
 }
 
 
-.Activités__Vieux-Port--Desc {
+.Activites__Vieux-Port--Desc {
 
    padding-left: 20px;
 }
 
-.Activités__Fort-et-Iles {
+.Activites__Fort-et-Iles {
 
     display: flex;
     flex-direction: column;
@@ -58,67 +58,76 @@ figure {
 
 }
 
-.Activités__Fort-et-Iles p {
+.Activites__Dame-et-Parc {
+
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   
+
+}
+
+.Activites__Fort-et-Iles p {
 
    margin-left: 18px;
 }
 
 
-.Activités__Fort-de-Pomègues--align {
+.Activites__Fort-de-Pomegues--align {
 
    height: 280px;
 
 }
 
-.Activités__Fort-de-Pomègues--align img {
+.Activites__Fort-de-Pomegues--align img {
 
    height: 220px;
 }
 
-.Activités__Iles-du-Frioul--align {
+.Activites__Iles-du-Frioul--align {
 
    height: 195px;
 }
 
-.Activités__Iles-du-Frioul--align img {
+.Activites__Iles-du-Frioul--align img {
 
    height: 135px;
 }
 
-.Activités__Parc-national-des-Calanques p {
+.Activites__Parc-national-des-Calanques p {
 
    margin-left: 18px;
 }
 
 
-.Activités__Notre-Dame-de-la-Garde--align {
+.Activites__Notre-Dame-de-la-Garde--align {
 
    height: 200px;
    width: 275px;
 }
 
-.Activités__Notre-Dame-de-la-Garde--align img {
+.Activites__Notre-Dame-de-la-Garde--align img {
 
      height: 150px;
      width: 275px;
 
 }
 
-.Activités__Parc-Longchamp--align {
+.Activites__Parc-Longchamp--align {
 
    height: 268px;
    width: 275px;
-   margin-top: 40px;
+   margin-top: 25px;
 
 }
 
-.Activités__Parc-Longchamp--align img {
+.Activites__Parc-Longchamp--align img {
 
    height: 210px;
    width: 275px;
 }
 
-.Activités__Dame-et-Parc p {
+.Activites__Dame-et-Parc p {
 
    margin-left: 18px;
 }

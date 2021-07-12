@@ -59,7 +59,7 @@
                                                             }
                                                            
                                                            
-                                                            .Populaires__Cellule--Hôtel {
+                                                            .Populaires__Cellule--Hotel {
                                                            
                                                                display: flex;
                                                                flex-direction: row;
@@ -74,7 +74,7 @@
                                                             }
                                                            
                                                            
-                                                            .Populaires__Cellule--Hôtel p {
+                                                            .Populaires__Cellule--Hotel p {
                                                            
                                                                font-size: 0.8em;
                                                                margin-left: 1px;
