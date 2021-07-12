@@ -3,7 +3,7 @@
 
 
 
- @media all and (max-width: 320px)
+ @media all and (max-width: 551px)
 
  {
  
@@ -265,12 +265,12 @@
  
  }                                                            /* Hébergements - QUERRIES - IPHONE*/
  
- .Hebergements__titre {
+ .Hébergements__titre {
  
     margin-left: -25px;
  }
  
- .Hebergements {
+ .Hébergements {
  
     margin-left: 90px ;
     background-color: white;
@@ -279,7 +279,7 @@
     
  }
  
- .Hebergements__cellule {
+ .Hébergements__cellule {
  
     display: flex;
     flex-direction: column;
@@ -349,7 +349,7 @@
     flex: 1;
  }
                                                              /* 3RD SECTION ACTIVITES - QUERRIES - IPHONE*/
- .Troisieme_section {
+ .Troisième_section {
  
     position: relative;
     top: 900px;
@@ -365,7 +365,7 @@
  
  }
  
- .Activites {
+ .Activités {
  
     
     margin-left: -15px;
@@ -376,7 +376,7 @@
  
  }
  
- .Activites img {
+ .Activités img {
  
     height: 150px;
     width: 350px;
@@ -385,7 +385,7 @@
     
  }
  
- .Activites figure {
+ .Activités figure {
  
     margin-bottom: 30px;
     margin-top: 30px;
@@ -398,7 +398,7 @@
     
  }
                                                                     /* 4TH SECTION FOOTER - QUERRIES IPHONE */  
- .quatrieme_section {
+ .quatrième_section {
  
     display:flex;
     flex-direction: column;

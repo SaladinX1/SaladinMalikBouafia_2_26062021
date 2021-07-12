@@ -2,7 +2,7 @@
 
 
 
-                                 .Hebergements {
+                                 .Hébergements {
 
                                     background-color: rgb(241, 232, 232);
                                     border-radius: 15px;
@@ -12,7 +12,7 @@
                                  
                                  }
                                  
-                                 .Hebergements__titre {
+                                 .Hébergements__titre {
                                  
                                     
                                     padding-top: 30px;
@@ -22,7 +22,7 @@
                                     font-weight: bolder;
                                  }
                                  
-                                 .Hebergements__cellule {
+                                 .Hébergements__cellule {
                                  
                                     display: flex;
                                     flex-direction: row ;
@@ -34,7 +34,7 @@
                                  
                                  }
                                  
-                                 .Hebergements__cellule img {
+                                 .Hébergements__cellule img {
                                  
                                     
                                         width: 233px;
@@ -66,7 +66,7 @@
                                  }
                                  
                                  
-                                 .Hebergements__Cellule--Hotel {
+                                 .Hébergements__Cellule--Hotel {
                                  
                                     background-color: white;
                                     margin: 0px 20px 30px 20px;
@@ -77,14 +77,14 @@
                                  
                                  }
                                  
-                                 .Hebergements__Cellule--Hotel p {
+                                 .Hébergements__Cellule--Hotel p {
                                  
                                         font-size: 0.8em;
                                         margin-left: 1px;
                                  
                                  }
                                  
-                                 .Hebergements__Cellule--Desc {
+                                 .Hébergements__Cellule--Desc {
                                  
                                     margin-left: 13px;
                                     line-height: 0.8em;
@@ -100,7 +100,7 @@
                                  
                                  }
                                  
-                                 .Hebergements__Cellule--Desc img {
+                                 .Hébergements__Cellule--Desc img {
                                  
                                     height: 15px;
                                     width: 65px;

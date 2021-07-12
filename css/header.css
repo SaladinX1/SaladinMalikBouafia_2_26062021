@@ -1,172 +1,158 @@
 .General__rules {
 
   
-    width: 1300px;
-    margin:auto;
-    font-family: 'Raleway' , sans-serif;
-    font-weight: bolder;
-    font-size: 1em;
-    
-    
-   } 
-  
-  
-  @font-face {
-      font-family: 'Raleway';
-      src: url("../fonts/Raleway-ExtraBold.ttf") format('truetype'),
-       url("../fonts/Raleway-ExtraBold.eot") format('eot'),
-       url("../fonts/Raleway-ExtraBold.woff") format('woff'),
-       url("../fonts/Raleway-ExtraBold.svg") format('svg');
-      
-    }
-  
-    @font-face {
-      font-family: 'Raleway';
-      src: url("../fonts/Raleway-Regular.ttf") format('truetype'),
-       url("../fonts/Raleway-Regular.eot") format('eot'),
-       url("../fonts/Raleway-Regular.woff") format('woff'),
-       url("../fonts/Raleway-Regular.svg") format('svg');
-      
-    }
-  
-                                                             /* HEADER */
-          
-          
-  header {
-  
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-   }
-    
-  
-    .welcome {
-  
-      margin-top: 40px;
-      line-height: 1.8em;
-    
-    }
-  
+   width: 1300px;
+   margin:auto;
+   font-family: 'Raleway' , sans-serif;
+   font-weight: bolder;
+   font-size: 1em;
    
-    .logo {
+   
+  } 
+ 
+ 
+ @font-face {
+     font-family: 'Raleway';
+     src: url("../fonts/Raleway-ExtraBold.ttf") format('truetype'),
+      url("../fonts/Raleway-ExtraBold.eot") format('eot'),
+      url("../fonts/Raleway-ExtraBold.woff") format('woff'),
+      url("../fonts/Raleway-ExtraBold.svg") format('svg');
+     
+   }
+ 
+   @font-face {
+     font-family: 'Raleway';
+     src: url("../fonts/Raleway-Regular.ttf") format('truetype'),
+      url("../fonts/Raleway-Regular.eot") format('eot'),
+      url("../fonts/Raleway-Regular.woff") format('woff'),
+      url("../fonts/Raleway-Regular.svg") format('svg');
+     
+   }
+ 
+                                                            /* HEADER */
+         
+         
+ header {
+ 
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+  }
+   
+ 
+   .welcome {
+ 
+     margin-top: 40px;
+     line-height: 1.8em;
+   
+   }
+ 
   
+   .logo {
+ 
+    position: relative;
+    top: -20px;
+    height: 50px ;
+    width: 80px ;
+ 
+  }
+ 
+  .logo__devise {
+ 
+     line-height: 0.4em;
+     padding-top: 15px;
      position: relative;
      top: -20px;
-     height: 50px ;
-     width: 80px ;
-  
-   }
-  
-   .logo__devise {
-  
-      line-height: 0.4em;
-      padding-top: 15px;
-      position: relative;
-      top: -20px;
-   }
-  
-   .unbold {
-  
+  }
+ 
+  .unbold {
+ 
+     font-weight: normal;
+     font-size: 0.8em;
+ 
+  }
+ 
+  .unbold--single {
+ 
       font-weight: normal;
-      font-size: 0.8em;
-  
-   }
-  
-   .unbold--single {
-  
-       font-weight: normal;
-       
-       
-   } 
-  
-   .unbold--single i {
-  
-     
-     color: rgb(51, 194, 230);
-
-     
+      
+      
   } 
-  
-  }
-   
-                                                              /*HEADER -- Filtre Part*/
-  
-  .filtre__recherche {
-  
-      display: flex;
-      justify-content: space-between;
-      border: 1px solid gray;
-      
-      width: 323px;
-      border-radius: 10px;
-      
-  }
-  
-  .filtre__recherche i {
-  
-    height: 30px;
-    width: 25px;
-    padding-left: 15px;
-    padding-top: 10px;
-    background-color: rgb(202, 205, 207);
-    border-radius: 10px 0 0 10px;
-  
+ 
+  .unbold--single i {
+ 
     
+    color: rgb(51, 194, 230);
+
+    
+ } 
+ 
+ }
+  
+                                                             /*HEADER -- Filtre Part*/
+ 
+ .filtre__recherche {
+ 
+     display: flex;
+     justify-content: space-between;
+     border: 1px solid gray;
+     
+     width: 323px;
+     border-radius: 10px;
+     
+ }
+ 
+ .filtre__recherche i {
+ 
+   height: 30px;
+   width: 25px;
+   padding-left: 15px;
+   padding-top: 10px;
+   background-color: rgb(202, 205, 207);
+   border-radius: 10px 0 0 10px;
+ 
+   
+ }
+ 
+ .filtre__recherche input {
+ 
+     line-height: 2.1em ;
+     border: 1px solid white;
+     
+ }
+     
+ label a{
+ 
+     background-color: rgb(10, 105, 247);
+     color: white;
+     padding: 10px 17px 8px 10px;
+     border-radius:  0 10px  10px 0;
+     text-decoration: none;
+ }
+ 
+  .filtre--recherche--align  {
+ 
+     display: flex;
+     justify-content: space-around;
+     margin-top: 10px;
+     margin-left: -8px;
+     width: 800px;
+     
   }
-  
-  .filtre__recherche input {
-  
-      line-height: 2.1em ;
-      border: 1px solid white;
-      
-  }
-      
-  label a{
-  
-      background-color: rgb(10, 105, 247);
-      color: white;
-      padding: 10px 17px 8px 10px;
-      border-radius:  0 10px  10px 0;
-      text-decoration: none;
-  }
-  
-   .filtre--recherche--align  {
-  
-      display: flex;
-      justify-content: space-around;
-      margin-top: 10px;
-      margin-left: -8px;
-      width: 800px;
-      
-   }
-  
-                                                                 /* HEADER -- Filtre - Rubrique  */
-                                                                 
-                                                                 
-   .Rubriques    {
-  
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-   }        
-  
-  
-   .money {
-  
-      display: flex;
-      justify-content: space-between;
-      margin-right: 15px;
-      border: 1px solid gray;
-      border-radius: 17px ;
-      padding : 0px 20px 2px 0px;
-      width: 130px;
-      height: 25px;
-      text-align: center;
-      
-   }
-  
-   .Romantique {
-  
+ 
+                                                                /* HEADER -- Filtre - Rubrique  */
+                                                                
+                                                                
+  .Rubriques    {
+ 
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+  }        
+ 
+ 
+  .money {
+ 
      display: flex;
      justify-content: space-between;
      margin-right: 15px;
@@ -178,47 +164,50 @@
      text-align: center;
      
   }
-  .Familial {
-  
-     display: flex;
-     justify-content: space-between;
-     margin-right: 15px;
-     border: 1px solid gray;
-     border-radius: 17px ;
-     padding : 0px 20px 2px 0px;
-     width: 110px;
-     height: 25px;
-     text-align: center;
+ 
+  .Romantique {
+ 
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    border: 1px solid gray;
+    border-radius: 17px ;
+    padding : 0px 20px 2px 0px;
+    width: 130px;
+    height: 25px;
+    text-align: center;
+    
+ }
+ .Familial {
+ 
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    border: 1px solid gray;
+    border-radius: 17px ;
+    padding : 0px 20px 2px 0px;
+    width: 110px;
+    height: 25px;
+    text-align: center;
+    
+ }
+ 
+ .Animaux {
+ 
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    border: 1px solid gray;
+    border-radius: 17px ;
+    padding : 0px 20px 2px 0px;
+    width: 180px;
+    height: 25px;
+    text-align: center;
+    
+ }
+ 
+   .money i {
      
-  }
-  
-  .Animaux {
-  
-     display: flex;
-     justify-content: space-between;
-     margin-right: 15px;
-     border: 1px solid gray;
-     border-radius: 17px ;
-     padding : 0px 20px 2px 0px;
-     width: 180px;
-     height: 25px;
-     text-align: center;
-     
-  }
-  
-    .money i {
-      
-      border-radius: 50px;
-      height: 22px;
-      width: 35px;
-      margin-right: 5px;
-      padding-top: 5px;
-      background-color: rgb(113, 213, 238)
-      
-    }
-  
-    .Familial i {
-      
      border-radius: 50px;
      height: 22px;
      width: 35px;
@@ -227,95 +216,106 @@
      background-color: rgb(113, 213, 238)
      
    }
-  
-   .Romantique i {
-      
-     border-radius: 50px;
-     height: 22px;
-     width: 30px;
-     margin-right: 5px;
-     padding-top: 5px;
-     background-color: rgb(113, 213, 238)
+ 
+   .Familial i {
      
-   }
-  
-   .Animaux i {
-      
-     border-radius: 50px;
-     height: 22px;
-     width: 30px;
-     margin-right: 5px;
-     padding-top: 5px;
-     background-color: rgb(113, 213, 238)
+    border-radius: 50px;
+    height: 22px;
+    width: 35px;
+    margin-right: 5px;
+    padding-top: 5px;
+    background-color: rgb(113, 213, 238)
+    
+  }
+ 
+  .Romantique i {
      
-   }
-
-     .money:hover {
-
- background-color: rgb(241, 241, 15);
- font-style: italic;
- }
-
- .Familial:hover {
-
-    background-color: rgb(241, 241, 15);
-    font-style: italic;
- }
-
- .Animaux:hover {
-
-    background-color: rgb(241, 241, 15);
-    font-style: italic;
- }
-
- .Romantique:hover {
-
-    background-color: rgb(241, 241, 15);
-    font-style: italic;
- }
-  
-    .align--single {
-  
-      margin-right: 30px;
-      padding : 5px 5px 5px 5px;
-  
-   }
-  
-                                                        /* NAVIGATION LINKS*/
-  
-  .nav ul {
-  
-      list-style-type: none;
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      
+    border-radius: 50px;
+    height: 22px;
+    width: 30px;
+    margin-right: 5px;
+    padding-top: 5px;
+    background-color: rgb(113, 213, 238)
+    
   }
-  
-  .nav ul li {
-      
-      margin-right: 30px ;
-      padding-top: 40px;
-      color: black;
-  
-  }
-  
-  .nav ul li a {
-  
-  text-decoration: none;
-  color: black;
-  
-   }
-  
-  
-  .nav li:hover {
-  
-      border-top: 2px solid rgb(72, 162, 247) ;
-      color: rgb(72, 162, 247);
+ 
+  .Animaux i {
+     
+    border-radius: 50px;
+    height: 22px;
+    width: 30px;
+    margin-right: 5px;
+    padding-top: 5px;
+    background-color: rgb(113, 213, 238)
+    
   }
 
- .nav li a:hover {
+    .money:hover {
 
-    color:rgb(72, 162, 247);
+background-color: rgb(241, 241, 15);
+font-style: italic;
+}
+
+.Familial:hover {
+
+   background-color: rgb(241, 241, 15);
+   font-style: italic;
+}
+
+.Animaux:hover {
+
+   background-color: rgb(241, 241, 15);
+   font-style: italic;
+}
+
+.Romantique:hover {
+
+   background-color: rgb(241, 241, 15);
+   font-style: italic;
+}
+ 
+   .align--single {
+ 
+     margin-right: 30px;
+     padding : 5px 5px 5px 5px;
+ 
+  }
+ 
+                                                       /* NAVIGATION LINKS*/
+ 
+ .nav ul {
+ 
+     list-style-type: none;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     
  }
+ 
+ .nav ul li {
+     
+     margin-right: 30px ;
+     padding-top: 40px;
+     color: black;
+ 
+ }
+ 
+ .nav ul li a {
+ 
+ text-decoration: none;
+ color: black;
+ 
+  }
+ 
+ 
+ .nav li:hover {
+ 
+     border-top: 2px solid rgb(72, 162, 247) ;
+     color: rgb(72, 162, 247);
+ }
+
+.nav li a:hover {
+
+   color:rgb(72, 162, 247);
+}
 
