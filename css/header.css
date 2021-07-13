@@ -134,7 +134,7 @@
      display: flex;
      justify-content: space-around;
      margin-top: 10px;
-     margin-left: 35px;
+     margin-left: 65px;
      width: 800px;
      
      
@@ -157,7 +157,7 @@
       flex-direction: row;
       justify-content: space-between;
       margin-top: 20px;
-      padding: 15px;
+      padding: 17px;
       margin-left: 25px;
       border-radius: 30px ;
 
@@ -169,7 +169,6 @@
      display: flex;
      margin-right: 10px;
      border: 1px solid gray;
-     padding : 0px 20px 2px 0px;
      width: 130px;
      height: 25px;
      text-align: center;
@@ -181,22 +180,31 @@
    .displayIconTitle span {
      
      border-radius: 50px;
-     height: 22px;
-     width: 35px;
+     height: 20px;
+     width: 20px;
      padding: 20px;
      background-color: #DEEBFF
      
    }
+
+   .displayIconTitle p {
+
+      color: black;
+
+   }
+
+
+
  
    .displayIconTitleA {
 
       display: flex;
       margin-right: 10px;
       border: 1px solid gray;
-      padding : 0px 20px 2px 0px;
-      width: 170px;
+      width: 190px;
       height: 25px;
       text-align: center;
+      padding: 17px;
       color:rgb(10, 105, 247)
       
 
@@ -212,30 +220,36 @@
      
     }
 
-    .money:hover {
 
-background-color: rgb(241, 241, 15);
-font-style: italic;
+   .displayIconTitle:hover {
+
+     background-color: rgb(241, 241, 15);
+    font-style: italic;
 }
 
-.Familial:hover {
+   .displayIconTitleA:hover {
 
    background-color: rgb(241, 241, 15);
    font-style: italic;
 }
 
-.Animaux:hover {
+.filterContent {
 
-   background-color: rgb(241, 241, 15);
-   font-style: italic;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   position: relative;
+   right: 59px;
+   bottom: 55px;
+
 }
 
-.Romantique:hover {
+.filterContent p {
 
-   background-color: rgb(241, 241, 15);
-   font-style: italic;
+   color: black;
+   margin-left: 10px;
 }
- 
+
    .align--single {
  
      

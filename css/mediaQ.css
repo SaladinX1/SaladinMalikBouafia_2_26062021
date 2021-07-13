@@ -209,7 +209,7 @@
  
  }        
  
- .money  {
+ .displayIconTitle  {
  
     display: flex;
     flex-direction: row;
@@ -220,38 +220,19 @@
     
  }
  
- .Familial  {
+ 
+ 
+ .displayIconTitleA  {
  
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    height: 25px;
-    width: 130px;
-    padding-right: -50px;
     
- }
- 
- .Animaux  {
- 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     height: 25px;
     width: 180px;
     padding-right: -50px;
     
  }
  
- .Romantique  {
- 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 25px;
-    width: 130px;
-    padding-right: -50px;
-    
- }
 
                                                              /* 2ND SECTION QUERRIES - IPHONE*/
  
