@@ -85,7 +85,8 @@
                                  }
                                  
                                  .Hebergements__Cellule--Desc {
-                                 
+
+                                    margin-top: 20px;
                                     margin-left: 13px;
                                     line-height: 0.8em;
                                  }

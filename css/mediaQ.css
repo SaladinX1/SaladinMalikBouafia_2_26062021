@@ -101,8 +101,8 @@
  .nav ul li:nth-child(1) {
  
     padding-right: 50px;
-    padding-left: 100px;
-    margin-left: -100px;
+    padding-left: 0px;
+    margin-left: 0px;
     border-bottom: 3px solid rgb(33, 144, 235);
     color:rgb(72, 162, 247);
  }
@@ -214,25 +214,42 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 25px;
+    height: 20px;
     width: 130px;
-    padding-right: -50px;
+    padding-right: 0px;
     
  }
- 
+
+ .displayIconTitle span {
+     
+   border-radius: 50px;
+   height: 15px;
+   width: 20px;
+   padding: 20px;
+   background-color: #DEEBFF
+   
+ }
  
  
  .displayIconTitleA  {
  
     display: flex;
     flex-direction: row;
-    
-    height: 25px;
+    height: 20px;
     width: 180px;
-    padding-right: -50px;
+    padding-right: 0px;
     
  }
  
+ .displayIconTitleA span {
+     
+   border-radius: 50px;
+  height: 15px;
+  width: 20px;
+  padding: 20px;
+  background-color: #DEEBFF
+  
+ }
 
                                                              /* 2ND SECTION QUERRIES - IPHONE*/
  
@@ -241,7 +258,7 @@
     display: flex;
     flex-direction: column-reverse ;
     justify-content: flex-start ;
-    margin-top: 200px;
+    margin-top: 320px;
  
  }                                                            /* Hébergements - QUERRIES - IPHONE*/
  
@@ -273,17 +290,17 @@
  
     border: 1px solid white;
     box-shadow: 0px 3px 3px rgb(219, 216, 216);
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin: 0px 20px 30px 20px;
     height: 190px;
-    width: 360px;
+    width: 300px;
     line-height: 0.6em;
     border-radius: 10px;
  }
  
  .Hebergements__cellule img {
  
-    width: 360px;
+    width: 300px;
     height: 100px;
     margin-left: 3px;
     margin-top: -8px;
@@ -311,7 +328,7 @@
  
     background-color:rgb(241, 232, 232);
     margin-left: 40px;
-    width: 390px;
+    width: 300px;
     height: 600px;
     border-radius: 15px;
     margin-top: -15px;
@@ -325,9 +342,46 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 1px;
-    width: 100px;
+    width: 300px;
     flex: 1;
  }
+
+ .Populaires__Cellule img {
+                                                           
+   width: 100px;
+   height: 120px;
+   margin-left: 3px;
+   margin-top: -8px;
+   border-radius: 10px 0 0 10px ;
+
+}
+
+
+.Populaires__Cellule--Hotel {
+
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   background-color: white;
+   margin: 0 20px 30px 20px;
+   height: 130px;
+   width: 300px;
+   line-height: 0.1em;
+   border-radius: 10px;
+
+}
+
+.Populaires__Cellule--Desc {
+                                                           
+   display: flex;
+   flex-direction: column ;
+   justify-content: flex-start;
+   line-height: 0.5em;
+   word-break: normal;
+   margin-left: 18px;
+ 
+  }
+
                                                              /* 3RD SECTION ACTIVITES - QUERRIES - IPHONE*/
  .Troisieme_section {
  
@@ -359,7 +413,7 @@
  .Activites img {
  
     height: 150px;
-    width: 350px;
+    width: 300px;
     border-radius: 15px 15px 0 0;
     margin-left: 0px;
     
@@ -374,7 +428,7 @@
     border-radius: 15px;
     box-shadow: 0 3px 5px rgb(153, 139, 139);
     height: 200px;
-    width: 350px;
+    width: 300px;
     
  }
                                                                     /* 4TH SECTION FOOTER - QUERRIES IPHONE */  
@@ -384,10 +438,10 @@
     flex-direction: column;
     justify-content: flex-start;
     position: absolute;
-    top: 4200px;
+    top: 4320px;
     margin-top: 180px;
     height: 550px;
-    width: 330px;
+    width: 470px;
     background-color: rgba(238, 238, 231, 0.973);
  
  }
