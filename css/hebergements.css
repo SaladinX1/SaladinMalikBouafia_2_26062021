@@ -18,8 +18,9 @@
                                     padding-top: 30px;
                                     padding-bottom: 20px;
                                     margin-left: 25px;
-                                    margin-bottom: 20px;
+                                    
                                     font-weight: bolder;
+                                    font-size: 1.1em;
                                  }
                                  
                                  .Hebergements__cellule {
@@ -72,6 +73,31 @@
                                  
                                  }
                                  
+                                 .Hebergements__Cellule--Hotel-C {
+
+                                    background-color: white;
+                                    margin: 0px 20px 30px 20px;
+                                    height: 190px;
+                                    width: 260px;
+                                    line-height: 0.6em;
+                                    border-radius: 10px;
+                                    
+                                 }
+
+                                 .Hebergements__Cellule--Hotel-C img {
+
+                                    position: relative;
+                                    top: 12px;
+                                 }
+
+                                 .Hebergements__Cellule--Hotel-C .Hebergements__Cellule--Desc {
+
+                                    position: relative;
+                                    top: 5px;
+                                    font-size: 1em;
+
+                                 }
+
                                  .Hebergements__Cellule--Hotel p {
                                  
                                         font-size: 0.8em;
@@ -83,7 +109,10 @@
 
                                     margin-top: 20px;
                                     margin-left: 13px;
-                                    line-height: 0.8em;
+                                    line-height: 0.7em;
+                                    font-size: 1.2em;
+                                    position: relative;
+                                    bottom: 12px;
                                  }
                                  
                                  .Rating_Star {
