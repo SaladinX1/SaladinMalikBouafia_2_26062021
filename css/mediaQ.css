@@ -27,7 +27,7 @@
      flex-direction: column;
      justify-content: flex-start;
      height: 450px;
-     width: 320px;
+     width: 450px;
      
  }
  
@@ -158,7 +158,8 @@
  
    line-height: 2.1em ;
    border: 1px solid white;
-   width: 120px;
+   width: 250px;
+   
 }
 
  form {
@@ -183,7 +184,7 @@
     justify-content: flex-start;
     Flex-wrap: wrap;
     margin-left: 10px;
-    width: 200px;
+    width: 250px;
     font-size: 1em;
     
  }
@@ -200,10 +201,20 @@
     
  }
 
+ .align--single {
+ 
+   position: relative;
+   top: 20px;
+   left: 15px;
+   padding : 5px 5px 5px 5px;
+   font-size: 1.5em;
+
+ }
+
  .unbold--single {
   
     font-weight: normal;
-    margin-left: 20px;
+    margin-left: 45px;
     
 } 
 
@@ -239,6 +250,12 @@
    
  }
  
+ .displayIconTitle p {
+ 
+   position: relative;
+   right: 50px;
+   top:10px;
+ }
  
  .displayIconTitleA  {
  
@@ -259,6 +276,14 @@
   background-color: #DEEBFF
   
  }
+
+ .displayIconTitleA p {
+ 
+   position: relative;
+   right: 30px;
+   top:10px;
+ }
+
 
                                                              /* 2ND SECTION QUERRIES - IPHONE*/
  
