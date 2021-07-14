@@ -27,7 +27,7 @@
      flex-direction: column;
      justify-content: flex-start;
      height: 450px;
-     width: 450px;
+     width: 320px;
      
  }
  
@@ -158,7 +158,7 @@
  
    line-height: 2.1em ;
    border: 1px solid white;
-   width: 250px;
+   width: 120px;
 }
 
  form {
@@ -295,6 +295,19 @@
  
  }
  
+ .Hebergements__Cellule--Hotel-C {
+
+   border: 1px solid white;
+    box-shadow: 0px 3px 3px rgb(219, 216, 216);
+   background-color: white;
+   margin: 0px 20px 30px 20px;
+   height: 190px;
+   width: 300px;
+   line-height: 0.6em;
+   border-radius: 10px;
+
+ }
+
  .Hebergements__Cellule--Hotel {
  
     border: 1px solid white;
@@ -309,12 +322,30 @@
  
  .Hebergements__cellule img {
  
-    width: 300px;
+    width: 295px;
     height: 105px;
     margin-left: 3px;
     margin-top: -8px;
     border-radius: 10px 10px 0 0 ;
  }
+
+ .Hebergements__Cellule--Desc {
+
+   margin-top: 20px;
+   margin-left: 13px;
+   line-height: 0.6em;
+   font-size: 1.2em;
+   position: relative;
+   bottom: 12px;
+}
+
+.Hebergements__Cellule--Hotel-C .Hebergements__Cellule--Desc {
+
+   position: relative;
+   top: 5px;
+   font-size: 1em;
+
+}
  
  
                                    /*Populaires Medias Querries */
@@ -326,7 +357,7 @@
     justify-content: space-between;
     padding-top: 30px;
     margin-left: 25px;
-    width: 330px;
+    width: 290px;
     font-weight: bolder;
     font-size: 1.2em ;
  
@@ -337,9 +368,9 @@
  
     background-color:rgb(241, 232, 232);
     margin-left: 40px;
-    width: 300px;
+    width: 340px;
+    border-radius: 0px;
     height: 600px;
-    border-radius: 15px;
     margin-top: -15px;
  
  }
@@ -351,7 +382,7 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 1px;
-    width: 300px;
+    width: 320px;
     flex: 1;
  }
 
@@ -374,7 +405,7 @@
    background-color: white;
    margin: 0 20px 30px 20px;
    height: 130px;
-   width: 250px;
+   width: 300px;
    line-height: 0.1em;
    border-radius: 10px;
 
@@ -385,7 +416,7 @@
    display: flex;
    flex-direction: column ;
    justify-content: flex-start;
-   line-height: 0.5em;
+   line-height: 0.4em;
    word-break: normal;
    margin-left: 18px;
  
@@ -450,7 +481,7 @@
     top: 4320px;
     margin-top: 180px;
     height: 550px;
-    width: 470px;
+    width: 320px;
     background-color: rgba(238, 238, 231, 0.973);
  
  }
@@ -461,7 +492,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 420px;
+    width: 320px;
     margin-left: 0px;
    }
  
