@@ -154,6 +154,13 @@
     order:4 ;
  }
 
+ .filtre__recherche input {
+ 
+   line-height: 2.1em ;
+   border: 1px solid white;
+   width: 250px;
+}
+
  form {
 
     margin-left: 20px;
@@ -166,6 +173,7 @@
     padding: 10px 17px 12px 10px;
     border-radius:  0 10px  10px 0;
     text-decoration: none;
+    
  }
  
  .filtre--recherche--align  {
@@ -175,7 +183,8 @@
     justify-content: flex-start;
     Flex-wrap: wrap;
     margin-left: 10px;
-    width: 340px;
+    width: 200px;
+    font-size: 1em;
     
  }
  
