@@ -43,7 +43,7 @@
     height: 50px ;
     width: 100px ;
     position: relative;
-    top: -145px;
+    top: -185px;
     left: 20px;
     margin-bottom: 10px;
   }
@@ -92,8 +92,8 @@
     order: 2;
     margin-right: 10px ;
     margin-left: -10px;
-    padding-top: 2px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: -30px;
     border-bottom: none;
     font-size: 1.2em;
  }
@@ -105,6 +105,7 @@
    font-size: 18px;
     padding-right: 50px;
     padding-left: 30px;
+    
     margin-left: 0px;
     margin-right: 0px;
     border-bottom: 3px solid rgb(33, 144, 235);
@@ -129,14 +130,20 @@
   color:rgb(153, 139, 139);
 
  }
+
+ .nav ul li .Gray:hover {
+
+   color: rgb(172, 167, 167);
+}
  
   .nav ul li:nth-child(3) {
  
        position: relative;
+       
        bottom: 95px;
        font-weight: bold;
        order: 2;
-       margin-bottom: 5px;
+       margin-bottom: 20px;
        margin-left: -190px;
        padding-top: 2px;
        padding-bottom: 5px;
@@ -447,7 +454,7 @@
 
  .Populaires__Cellule img {
                                                            
-   width: 100px;
+   width: 110px;
    height: 120px;
    margin-left: 3px;
    margin-top: -8px;
