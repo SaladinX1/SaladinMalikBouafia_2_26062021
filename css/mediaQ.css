@@ -12,7 +12,7 @@
        display: flex;
        flex-direction: column;
        justify-content: flex-start;
-       margin-left: 100px;
+       margin-left: 0px;
        width: 500px;
        margin:auto;
        font-family: 'Raleway' ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -100,8 +100,11 @@
  
  .nav ul li:nth-child(1) {
  
-    padding-right: 0px;
-    padding-left: 0px;
+   position: relative;
+   right:50px;
+   font-size: 18px;
+    padding-right: 50px;
+    padding-left: 30px;
     margin-left: 0px;
     margin-right: 0px;
     border-bottom: 3px solid rgb(33, 144, 235);
@@ -110,9 +113,12 @@
  
  .nav ul li:nth-child(2) {
  
-   padding-right: 0px;
+   position: relative;
+   right:50px;
+   font-size: 18px;
+   padding-right: 75px;
    margin-left: 0px;
-   padding-left: 0px;
+   padding-left: 80px;
    border-bottom: 3px solid gray;
    color:rgb(153, 139, 139);
  
@@ -131,7 +137,7 @@
        font-weight: bold;
        order: 2;
        margin-bottom: 5px;
-       margin-left: -130px;
+       margin-left: -190px;
        padding-top: 2px;
        padding-bottom: 5px;
        color: rgb(12, 140, 245);
@@ -147,7 +153,18 @@
  }
  
  
-                                                               /* HEADER -- Filtre - Rubrique - QUERRIES - IPHONE */
+/* HEADER -- Filtre - Rubrique - QUERRIES - IPHONE */
+
+.filtre__recherche {
+ 
+   display: flex;
+   justify-content: space-between;
+   margin-left:20px;
+   border-radius: 10px;                                                          
+}
+
+
+
  .filtre__recherche:nth-child(2) {
  
     display: flex;

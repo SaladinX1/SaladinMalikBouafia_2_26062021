@@ -96,7 +96,7 @@
  
      display: flex;
      justify-content: space-between;
-     border: 3px solid gray;
+     
      border-radius: 10px;
    
      
@@ -112,7 +112,6 @@
    background-color: rgb(202, 205, 207);
    border-radius: 10px 0 0 10px;
  
-   
  }
  
  .filtre__recherche input {
@@ -299,3 +298,7 @@
    color:rgb(72, 162, 247);
 }
 
+.nav ul li .Gray:hover {
+
+   color: rgb(172, 167, 167);
+}
