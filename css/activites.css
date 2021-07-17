@@ -21,6 +21,7 @@
    
    border-radius: 15px 15px 0 0;
    margin-left: 0px;
+   object-fit: cover;
    
 }
 
@@ -69,7 +70,7 @@ figure {
    width: 333px;
 }
 
-.Activites__Fort-et-Iles p {
+.Activites__Fort-et-Iles h4 {
 
    margin-left: 18px;
 }
@@ -105,7 +106,7 @@ figure {
 
 }
 
-.Activites__Parc-national-des-Calanques p {
+.Activites__Parc-national-des-Calanques h4 {
 
    margin-left: 18px;
 }
@@ -138,7 +139,7 @@ figure {
    width: 275px;
 }
 
-.Activites__Dame-et-Parc p {
+.Activites__Dame-et-Parc h4 {
 
    margin-left: 18px;
 }

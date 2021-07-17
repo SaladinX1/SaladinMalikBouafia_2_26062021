@@ -1,6 +1,6 @@
  /* 4TH SECTION FOOTER */
  .quatrieme_section {
-
+    
     display:flex;
     flex-direction: row;
     margin-top: 70px;
@@ -60,3 +60,4 @@
 
     font-weight: normal;
 }
+
