@@ -50,7 +50,7 @@
   
    .logo {
  
-    margin-bottom: 30px;
+   margin-bottom: 20px;
     height: 80px ;
     width: 150px ;
  
@@ -86,7 +86,7 @@
     
  } 
  
- }
+ 
   
                                                              /*HEADER -- Filtre Part*/
  
@@ -156,6 +156,7 @@
 
   }        
  
+
   .Rubriques div {
 
       display: flex;
@@ -191,10 +192,6 @@
      background-color: #DEEBFF
      
    }
-
-   
-
-
 
  
    .displayIconTitleA {
@@ -233,7 +230,6 @@
    background-color: rgb(241, 241, 15);
    font-style: italic;
 }
-
 .filterContent {
 
    display: flex;
@@ -273,7 +269,7 @@
  .nav ul li {
      
      margin-right: 30px ;
-     padding-top: 40px;
+     padding-top: 10px;
      color: black;
  
  }

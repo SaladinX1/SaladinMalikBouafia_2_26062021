@@ -1,5 +1,5 @@
                                                                   /* 2ND SECTION POPULAIRES*/
-                                                             .Seconde_Section {
+                                                             .Hebergements_et_Populaires {
 
 
                                                                display: flex;
@@ -109,4 +109,9 @@
                                                                font-weight: normal;
                                                                margin-bottom: 27px;
                                                              
+                                                             }
+
+                                                             .chambre {
+
+                                                               line-height: 0.6em;
                                                              }

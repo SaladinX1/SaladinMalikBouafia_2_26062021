@@ -3,18 +3,20 @@
 
 
 
-  @media all and (max-width: 515px)
+  @media all and (max-width: 500px) 
 
   {
+
+   
   
      .General__rules {
   
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin-left: 0px;
-        width: 380px;
-        margin:auto;
+        
+        width: 411px;
+        
         font-family: 'Raleway' ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 1em;
   
@@ -25,58 +27,56 @@
   
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
-      height: 450px;
-      
-      
+      justify-content: flex-start;  
+      width: 411px;
   }
-  
-  .welcome {
-  
-     display: flex;
-     flex-direction: column;
-  }
-  
+
+
+  header:nth-child(1) {
+
+   order : 1;
+   position: absolute;
+   top: 0px;
+   
+    } 
+   
+    .welcome {
+ 
+      margin-top: 0px; 
+    
+    }
   
   .logo {
   
      height: 50px ;
      width: 100px ;
-     position: relative;
-     top: -185px;
-     left: 20px;
-     margin-bottom: 10px;
+     
    }
   
-    .welcome:nth-child(1) {
-  
-     order: 1;
-  
-  }
+    
   
    .logo__devise {
   
-      padding-top: 0px;
       line-height: 1em;
-      font-size: 1.3em;
-      margin-top: -50px;
+      font-size: 1.3em;  
       margin-left: 40px;
    }
   
   
                                                         /* NAVIGATION LINKS - QUERRIES - IPHONE*/
-   .nav {
-  
-           position: relative;
-           top: 100px;
-           left: 0px;
-           margin-bottom: 20px;
-     }
-                    
+                                                       
+             .nav {
+
+position: relative;
+top: 0px;
+
+
+             }       
      
      .nav ul {
   
         border-bottom: none;
+        
     }
   
   .nav ul li a {
@@ -91,37 +91,42 @@
   
      order: 2;
      margin-right: 10px ;
-     margin-left: -10px;
+     
      padding-top: 20px;
-     padding-bottom: -30px;
      border-bottom: none;
      font-size: 1.2em;
+
   }
   
   .nav ul li:nth-child(1) {
   
     position: relative;
+    bottom:60px;
     right:50px;
     font-size: 18px;
      padding-right: 50px;
      padding-left: 30px;
      
-     margin-left: 0px;
+     
      margin-right: 0px;
      border-bottom: 3px solid rgb(33, 144, 235);
      color:rgb(72, 162, 247);
+     font-size: 0.9em;
   }
   
   .nav ul li:nth-child(2) {
   
     position: relative;
+    bottom:60px;
     right:50px;
     font-size: 18px;
-    padding-right: 75px;
-    margin-left: 0px;
-    padding-left: 80px;
+    
+    
+    padding-left: 40px;
+    padding-right: 55px;
     border-bottom: 3px solid gray;
     color:rgb(153, 139, 139);
+    font-size: 0.9em;
   
   }
   
@@ -138,13 +143,13 @@
   
    .nav ul li:nth-child(3) {
   
-        position: relative;
-        
-        bottom: 95px;
+      position: relative;
+      right: 180px;
+      bottom: 130px;
         font-weight: bold;
         order: 2;
         margin-bottom: 20px;
-        margin-left: -190px;
+        
         padding-top: 2px;
         padding-bottom: 5px;
         color: rgb(12, 140, 245);
@@ -162,6 +167,15 @@
   
  /* HEADER -- Filtre - Rubrique - QUERRIES - IPHONE */
  
+
+ .filtersnlogo__devise {
+
+  position: relative;
+   top: 200px;
+   
+  right: 30px;
+ }
+
  .filtre__recherche {
   
     display: flex;
@@ -170,25 +184,12 @@
     border-radius: 10px;                                                          
  }
  
- 
- 
-  .filtre__recherche:nth-child(2) {
-  
-     display: flex;
-     justify-content: space-between;
-     order: 4;
-     border: 1px solid gray;
-     width: 333px;
-     margin-left: 60px;
-     border-radius: 10px;
-     order:4 ;
-  }
- 
+
   .filtre__recherche input {
   
     line-height: 2.1em ;
     border: 1px solid white;
-    width: 250px;
+    width: 150px;
     height: 45px;
  }
  
@@ -205,8 +206,8 @@
  
   form {
  
-     margin-left: 20px;
-  }
+   margin-left: 20px;
+}
   
   label a {
   
@@ -225,11 +226,12 @@
      justify-content: flex-start;
      Flex-wrap: wrap;
      margin-left: 10px;
-     width: 250px;
+     width: 411px;
      font-size: 1em;
      
   }
   
+
   .filtre--recherche--align p {
   
      
@@ -249,6 +251,7 @@
     left: 15px;
     padding : 5px 5px 5px 5px;
     font-size: 1.5em;
+    width: 411px;
  
   }
  
@@ -259,37 +262,44 @@
      
  } 
  
+ .filtre-title {
+
+   width: 411px;
+ }
   
-  .Rubriques    {
+ .Rubriques    {
   
-     display: flex;
-     flex-direction: row;
-     justify-content: flex-start;
-     flex-wrap: wrap;
-     width: 440px;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   width: 411px;
+
+}        
   
-  }        
-  
-  .displayIconTitle  {
-  
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     height: 20px;
-     width: 130px;
-     padding-right: 0px;
-     
-  }
+.displayIconTitle {
  
-  .displayIconTitle span {
-      
-    border-radius: 50px;
-    height: 15px;
-    width: 20px;
-    padding: 20px;
-    background-color: #DEEBFF
-    
-  }
+   display: flex;
+   margin-right: 0px;
+   
+   border: 1px solid gray;
+   width: 130px;
+   height: 20px;
+   text-align: center;
+   color:rgb(10, 105, 247)
+   
+}
+
+
+ .displayIconTitle span {
+   
+   border-radius: 50px;
+   height: 15px;
+   width: 20px;
+   padding: 20px;
+   background-color: #DEEBFF
+   
+ }
   
   .displayIconTitle p {
   
@@ -298,25 +308,30 @@
     top:10px;
   }
   
-  .displayIconTitleA  {
   
-     display: flex;
-     flex-direction: row;
-     height: 20px;
-     width: 180px;
-     padding-right: 0px;
-     
-  }
-  
-  .displayIconTitleA span {
-      
-    border-radius: 50px;
-   height: 15px;
-   width: 20px;
-   padding: 20px;
-   background-color: #DEEBFF
+  .displayIconTitleA {
+
+   display: flex;
+   margin-right: 0px;
+   border: 1px solid gray;
+   width: 200px;
+   height: 20px;
+   text-align: center;
+   padding-right: 0px;
+   color:rgb(10, 105, 247)
    
-  }
+
+}
+
+.displayIconTitleA span {
+  
+   border-radius: 50px;
+  height: 15px;
+  width: 20px;
+  padding: 20px;
+  background-color: #DEEBFF
+  
+ }
  
   .displayIconTitleA p {
   
@@ -328,26 +343,34 @@
  
                                                               /* 2ND SECTION QUERRIES - IPHONE*/
   
-  .Seconde_Section {
+  .Hebergements_et_Populaires {
   
      display: flex;
      flex-direction: column-reverse ;
      justify-content: flex-start ;
-     margin-top: 370px;
+     width: 411px;
+     position: relative;
+     top: 270px;
   
   }                                                            /* Hébergements - QUERRIES - IPHONE*/
   
+
   .Hebergements__titre {
   
-     margin-left: -25px;
+   padding-top: 30px;
+   padding-bottom: 35px;
+   margin-left: 25px;
+   font-weight: bolder;
+   font-size: 1.1em;
+   width: 411px;
   }
   
   .Hebergements {
   
-     margin-left: 90px ;
+     
      background-color: white;
-     width: 320px;
-     height: 550px;
+     width: 411px;
+     
      
   }
   
@@ -356,14 +379,14 @@
      display: flex;
      flex-direction: column;
      justify-content: flex-start ;
-     margin-left: -50px;
+     
      width: 370px;
-  
+     
   }
   
   .Hebergements__Cellule--Hotel-C {
  
-    border: 1px solid white;
+    border: 1px solid rgb(224, 219, 219);
      box-shadow: 0px 3px 3px rgb(219, 216, 216);
     background-color: white;
     margin: 0px 20px 30px 20px;
@@ -433,7 +456,7 @@
   .Populaires {
   
      background-color:rgb(241, 232, 232);
-     margin-left: 40px;
+     
      width: 340px;
      border-radius: 0px;
      height: 670px;
@@ -489,26 +512,28 @@
    }
  
                                                               /* 3RD SECTION ACTIVITES - QUERRIES - IPHONE*/
-  .Troisieme_section {
+
+    
   
-     position: relative;
-     top: 850px;
-     margin-left: 100px;
-     margin-top: 50px;
-     height: 650px;
-     
+
+  
+
+   .activites_section {
+  
+      position: relative;
+      top: 1150px;
+      left: 25px;
+      margin-bottom: 70px;
+      margin-top: 0px;                                     
+                                                              
   }
   
-  .Marseille-align {
   
-  margin-left: -35px;
-  
-  }
   
   .Activites {
   
      
-     margin-left: -15px;
+   
      display: flex;
      flex-direction: column;
      justify-content: flex-start;
@@ -521,15 +546,14 @@
      height: 150px;
      width: 300px;
      border-radius: 15px 15px 0 0;
-     margin-left: 0px;
+     
      
   }
   
   .Activites figure {
   
-     margin-bottom: 30px;
-     margin-top: 30px;
-     margin-left: -20px;
+     
+     
      border: 1px solid white;
      border-radius: 15px;
      box-shadow: 0 3px 5px rgb(153, 139, 139);
@@ -537,17 +561,20 @@
      width: 300px;
      
   }
+
+
+
                                                                      /* 4TH SECTION FOOTER - QUERRIES IPHONE */  
-  .quatrieme_section {
+  .Informations_section {
   
      display:flex;
      flex-direction: column;
      justify-content: flex-start;
-     position: absolute;
-     top: 4430px;
-     margin-top: 180px;
+     position: relative;
+     top: 1150px;
+     
+     
      height: 593px;
-     width: 475px;
      background-color: rgba(238, 238, 231, 0.973);
   
   }
@@ -560,6 +587,7 @@
      justify-content: flex-start;
      width: 320px;
      margin-left: 50px;
+     
     }
   
   .Informations__A-propos {
@@ -567,18 +595,6 @@
      padding-left: 10px;
      margin-left: 5px;
      
-  }
-  
-  .Informations__A-propos strong {
-  
-     font-weight: bolder;
-  
-  }
-  
-  .Informations__A-propos p {
-  
-     font-weight: normal;
-  
   }
   
   .Informations__A-propos strong {

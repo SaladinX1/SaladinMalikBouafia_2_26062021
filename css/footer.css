@@ -1,11 +1,11 @@
  /* 4TH SECTION FOOTER */
- .quatrieme_section {
+ .Informations_section {
     
     display:flex;
     flex-direction: row;
-    margin-top: 70px;
+    
     height: 250px;
-    width: 1400px;
+    
     background-color: rgba(238, 238, 231, 0.973);
 
 }

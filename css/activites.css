@@ -1,14 +1,15 @@
 /* 3RD SECTION ACTIVITES*/
-.Troisieme_section {
 
-    
+
+.activites_section {
    margin-top: 50px;
+   margin-bottom: 70px;
    
 }
 
 .Activites {
 
-   margin-top: -15px;
+   
    display: flex;
    flex-direction: row;
    justify-content: flex-start;
@@ -18,7 +19,8 @@
 
 .Activites img {
 
-   
+   height: 450px;
+   width: 333px;
    border-radius: 15px 15px 0 0;
    margin-left: 0px;
    object-fit: cover;
@@ -32,18 +34,6 @@ figure {
    border: 1px solid white;
    border-radius: 15px;
    box-shadow: 0 2px 5px rgb(211, 206, 206);
-}
-
-
-.Activites__Vieux-Port--align {
-
-   margin-left: 0px;
-}
-
-
-.Activites__Vieux-Port--Desc {
-
-   padding-left: 20px;
 }
 
 .Activites__Fort-et-Iles {
@@ -60,21 +50,13 @@ figure {
    flex-direction: column;
    justify-content: flex-start;
    
-
 }
 
-
-.Activites__Vieux-Port--align img {
-
-   height: 450px;
-   width: 333px;
-}
-
-.Activites__Fort-et-Iles h4 {
+.Activites h4 {
 
    margin-left: 18px;
-}
 
+}
 
 .Activites__Fort-de-Pomegues--align {
 
@@ -98,19 +80,6 @@ figure {
    height: 135px;
    width: 333px;
 }
-
-.Activites__Parc-national-des-Calanques img {
-
-   height: 450px;
-   width: 333px;
-
-}
-
-.Activites__Parc-national-des-Calanques h4 {
-
-   margin-left: 18px;
-}
-
 
 .Activites__Notre-Dame-de-la-Garde--align {
 
@@ -137,9 +106,4 @@ figure {
 
    height: 210px;
    width: 275px;
-}
-
-.Activites__Dame-et-Parc h4 {
-
-   margin-left: 18px;
 }
