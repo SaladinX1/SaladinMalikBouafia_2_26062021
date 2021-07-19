@@ -8,9 +8,11 @@
    font-size: 1em;
    
    
-  } 
+}
  
- 
+
+
+
  @font-face {
      font-family: 'Raleway';
      src: url("../fonts/Raleway-ExtraBold.ttf") format('truetype'),
@@ -42,7 +44,7 @@
  
    .welcome {
  
-     margin-top: 40px;
+     
      line-height: 1.5em;
    
    }
@@ -118,7 +120,7 @@
  
      line-height: 2.1em ;
      border: 1px solid white;
-     width: 300px;
+     width: 280px;
      height: 45px;
      
  }
@@ -138,9 +140,11 @@
  
      display: flex;
      justify-content: space-around;
+     position: relative;
+     left: 225px;
      margin-top: 10px;
-     margin-left: 115px;
-     width: 800px;
+     width: 500px;
+     
      
      
   }
@@ -171,9 +175,13 @@
 
 
   .displayIconTitle {
- 
+
+     
      display: flex;
      margin-right: 10px;
+     margin-top: 0px;
+     margin-left: 0px;
+     margin-bottom: 0px;
      border: 1px solid gray;
      width: 130px;
      height: 20px;
@@ -185,21 +193,31 @@
   
    .displayIconTitle span {
      
+     position: relative;
+     bottom: 17px;
+     right: 16px;
      border-radius: 50px;
-     height: 15px;
+     height: 14px;
      width: 20px;
      padding: 20px;
      background-color: #DEEBFF
      
    }
 
+   .displayIconTitle p {
+
+      position: relative;
+      bottom: 15px;
+      right: 12px;
+      color: black;
+   }
  
    .displayIconTitleA {
 
       display: flex;
-      margin-right: 0px;
+      margin: 0px;
       border: 1px solid gray;
-      width: 280px;
+      width: 200px;
       height: 20px;
       text-align: center;
       padding-right: 0px;
@@ -210,6 +228,9 @@
 
    .displayIconTitleA span {
      
+      position: relative;
+      bottom: 17px;
+      right: 16px;
       border-radius: 50px;
      height: 15px;
      width: 20px;
@@ -218,6 +239,13 @@
      
     }
 
+    .displayIconTitleA p {
+
+      position: relative;
+      bottom: 15px;
+      right: 15px;
+      color: black;
+    }
 
    .displayIconTitle:hover {
 
@@ -229,22 +257,6 @@
 
    background-color: rgb(241, 241, 15);
    font-style: italic;
-}
-.filterContent {
-
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   position: relative;
-   right: 59px;
-   bottom: 55px;
-
-}
-
-.filterContent p {
-
-   color: black;
-   margin-left: 5px;
 }
 
    .align--single {

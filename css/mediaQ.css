@@ -15,7 +15,7 @@
         flex-direction: column;
         justify-content: flex-start;
         
-        width: 411px;
+        width: 400px;
         
         font-family: 'Raleway' ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 1em;
@@ -29,6 +29,7 @@
       flex-direction: column;
       justify-content: flex-start;  
       width: 411px;
+      
   }
 
 
@@ -172,8 +173,8 @@ top: 0px;
 
   position: relative;
    top: 200px;
-   
-  right: 30px;
+   right: 15px;
+  
  }
 
  .filtre__recherche {
@@ -189,7 +190,7 @@ top: 0px;
   
     line-height: 2.1em ;
     border: 1px solid white;
-    width: 150px;
+    width: auto;
     height: 45px;
  }
  
@@ -219,17 +220,22 @@ top: 0px;
      height: 45px;
   }
   
-  .filtre--recherche--align  {
   
-     display: flex;
+
+  .filtre--recherche--align  {
+ 
+   display: flex;
      flex-direction: column;
      justify-content: flex-start;
-     Flex-wrap: wrap;
-     margin-left: 10px;
-     width: 411px;
-     font-size: 1em;
-     
-  }
+   position: relative;
+   left: 15px;
+   margin-top: 10px;
+   width: auto;
+   font-size: 1em;
+   
+   
+   
+}
   
 
   .filtre--recherche--align p {
@@ -248,10 +254,8 @@ top: 0px;
   
     position: relative;
     top: 20px;
-    left: 15px;
-    padding : 5px 5px 5px 5px;
     font-size: 1.5em;
-    width: 411px;
+    width: auto;
  
   }
  
@@ -262,10 +266,7 @@ top: 0px;
      
  } 
  
- .filtre-title {
-
-   width: 411px;
- }
+ 
   
  .Rubriques    {
   
@@ -273,7 +274,7 @@ top: 0px;
    flex-direction: row;
    justify-content: flex-start;
    flex-wrap: wrap;
-   width: 411px;
+   width: auto;
 
 }        
   
@@ -290,7 +291,6 @@ top: 0px;
    
 }
 
-
  .displayIconTitle span {
    
    border-radius: 50px;
@@ -301,12 +301,15 @@ top: 0px;
    
  }
   
-  .displayIconTitle p {
   
-    position: relative;
-    right: 50px;
-    top:10px;
-  }
+
+  .displayIconTitle p {
+
+   position: relative;
+   bottom: 8px;
+   right: 25px;
+   color: black;
+}
   
   
   .displayIconTitleA {
@@ -314,7 +317,7 @@ top: 0px;
    display: flex;
    margin-right: 0px;
    border: 1px solid gray;
-   width: 200px;
+   width: 215px;
    height: 20px;
    text-align: center;
    padding-right: 0px;
@@ -333,27 +336,32 @@ top: 0px;
   
  }
  
-  .displayIconTitleA p {
   
-    position: relative;
-    right: 30px;
-    top:10px;
-  }
+
+  .displayIconTitleA p {
+
+   position: relative;
+   bottom: 8px;
+   right: 15px;
+   color: black;
+ }
  
  
                                                               /* 2ND SECTION QUERRIES - IPHONE*/
   
+    /* Hébergements - QUERRIES - IPHONE*/
+  
   .Hebergements_et_Populaires {
   
-     display: flex;
-     flex-direction: column-reverse ;
-     justify-content: flex-start ;
-     width: 411px;
-     position: relative;
-     top: 270px;
-  
-  }                                                            /* Hébergements - QUERRIES - IPHONE*/
-  
+    display: flex;
+  flex-direction: column-reverse ;
+   justify-content: flex-start ;
+  width: 411px;
+   position: relative;
+    top: 240px;
+   left: 20px;
+                                       
+    }                     
 
   .Hebergements__titre {
   
@@ -367,10 +375,8 @@ top: 0px;
   
   .Hebergements {
   
-     
      background-color: white;
      width: 411px;
-     
      
   }
   
@@ -379,7 +385,6 @@ top: 0px;
      display: flex;
      flex-direction: column;
      justify-content: flex-start ;
-     
      width: 370px;
      
   }
@@ -522,7 +527,8 @@ top: 0px;
   
       position: relative;
       top: 1150px;
-      left: 25px;
+      
+      margin-left: 75px;
       margin-bottom: 70px;
       margin-top: 0px;                                     
                                                               
@@ -572,9 +578,8 @@ top: 0px;
      justify-content: flex-start;
      position: relative;
      top: 1150px;
-     
-     
      height: 593px;
+     width: 450px;
      background-color: rgba(238, 238, 231, 0.973);
   
   }
@@ -586,7 +591,8 @@ top: 0px;
      flex-direction: column;
      justify-content: flex-start;
      width: 320px;
-     margin-left: 50px;
+     margin-left: 80px;
+     
      
     }
   
