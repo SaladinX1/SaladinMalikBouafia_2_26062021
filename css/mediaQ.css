@@ -102,11 +102,11 @@ top: 0px;
   
     position: relative;
     bottom:60px;
-    right: 70px;
+    right: 50px;
     font-size: 18px;
-    padding-right: 65px;
-    padding-left: 60px;
-     
+    
+    padding-left:70px;
+    padding-right: 75px;
      
     margin-right: 0px;
     border-bottom: 3px solid rgb(33, 144, 235);
@@ -118,13 +118,13 @@ top: 0px;
   
     position: relative;
     bottom:60px;
-    right:50px;
-    left: -70px;
+    right: 50px;
+    
     font-size: 18px;
     
-    
-    padding-left: 75px;
-    padding-right: 93px;
+    padding-left: 82px;
+    margin-left: 0px;
+    padding-right: 90px;
     border-bottom: 3px solid gray;
     color:rgb(153, 139, 139);
     font-size: 0.9em;
@@ -145,7 +145,7 @@ top: 0px;
    .nav ul li:nth-child(3) {
   
       position: relative;
-      right: 220px;
+      right: 210px;
       bottom: 130px;
         font-weight: bold;
         order: 2;
@@ -174,7 +174,7 @@ top: 0px;
   position: relative;
    top: 200px;
    right: 0px;
-  left: 10px;
+  left: 30px;
  }
 
  .filtre__recherche {
@@ -359,7 +359,7 @@ top: 0px;
   width: auto;
    position: relative;
     top: 220px;
-    left: 45px;
+    left: 65px;
    
     
     
@@ -528,8 +528,8 @@ top: 0px;
    .activites_section {
   
       position: relative;
-      top: 1100px;
-      left: 75px;
+      top: 1120px;
+      left: 95px;
       width: auto;
       
       margin-bottom: 70px;
@@ -581,9 +581,9 @@ top: 0px;
      justify-content: flex-start;
      position: relative;
      top: 1100px;
-
+    left: 10px;
      height: 593px;
-     width: 440px;
+     width: 450px;
      background-color: rgba(238, 238, 231, 0.973);
   
   }
