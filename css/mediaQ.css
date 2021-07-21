@@ -14,8 +14,8 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin-left: 10px;
-        width: 398px;
+        margin:auto;
+        width: 415px;
         
         font-family: 'Raleway' ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 1em;
@@ -174,7 +174,7 @@ top: 0px;
   position: relative;
    top: 200px;
    right: 0px;
-  
+  left: 10px;
  }
 
  .filtre__recherche {
@@ -359,7 +359,7 @@ top: 0px;
   width: auto;
    position: relative;
     top: 220px;
-    left: 40px;
+    left: 45px;
    
     
     
@@ -397,8 +397,8 @@ top: 0px;
      box-shadow: 0px 3px 3px rgb(219, 216, 216);
     background-color: white;
     margin: 0px 20px 30px 20px;
-    height: 190px;
-    width: 300px;
+    height: 200px;
+    width: 310px;
     line-height: 0.6em;
     border-radius: 10px;
  
@@ -410,16 +410,16 @@ top: 0px;
      box-shadow: 0px 3px 3px rgb(219, 216, 216);
      background-color: rgb(255, 255, 255);
      margin: 0px 20px 30px 20px;
-     height: 190px;
-     width: 300px;
+     height: 200px;
+     width: 310px;
      line-height: 0.6em;
      border-radius: 10px;
   }
   
   .Hebergements__cellule img {
   
-     width: 295px;
-     height: 105px;
+     width: 305px;
+     height: 115px;
      margin-left: 3px;
      margin-top: -8px;
      border-radius: 10px 10px 0 0 ;
@@ -464,7 +464,7 @@ top: 0px;
   
      background-color:rgb(241, 232, 232);
      
-     width: 340px;
+     width: 350px;
      border-radius: 0px;
      height: 670px;
      margin-top: 25px;
@@ -484,7 +484,7 @@ top: 0px;
  
   .Populaires__Cellule img {
                                                             
-    width: 110px;
+    width: 120px;
     height: 140px;
     margin-left: 3px;
     margin-top: -8px;
@@ -529,8 +529,9 @@ top: 0px;
   
       position: relative;
       top: 1100px;
+      left: 75px;
       width: auto;
-      margin-left: 65px;
+      
       margin-bottom: 70px;
       margin-top: 0px;                                     
                                                               
@@ -580,20 +581,21 @@ top: 0px;
      justify-content: flex-start;
      position: relative;
      top: 1100px;
+
      height: 593px;
-     width: 450px;
+     width: 440px;
      background-color: rgba(238, 238, 231, 0.973);
   
   }
   
   .Informations {
   
-    
+   
      display: flex;
      flex-direction: column;
      justify-content: flex-start;
-     width: 320px;
-     margin-left: 80px;
+     width: auto;
+     margin-left: 90px;
      
      
      
