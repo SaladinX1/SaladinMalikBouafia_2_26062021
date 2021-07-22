@@ -545,8 +545,8 @@ top: 0px;
      display: flex;
      flex-direction: column;
      justify-content: flex-start;
-     flex-wrap: nowrap;
      
+  
   
   }
   
@@ -581,9 +581,9 @@ top: 0px;
      justify-content: flex-start;
      position: relative;
      top: 1100px;
-    left: 10px;
+    
      height: 593px;
-     width: 450px;
+     width: 500px;
      background-color: rgba(238, 238, 231, 0.973);
   
   }
