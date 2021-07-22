@@ -357,12 +357,11 @@ top: 0px;
   flex-direction: column-reverse ;
    justify-content: flex-start ;
   width: auto;
-   position: relative;
-    top: 220px;
-    left: 65px;
+  position: relative;
+  top: 220px;
+  left: 65px;
    
-    
-    
+   
     }                     
 
   .Hebergements__titre {
@@ -546,7 +545,8 @@ top: 0px;
      display: flex;
      flex-direction: column;
      justify-content: flex-start;
-  
+     flex-wrap: nowrap;
+     
   
   }
   

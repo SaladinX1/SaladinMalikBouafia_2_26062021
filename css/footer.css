@@ -13,13 +13,11 @@
 .Informations {
 
 
- position: relative;
- left: 50px;
- top: 50px;
- bottom: 110px;
+ 
  display: flex;
  flex-direction: row;
- justify-content: flex-start;
+ align-content:space-around;
+ margin: 30px;
 
  
 }
