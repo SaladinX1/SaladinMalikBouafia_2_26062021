@@ -1,324 +1,191 @@
-.General__rules {
-
-  
-   width: 1400px;
-   margin:auto;
-   
-   font-weight: bolder;
-   font-size: 1em;
-   
-   
-}
- 
-
-body {
-
-   font-family: 'Raleway' , sans-serif;
-   margin: auto;
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-ExtraBold.ttf") format("truetype"),
+    url("../fonts/Raleway-ExtraBold.eot") format("eot"),
+    url("../fonts/Raleway-ExtraBold.woff") format("woff"),
+    url("../fonts/Raleway-ExtraBold.svg") format("svg");
 }
 
- @font-face {
-     font-family: 'Raleway';
-     src: url("../fonts/Raleway-ExtraBold.ttf") format('truetype'),
-      url("../fonts/Raleway-ExtraBold.eot") format('eot'),
-      url("../fonts/Raleway-ExtraBold.woff") format('woff'),
-      url("../fonts/Raleway-ExtraBold.svg") format('svg');
-     
-   }
- 
-   @font-face {
-     font-family: 'Raleway';
-     src: url("../fonts/Raleway-Regular.ttf") format('truetype'),
-      url("../fonts/Raleway-Regular.eot") format('eot'),
-      url("../fonts/Raleway-Regular.woff") format('woff'),
-      url("../fonts/Raleway-Regular.svg") format('svg');
-     
-   }
-
-
- 
-                                                            /* HEADER */
-         
-         
- header {
- 
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     width: auto;
-  }
-   
-  main {
-
-   display: flex;
-	flex-direction: column;
-	width: 100%;
-	margin: auto;
-   
-  }
- 
-   .welcome {
- 
-     
-     line-height: 1.5em;
-   
-   }
- 
-  
-   .logo {
- 
-   margin-bottom: 20px;
-    height: 80px ;
-    width: 150px ;
- 
-  }
- 
-  .logo__devise {
- 
-     font-size: 1.3em;
-     line-height: 0.4em;
-     position: relative;
-     top: 0px;
-  }
- 
-  .unbold {
- 
-     font-weight: normal;
-     font-size: 0.9em;
-     padding-bottom: 20px;
-  }
- 
-  .unbold--single {
- 
-      font-weight: normal;
-      
-      
-  } 
- 
-  .unbold--single i {
- 
-    
-    color: rgb(51, 194, 230);
-
-    
- } 
- 
- 
-  
-                                                             /*HEADER -- Filtre Part*/
- 
-                    
-
- .filtre__recherche {
- 
-     display: flex;
-     justify-content: space-between;
-     
-     border-radius: 10px;
-   
-     
- }
- 
-
- .filtre__recherche i {
- 
-   height: 33px;
-   width: 25px;
-   padding-left: 15px;
-   padding-top: 10px;
-   background-color: rgb(202, 205, 207);
-   border-radius: 10px 0 0 10px;
- 
- }
- 
- .filtre__recherche input {
- 
-     line-height: 2.1em ;
-     border: 1px solid white;
-     width: 280px;
-     height: 45px;
-     
- }
-     
-
- label a {
- 
-     background-color: rgb(10, 105, 247);
-     color: white;
-     padding: 12px 16px 16px 16px;
-     border-radius:  0 10px  10px 0;
-     text-decoration: none;
-     height: 45px;
- }
- 
-  .filtre--recherche--align  {
- 
-     display: flex;
-     justify-content: space-around;
-     position: relative;
-     left: 225px;
-     margin-top: 10px;
-     width: 500px;
-     
-     
-     
-     
-     
-  }
- 
-                                                                /* HEADER -- Filtre - Rubrique  */
-                                                                
-                                                                
-  .Rubriques    {
- 
-     display: flex;
-     flex-direction: row;
-     justify-content: flex-start;
-
-  }        
- 
-
-  .Rubriques div {
-
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      margin-top: 20px;
-      padding: 17px;
-      margin-left: 25px;
-      border-radius: 30px ;
-
-  }
-
-
-  .displayIconTitle {
-
-     
-     display: flex;
-     margin-right: 10px;
-     margin-top: 0px;
-     margin-left: 0px;
-     margin-bottom: 0px;
-     border: 1px solid gray;
-     width: 130px;
-     height: 20px;
-     text-align: center;
-     color:rgb(10, 105, 247)
-     
-  }
- 
-  
-   .displayIconTitle span {
-     
-     position: relative;
-     bottom: 17px;
-     right: 16px;
-     border-radius: 50px;
-     height: 14px;
-     width: 20px;
-     padding: 20px;
-     background-color: #DEEBFF
-     
-   }
-
-   .displayIconTitle p {
-
-      position: relative;
-      bottom: 15px;
-      right: 12px;
-      color: black;
-   }
- 
-   .displayIconTitleA {
-
-      display: flex;
-      margin: 0px;
-      border: 1px solid gray;
-      width: 200px;
-      height: 20px;
-      text-align: center;
-      padding-right: 0px;
-      color:rgb(10, 105, 247)
-      
-
-   }
-
-   .displayIconTitleA span {
-     
-      position: relative;
-      bottom: 17px;
-      right: 16px;
-      border-radius: 50px;
-     height: 14px;
-     width: 20px;
-     padding: 20px;
-     background-color: #DEEBFF
-     
-    }
-
-    .displayIconTitleA p {
-
-      position: relative;
-      bottom: 15px;
-      right: 15px;
-      color: black;
-    }
-
-   .displayIconTitle:hover {
-
-     background-color: rgb(241, 241, 15);
-    font-style: italic;
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf") format("truetype"),
+    url("../fonts/Raleway-Regular.eot") format("eot"),
+    url("../fonts/Raleway-Regular.woff") format("woff"),
+    url("../fonts/Raleway-Regular.svg") format("svg");
 }
 
-   .displayIconTitleA:hover {
+/* HEADER */
 
-   background-color: rgb(241, 241, 15);
-   font-style: italic;
+header {
+  display: flex;
+  align-items: center;
 }
 
-   .align--single {
- 
-     
-     padding : 5px 5px 5px 5px;
-     font-size: 2em;
- 
-  }
- 
-                                                       /* NAVIGATION LINKS*/
- 
- .nav ul {
- 
-     list-style-type: none;
-     display: flex;
-     flex-direction: row;
-     justify-content: flex-start;
-     
- }
- 
- .nav ul li {
-     
-     margin-right: 30px ;
-     padding-top: 10px;
-     color: black;
- 
- }
- 
- .nav ul li a {
- 
- text-decoration: none;
- color: black;
- font-size: 1.3em;
- 
-  }
- 
- 
- .nav li:hover {
- 
-     border-top: 2px solid rgb(72, 162, 247) ;
-     color: rgb(72, 162, 247);
- }
+header .logo {
+  height: 50px;
+  width: auto;
+}
 
-.nav li a:hover {
+/* NAVIGATION LINKS*/
 
-   color:rgb(72, 162, 247);
+header .nav {
+  margin-left: auto;
+}
+header .nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+
+header .nav ul li {
+  margin-right: 30px;
+  color: black;
+  border-top: 2px solid #ffffff;
+}
+
+header .nav ul li:hover {
+  border-top: 2px solid #0065fc;
+}
+
+header .nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header .nav ul li a:hover {
+  color: #0065fc;
+}
+
+header .sign-up {
+  display: flex;
+  align-items: center;
+  color: #0065fc;
+  font-weight: bold;
+}
+
+/*HEADER -- Filtre Part*/
+main {
+  font-family: "Raleway", sans-serif;
+  margin: 20px;
+}
+
+.filtre__recherche i {
+  height: 33px;
+  width: 25px;
+  padding-left: 15px;
+  padding-top: 10px;
+  background-color: rgb(202, 205, 207);
+  border-radius: 10px 0 0 10px;
+}
+
+.filtre__recherche input {
+  line-height: 2.1em;
+  border: 1px solid white;
+  width: 280px;
+  height: 45px;
+}
+
+label a {
+  background-color: rgb(10, 105, 247);
+  color: white;
+  padding: 12px 16px 16px 16px;
+  border-radius: 0 10px 10px 0;
+  text-decoration: none;
+  height: 45px;
+}
+
+.filtre--recherche--align {
+  display: flex;
+}
+
+/* HEADER -- Filtre - Rubrique  */
+
+.Rubriques {
+  display: flex;
+}
+
+.Rubriques div {
+  display: flex;
+
+  margin-top: 20px;
+  padding: 17px;
+  margin-left: 25px;
+  border-radius: 30px;
+}
+
+.displayIconTitle {
+  display: flex;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  border: 1px solid gray;
+  width: 130px;
+  height: 20px;
+  text-align: center;
+  color: rgb(10, 105, 247);
+}
+
+.displayIconTitle span {
+  position: relative;
+  bottom: 17px;
+  right: 16px;
+  border-radius: 50px;
+  height: 14px;
+  width: 20px;
+  padding: 20px;
+  background-color: #deebff;
+}
+
+.displayIconTitle p {
+  position: relative;
+  bottom: 15px;
+  right: 12px;
+  color: black;
+  font-weight: bolder;
+}
+
+.displayIconTitleA {
+  display: flex;
+  margin: 0px;
+  border: 1px solid gray;
+  width: 200px;
+  height: 20px;
+  text-align: center;
+  padding-right: 0px;
+  color: rgb(10, 105, 247);
+}
+
+.displayIconTitleA span {
+  position: relative;
+  bottom: 17px;
+  right: 16px;
+  border-radius: 50px;
+  height: 14px;
+  width: 20px;
+  padding: 20px;
+  background-color: #deebff;
+}
+
+.displayIconTitleA p {
+  position: relative;
+  bottom: 15px;
+  right: 15px;
+  color: black;
+  font-weight: bolder;
+}
+
+.displayIconTitle:hover {
+  background-color: rgb(241, 241, 15);
+  font-style: italic;
+}
+
+.displayIconTitleA:hover {
+  background-color: rgb(241, 241, 15);
+  font-style: italic;
+}
+
+.align--single {
+  padding: 5px 5px 5px 5px;
+  font-size: 2em;
 }
