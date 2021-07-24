@@ -3,7 +3,7 @@
 
 
 
-  @media all and (max-width: 500px) 
+  @media all and (max-width: 500px)
 
   {
 
@@ -17,7 +17,7 @@
         margin:auto;
         width: 415px;
         
-        font-family: 'Raleway' ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
         font-size: 1em;
   
         
@@ -32,14 +32,13 @@
       
   }
 
+  main:nth-child(1) {
 
-  header:nth-child(1) {
+   order:1;
+  }
 
-   order : 1;
-   position: absolute;
-   top: 0px;
-   
-    } 
+
+
    
     .welcome {
  
@@ -66,13 +65,10 @@
   
                                                         /* NAVIGATION LINKS - QUERRIES - IPHONE*/
                                                        
-             .nav {
-
-position: relative;
-top: 0px;
+            
 
 
-             }       
+                  
      
      .nav ul {
   
@@ -105,7 +101,7 @@ top: 0px;
     right: 50px;
     font-size: 18px;
     
-    padding-left:70px;
+    padding-left:60px;
     padding-right: 75px;
      
     margin-right: 0px;
@@ -169,13 +165,7 @@ top: 0px;
  /* HEADER -- Filtre - Rubrique - QUERRIES - IPHONE */
  
 
- .filtersnlogo__devise {
-
-  position: relative;
-   top: 200px;
-   right: 0px;
-  left: 30px;
- }
+ 
 
  .filtre__recherche {
   
@@ -358,8 +348,9 @@ top: 0px;
    justify-content: flex-start ;
   width: auto;
   position: relative;
-  top: 220px;
+  
   left: 65px;
+  
    
    
     }                     
@@ -526,13 +517,14 @@ top: 0px;
 
    .activites_section {
   
-      position: relative;
-      top: 1120px;
-      left: 95px;
-      width: auto;
       
+
+
+      width: auto;
       margin-bottom: 70px;
-      margin-top: 0px;                                     
+      position: relative;
+      top: 900px;
+      left: 85px;                                    
                                                               
   }
   
@@ -544,7 +536,7 @@ top: 0px;
    
      display: flex;
      flex-direction: column;
-     justify-content: flex-start;
+     justify-content: flex-end;
      
   
   
@@ -578,14 +570,13 @@ top: 0px;
   
      display:flex;
      flex-direction: column;
-     justify-content: flex-start;
-     position: relative;
-     top: 1100px;
-    
-     height: 593px;
+     justify-content: flex-end;
+     margin:auto;
+     height: 550px;
      width: 500px;
      background-color: rgba(238, 238, 231, 0.973);
-  
+     position: relative;
+     top: 900px;
   }
   
   .Informations {
@@ -593,7 +584,7 @@ top: 0px;
    
      display: flex;
      flex-direction: column;
-     justify-content: flex-start;
+     justify-content: center;
      width: auto;
      margin-left: 90px;
      

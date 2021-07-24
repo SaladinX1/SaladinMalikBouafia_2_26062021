@@ -3,7 +3,7 @@
   
    width: 1400px;
    margin:auto;
-   font-family: 'Raleway' , sans-serif;
+   
    font-weight: bolder;
    font-size: 1em;
    
@@ -11,7 +11,11 @@
 }
  
 
+body {
 
+   font-family: 'Raleway' , sans-serif;
+   margin: auto;
+}
 
  @font-face {
      font-family: 'Raleway';
@@ -30,6 +34,8 @@
       url("../fonts/Raleway-Regular.svg") format('svg');
      
    }
+
+
  
                                                             /* HEADER */
          
@@ -42,6 +48,14 @@
      width: auto;
   }
    
+  main {
+
+   display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: auto;
+   
+  }
  
    .welcome {
  
