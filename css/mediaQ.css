@@ -1,490 +1,294 @@
-  /*MEDIA QUERRIES - IPHONE FORMAT */
+/*MEDIA QUERRIES - IPHONE FORMAT */
 
+@media all and (max-width: 500px) {
+  /* HEADER QUERRIES IPHONE */
 
+  body {
+    margin: 0;
+    width: 100%;
+  }
 
-
-  @media all and (max-width: 500px)
-
-  {
-
-   
-  
-     .General__rules {
-  
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        margin:auto;
-        width: 415px;
-        
-        
-        font-size: 1em;
-  
-        
-       } 
-                                                            /* HEADER QUERRIES IPHONE */
   header {
-  
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;  
-      width: 411px;
-      
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  header .logo {
+    margin-left: 20px;
+  }
+
+  /* NAVIGATION LINKS - QUERRIES - IPHONE*/
+
+  header .nav {
+    order: 3;
+    width: 100%;
+  }
+
+  header .nav ul {
+    padding: 0;
+  }
+
+  header .nav ul li {
+    border-bottom: 2px solid #f2f2f2;
+    border-top: none;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  header .nav ul li:hover {
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
+  }
+
+  header .sign-up {
+    margin-left: auto;
+    margin-right: 20px;
   }
 
   main:nth-child(1) {
-
-   order:1;
+    order: 1;
   }
 
-
-
-   
-    .welcome {
- 
-      margin-top: 0px; 
-    
-    }
-  
-  .logo {
-  
-     height: 50px ;
-     width: 100px ;
-     
-   }
-  
-    
-  
-   .logo__devise {
-  
-      line-height: 1em;
-      font-size: 1.3em;  
-      margin-left: 40px;
-   }
-  
-  
-                                                        /* NAVIGATION LINKS - QUERRIES - IPHONE*/
-                                                       
-            
-
-
-                  
-     
-     .nav ul {
-  
-        border-bottom: none;
-        
-    }
-  
-  .nav ul li a {
-  
-     text-decoration: none;
-     color: rgb(46, 135, 250);
-     
-     
-   }
-  
-   .nav ul li {
-  
-     order: 2;
-     margin-right: 10px ;
-     padding-top: 20px;
-     border-bottom: none;
-     font-size: 1.2em;
-
-  }
-  
-  .nav ul li:nth-child(1) {
-  
-    position: relative;
-    bottom:60px;
-    right: 50px;
-    font-size: 18px;
-    
-    padding-left:60px;
-    padding-right: 75px;
-     
-    margin-right: 0px;
-    border-bottom: 3px solid rgb(33, 144, 235);
-    color:rgb(72, 162, 247);
-    font-size: 0.9em;
-  }
-  
-  .nav ul li:nth-child(2) {
-  
-    position: relative;
-    bottom:60px;
-    right: 50px;
-    
-    font-size: 18px;
-    
-    padding-left: 82px;
-    margin-left: 0px;
-    padding-right: 90px;
-    border-bottom: 3px solid gray;
-    color:rgb(153, 139, 139);
-    font-size: 0.9em;
-  
-  }
-  
-  .nav ul li .Gray {
- 
-   color:rgb(153, 139, 139);
- 
-  }
- 
-  .nav ul li .Gray:hover {
- 
-    color: rgb(172, 167, 167);
- }
-  
-   .nav ul li:nth-child(3) {
-  
-      position: relative;
-      right: 210px;
-      bottom: 130px;
-        font-weight: bold;
-        order: 2;
-        margin-bottom: 20px;
-        
-        padding-top: 2px;
-        padding-bottom: 5px;
-        color: rgb(12, 140, 245);
-        border-bottom: none;
-        
-    
-    }
-  
-    .nav li:hover {
-  
-     border-top: none ;
-     color: rgb(72, 162, 247);
-  }
-  
-  
- /* HEADER -- Filtre - Rubrique - QUERRIES - IPHONE */
- 
-
- 
-
- .filtre__recherche {
-  
-    display: flex;
-    justify-content: space-between;
-    margin-left:20px;
-    border-radius: 10px;                                                          
- }
- 
+  /* HEADER -- Filtre - Rubrique - QUERRIES - IPHONE */
 
   .filtre__recherche input {
-  
-    line-height: 2.1em ;
+    line-height: 2.1em;
     border: 1px solid white;
     width: auto;
     height: 45px;
- }
- 
- .filtre__recherche i {
-  
+  }
+
+  .filtre__recherche i {
     height: 33px;
     width: 25px;
     padding-left: 15px;
     padding-top: 10px;
     background-color: rgb(202, 205, 207);
     border-radius: 10px 0 0 10px;
-    
   }
- 
-  form {
- 
-   margin-left: 20px;
-}
-  
-  label a {
-  
-     background-color: rgb(10, 105, 247);
-     color: white;
-     padding: 10px 17px 12px 10px;
-     border-radius:  0 10px  10px 0;
-     text-decoration: none;
-     height: 45px;
-  }
-  
-  
 
-  .filtre--recherche--align  {
- 
-   display: flex;
-     flex-direction: column;
-     justify-content: flex-start;
-   position: relative;
-   left: 15px;
-   margin-top: 10px;
-   width: auto;
-   font-size: 1em;
-   
-   
-   
-}
-  
+  form {
+    margin-left: 20px;
+  }
+
+  label a {
+    background-color: rgb(10, 105, 247);
+    color: white;
+    padding: 10px 17px 12px 10px;
+    border-radius: 0 10px 10px 0;
+    text-decoration: none;
+    height: 45px;
+  }
+
+  .filtre--recherche--align {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    left: 15px;
+    margin-top: 10px;
+    width: auto;
+    font-size: 1em;
+  }
 
   .filtre--recherche--align p {
-  
-     
-     border-radius: 50px;
-     margin-top:0px;
-     padding: 8px;
-     Flex-wrap: wrap;
-     margin-left: 5px;
-     width: 180px;
-     
+    border-radius: 50px;
+    margin-top: 0px;
+    padding: 8px;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    width: 180px;
   }
- 
+
   .align--single {
-  
     position: relative;
     top: 20px;
     font-size: 1.5em;
     width: auto;
- 
   }
- 
+
   .unbold--single {
-   
-     font-weight: normal;
-     margin-left: 45px;
-     
- } 
- 
- 
-  
- .Rubriques    {
-  
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-start;
-   flex-wrap: wrap;
-   width: auto;
+    font-weight: normal;
+    margin-left: 45px;
+  }
 
-}        
-  
-.displayIconTitle {
- 
-   display: flex;
-   margin-right: 0px;
-   
-   border: 1px solid gray;
-   width: 130px;
-   height: 20px;
-   text-align: center;
-   color:rgb(10, 105, 247)
-   
-}
+  .Rubriques {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: auto;
+  }
 
- .displayIconTitle span {
-   
-   border-radius: 50px;
-   height: 15px;
-   width: 20px;
-   padding: 20px;
-   background-color: #DEEBFF
-   
- }
-  
-  
+  .displayIconTitle {
+    display: flex;
+    margin-right: 0px;
+
+    border: 1px solid gray;
+    width: 130px;
+    height: 20px;
+    text-align: center;
+    color: rgb(10, 105, 247);
+  }
+
+  .displayIconTitle span {
+    border-radius: 50px;
+    height: 15px;
+    width: 20px;
+    padding: 20px;
+    background-color: #deebff;
+  }
 
   .displayIconTitle p {
+    position: relative;
+    bottom: 8px;
+    right: 25px;
+    color: black;
+  }
 
-   position: relative;
-   bottom: 8px;
-   right: 25px;
-   color: black;
-}
-  
-  
   .displayIconTitleA {
+    display: flex;
+    margin-right: 0px;
+    border: 1px solid gray;
+    width: 215px;
+    height: 20px;
+    text-align: center;
+    padding-right: 0px;
+    color: rgb(10, 105, 247);
+  }
 
-   display: flex;
-   margin-right: 0px;
-   border: 1px solid gray;
-   width: 215px;
-   height: 20px;
-   text-align: center;
-   padding-right: 0px;
-   color:rgb(10, 105, 247)
-   
-
-}
-
-.displayIconTitleA span {
-  
-   border-radius: 50px;
-  height: 15px;
-  width: 20px;
-  padding: 20px;
-  background-color: #DEEBFF
-  
- }
- 
-  
+  .displayIconTitleA span {
+    border-radius: 50px;
+    height: 15px;
+    width: 20px;
+    padding: 20px;
+    background-color: #deebff;
+  }
 
   .displayIconTitleA p {
+    position: relative;
+    bottom: 8px;
+    right: 15px;
+    color: black;
+  }
 
-   position: relative;
-   bottom: 8px; 
-   right: 15px;
-   color: black;
- }
- 
- 
-                                   /* 2ND SECTION QUERRIES - IPHONE*/
-  
-    /* Hébergements - QUERRIES - IPHONE*/
-  
+  /* 2ND SECTION QUERRIES - IPHONE*/
+
+  /* Hébergements - QUERRIES - IPHONE*/
+
   .Hebergements_et_Populaires {
-  
     display: flex;
-  flex-direction: column-reverse ;
-   justify-content: flex-start ;
-  width: auto;
-  position: relative;
-  
-  left: 65px;
-  
-   
-   
-    }                     
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    width: auto;
+  }
 
   .Hebergements__titre {
-  
-   padding-top: 30px;
-   padding-bottom: 35px;
-   margin-left: 25px;
-   font-weight: bolder;
-   font-size: 1.1em;
-   width: auto;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    margin-left: 25px;
+    font-weight: bolder;
+    font-size: 1.1em;
+    width: auto;
   }
-  
+
   .Hebergements {
-  
-     background-color: white;
-     width: auto;
-     
+    background-color: white;
+    width: auto;
   }
-  
+
   .Hebergements__cellule {
-  
-     display: flex;
-     flex-direction: column;
-     justify-content: flex-start ;
-     width: auto;
-     
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
   }
-  
+
   .Hebergements__Cellule--Hotel-C {
- 
     border: 1px solid rgb(224, 219, 219);
-     box-shadow: 0px 3px 3px rgb(219, 216, 216);
+    box-shadow: 0px 3px 3px rgb(219, 216, 216);
     background-color: white;
     margin: 0px 20px 30px 20px;
     height: 200px;
     width: 310px;
     line-height: 0.6em;
     border-radius: 10px;
- 
   }
- 
+
   .Hebergements__Cellule--Hotel {
-  
-     border: 1px solid white;
-     box-shadow: 0px 3px 3px rgb(219, 216, 216);
-     background-color: rgb(255, 255, 255);
-     margin: 0px 20px 30px 20px;
-     height: 200px;
-     width: 310px;
-     line-height: 0.6em;
-     border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0px 3px 3px rgb(219, 216, 216);
+    background-color: rgb(255, 255, 255);
+    margin: 0px 20px 30px 20px;
+    height: 200px;
+    width: 310px;
+    line-height: 0.6em;
+    border-radius: 10px;
   }
-  
+
   .Hebergements__cellule img {
-  
-     width: 305px;
-     height: 115px;
-     margin-left: 3px;
-     margin-top: -8px;
-     border-radius: 10px 10px 0 0 ;
+    width: 305px;
+    height: 115px;
+    margin-left: 3px;
+    margin-top: -8px;
+    border-radius: 10px 10px 0 0;
   }
- 
+
   .Hebergements__Cellule--Desc {
- 
     margin-top: 20px;
     margin-left: 13px;
     line-height: 0.6em;
     font-size: 1.2em;
     position: relative;
     bottom: 12px;
- }
- 
- .Hebergements__Cellule--Hotel-C .Hebergements__Cellule--Desc {
- 
+  }
+
+  .Hebergements__Cellule--Hotel-C .Hebergements__Cellule--Desc {
     position: relative;
     top: 5px;
     font-size: 1em;
- 
- }
-  
-  
-                                    /*Populaires Medias Querries */
-  
-  
+  }
+
+  /*Populaires Medias Querries */
+
   .Populaires__titre {
-  
-     display: flex;
-     justify-content: space-between;
-     padding-top: 30px;
-     margin-left: 25px;
-     width: 290px;
-     font-weight: bolder;
-     font-size: 1.2em ;
-  
-  }                                       
-  
-  
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-left: 25px;
+    width: 290px;
+    font-weight: bolder;
+    font-size: 1.2em;
+  }
+
   .Populaires {
-  
-     background-color:rgb(241, 232, 232);
-     
-     width: 350px;
-     border-radius: 0px;
-     height: 670px;
-     margin-top: 25px;
-  
+    background-color: rgb(241, 232, 232);
+
+    width: 350px;
+    border-radius: 0px;
+    height: 670px;
+    margin-top: 25px;
   }
-  
-  
+
   .Populaires__Cellule {
-  
-     display: flex;
-     flex-direction: column;
-     justify-content: flex-start;
-     margin-left: 1px;
-     width: 320px;
-     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 1px;
+    width: 320px;
+    flex: 1;
   }
- 
+
   .Populaires__Cellule img {
-                                                            
     width: 120px;
     height: 140px;
     margin-left: 3px;
     margin-top: -8px;
-    border-radius: 10px 0 0 10px ;
- 
- }
- 
- 
- .Populaires__Cellule--Hotel {
- 
+    border-radius: 10px 0 0 10px;
+  }
+
+  .Populaires__Cellule--Hotel {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -494,122 +298,75 @@
     width: 300px;
     line-height: 0.1em;
     border-radius: 10px;
- 
- }
- 
- .Populaires__Cellule--Desc {
-                                                            
+  }
+
+  .Populaires__Cellule--Desc {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: flex-start;
     line-height: 0.6em;
     word-break: normal;
     margin-left: 18px;
-  
-   }
- 
-                                                              /* 3RD SECTION ACTIVITES - QUERRIES - IPHONE*/
-
-    
-  
-
-  
-
-   .activites_section {
-  
-      
-
-
-      width: auto;
-      margin-bottom: 70px;
-      position: relative;
-      top: 900px;
-      left: 85px;                                    
-                                                              
   }
-  
-  
-  
+
+  /* 3RD SECTION ACTIVITES - QUERRIES - IPHONE*/
+
+  .activites_section {
+    width: auto;
+    margin-bottom: 70px;
+  }
+
   .Activites {
-  
-     
-   
-     display: flex;
-     flex-direction: column;
-     justify-content: flex-end;
-     
-  
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
-  
+
   .Activites img {
-  
-     height: 150px;
-     width: 300px;
-     border-radius: 15px 15px 0 0;
-     
-     
+    height: 150px;
+    width: 300px;
+    border-radius: 15px 15px 0 0;
   }
-  
+
   .Activites figure {
-  
-     
-     
-     border: 1px solid white;
-     border-radius: 15px;
-     box-shadow: 0 3px 5px rgb(153, 139, 139);
-     height: 200px;
-     width: 300px;
-     
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 0 3px 5px rgb(153, 139, 139);
+    height: 200px;
+    width: 300px;
   }
 
-
-
-                                                                     /* 4TH SECTION FOOTER - QUERRIES IPHONE */  
+  /* 4TH SECTION FOOTER - QUERRIES IPHONE */
   .Informations_section {
-  
-     display:flex;
-     flex-direction: column;
-     justify-content: flex-end;
-     margin:auto;
-     height: 550px;
-     width: 500px;
-     background-color: rgba(238, 238, 231, 0.973);
-     position: relative;
-     top: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: auto;
+    height: 550px;
+    width: 500px;
+    background-color: rgba(238, 238, 231, 0.973);
+    position: relative;
+    top: 900px;
   }
-  
+
   .Informations {
-  
-   
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     width: auto;
-     margin-left: 90px;
-     
-     
-     
-    }
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    margin-left: 90px;
+  }
+
   .Informations__A-propos {
-  
-     padding-left: 10px;
-     margin-left: 5px;
-     
+    padding-left: 10px;
+    margin-left: 5px;
   }
-  
+
   .Informations__A-propos strong {
-  
-     font-weight: bolder;
-  
+    font-weight: bolder;
   }
-  
+
   .Informations__A-propos p {
-  
-     font-weight: normal;
+    font-weight: normal;
   }
-  
-  
-  
-  }
+}
