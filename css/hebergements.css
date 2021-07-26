@@ -3,6 +3,7 @@
 .Hebergements_et_Populaires {
   display: flex;
   height: auto;
+  width: auto;
 }
 
 .Hebergements {
@@ -14,7 +15,7 @@
 }
 
 .Hebergements__titre h3 {
-  margin: 40px 0 0 35px;
+  margin: 40px 0 0 50px;
   font-weight: bolder;
   font-size: 1.4em;
 }
@@ -26,8 +27,8 @@
 }
 
 .Hebergements__cellule img {
-  width: 270px;
-  height: 120px;
+  width: 320px;
+  height: 150px;
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
@@ -38,7 +39,7 @@ strong {
 
 .Hebergements__Cellule--Hotel {
   background-color: white;
-  margin: 20px;
+  margin: 20px 0 0 30px;
   padding: 5px;
   border-radius: 10px;
   height: auto;
@@ -82,5 +83,5 @@ i {
   flex-direction: column;
   justify-content: flex-end;
   font-weight: 900;
-  margin: 10px 0 40px 30px;
+  margin: 40px 0 30px 45px;
 }

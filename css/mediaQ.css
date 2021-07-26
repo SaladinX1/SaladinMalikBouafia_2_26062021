@@ -183,7 +183,7 @@
 
   .Hebergements__Cellule--Hotel {
     border: 1px solid white;
-    box-shadow: 0px 3px 3px rgb(219, 216, 216);
+    box-shadow: 3px 3px 3px rgb(219, 216, 216);
     background-color: rgb(255, 255, 255);
     margin: 0px 20px 30px 20px;
     height: 200px;
@@ -204,24 +204,39 @@
     border-radius: 10px 10px 0 0;
   }
 
+  .Afficher_plus {
+    font-weight: 900;
+    margin: 5px 0 0 30px;
+  }
+
   /*Populaires Medias Querries */
 
   .Populaires__titre {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 30px;
-    margin-left: 25px;
-    width: 290px;
+
+    width: auto;
     font-weight: bolder;
     font-size: 1.2em;
   }
 
-  .Populaires {
-    background-color: rgb(241, 232, 232);
+  .Populaires__titre h3 {
+    padding-right: 10px;
+    padding-left: 0;
+  }
 
-    width: 350px;
+  .Populaires__titre i {
+    padding-top: 25px;
+    padding-right: 0;
+    padding-left: 30px;
+  }
+
+  .Populaires {
+    background-color: #f2f2f2;
+    width: auto;
     border-radius: 0px;
-    height: 670px;
+    height: auto;
     margin-top: 25px;
   }
 
@@ -230,37 +245,41 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 1px;
-    width: 320px;
+    width: auto;
     flex: 1;
   }
 
   .Populaires__Cellule img {
     width: 120px;
     height: 140px;
-    margin-left: 3px;
-    margin-top: -8px;
-    border-radius: 10px 0 0 10px;
+    border-radius: 20px 0 0 20px;
   }
 
   .Populaires__Cellule--Hotel {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    background-color: white;
     margin: 0 20px 30px 20px;
     height: 150px;
-    width: 300px;
-    line-height: 0.1em;
-    border-radius: 10px;
+    width: auto;
+    border-radius: 20px;
   }
 
   .Populaires__Cellule--Desc {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    line-height: 0.6em;
-    word-break: normal;
-    margin-left: 18px;
+    justify-content: stretch;
+    margin-left: 5px;
+  }
+
+  .Populaires__Cellule--Desc .Populaires__Cellule--Desc--Titre,
+  .Nuit_Populaires {
+    font-size: 1.1rem;
+    line-height: 1.5em;
+  }
+
+  .Populaires__Cellule--Desc .Rating_Star {
+    margin-top: 40px;
   }
 
   /* 3RD SECTION ACTIVITES - QUERRIES - IPHONE*/
