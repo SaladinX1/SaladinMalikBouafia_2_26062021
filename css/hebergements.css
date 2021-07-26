@@ -1,156 +1,86 @@
 /* Hebergements */
 
-
 .Hebergements_et_Populaires {
- 
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-start;
-   width: auto;
- 
- }                      
-
-
-
-.Hebergements {
-
-   background-color: rgb(241, 232, 232);
-   border-radius: 15px;
-   width: 920px;
-   height: 600px;
-   
-   
-
+  display: flex;
+  height: auto;
 }
 
-.Hebergements__titre {
+.Hebergements {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
 
-   
-   padding-top: 30px;
-   padding-bottom: 35px;
-   margin-left: 25px;
-   font-weight: bolder;
-   font-size: 1.1em;
+.Hebergements__titre h3 {
+  margin: 40px 0 0 35px;
+  font-weight: bolder;
+  font-size: 1.4em;
 }
 
 .Hebergements__cellule {
-
-   display: flex;
-   flex-direction: row ;
-   justify-content: flex-start ;
-   flex-wrap: wrap;
-   margin-left: 0px;
-   width: 1050px;
-    
-
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15px;
 }
 
 .Hebergements__cellule img {
-
-   
-       width: 253px;
-       height: 100px;
-       object-fit: cover;
-       margin-left: 3px;
-       margin-top: -8px;
-       border-radius: 10px 10px 0 0 ;
+  width: 270px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
 }
 
 strong {
-
- font-weight: bold;
-
+  font-weight: bold;
 }
-
-
-.Nuit {
-
-  font-weight: normal;
-  margin-bottom: 0px;
-
-}
-
-
-
 
 .Hebergements__Cellule--Hotel {
-
-   background-color: white;
-   margin: 0px 20px 30px 20px;
-   height: 190px;
-   width: 260px;
-   line-height: 0.6em;
-   border-radius: 10px;
-
+  background-color: white;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+}
+.hotel_title {
+  font-weight: 900;
 }
 
-.Hebergements__Cellule--Hotel-C {
-
-   background-color: white;
-   margin: 0px 20px 30px 20px;
-   height: 190px;
-   width: 260px;
-   line-height: 0.6em;
-   border-radius: 10px;
-   
+.Hebergements__Cellule--Hotel p,
+i {
+  margin: 0;
+  padding: 2px;
 }
 
-.Hebergements__Cellule--Hotel-C img {
-
-   position: relative;
-   top: 12px;
-   object-fit: cover;
+.Hebergements__Cellule--Hotel .hotel_title {
+  padding-left: 10px;
 }
 
-.Hebergements__Cellule--Hotel-C .Hebergements__Cellule--Desc {
-
-   position: relative;
-   top: 5px;
-   font-size: 1em;
-
-}
-
-.Hebergements__Cellule--Hotel p {
-
-       font-size: 0.8em;
-       margin-left: 1px;
-
-}
-
-.Hebergements__Cellule--Desc {
-
-   margin-top: 20px;
-   margin-left: 13px;
-   line-height: 0.7em;
-   font-size: 1.2em;
-   position: relative;
-   bottom: 12px;
+.Hebergements__Cellule--Hotel .Nuit {
+  padding-left: 10px;
 }
 
 .Rating_Star {
-
-display: flex;
-flex-direction: row;
-margin-top: 0px;
-padding: 0px;
-color: blue;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0;
+  padding-left: 10px;
 }
 
-.Hebergements__Cellule--Desc img {
-
-   height: 15px;
-   width: 65px;
-   color:rgb(10, 105, 247);
-   margin-left: -1px;
-
-
+.Hebergements__Cellule--Hotel .Rating_Star i {
+  color: #0065fc;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
 }
 
 .Afficher_plus {
-
-   position: relative;
-
-   top: 210px;
-   right: 870px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-weight: 900;
+  margin: 10px 0 40px 30px;
 }
