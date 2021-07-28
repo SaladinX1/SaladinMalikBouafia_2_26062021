@@ -265,24 +265,25 @@
     margin-bottom: 70px;
   }
 
-  .Activites {
+  .activites_section {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
   }
 
-  .Activites img {
+  .activites_section img {
     height: 150px;
     width: 300px;
     border-radius: 15px 15px 0 0;
   }
 
-  .Activites figure {
+  .activites_section figure {
     border: 1px solid white;
     border-radius: 15px;
     box-shadow: 0 3px 5px rgb(153, 139, 139);
     height: 200px;
     width: 300px;
+    margin-top: 30px;
   }
 
   /* 4TH SECTION FOOTER - QUERRIES IPHONE */
