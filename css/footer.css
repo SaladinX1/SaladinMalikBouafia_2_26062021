@@ -1,60 +1,41 @@
- /* 4TH SECTION FOOTER */
- .Informations_section {
-    
-    display:flex;
-    flex-direction: row;
-    
-    height: 250px;
-    width: 1400px;
-    background-color: rgba(238, 238, 231, 0.973);
-
+/* 4TH SECTION FOOTER */
+.Informations_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 250px;
+  width: auto;
+  background-color: #f2f2f2;
 }
 
 .Informations {
-
-
- 
- display: flex;
- flex-direction: row;
- align-content:space-around;
- margin: 30px;
-
- 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
 }
-
 
 .Informations__A-propos {
-
-    margin-right: 5px;
-    margin-left: 5px;
-    padding-left: 100px;
-    padding-right: 170px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: auto;
+  max-width: 100%;
 }
-
-
 
 .Informations__A-propos strong {
-
-    font-weight: bolder;
-
-}
-
-
-.Informations__A-propos p {
-
-    font-weight: normal;
-
-}
-
-
-
-.Informations__A-propos strong {
-
-    font-weight: bolder;
-
+  font-weight: bolder;
 }
 
 .Informations__A-propos p {
+  font-weight: normal;
+}
 
-    font-weight: normal;
+.Informations__A-propos strong {
+  font-weight: bolder;
+}
+
+.Informations__A-propos p {
+  font-weight: normal;
 }

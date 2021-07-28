@@ -293,10 +293,8 @@
     justify-content: flex-end;
     margin: auto;
     height: 550px;
-    width: 500px;
+    width: auto;
     background-color: rgba(238, 238, 231, 0.973);
-    position: relative;
-    top: 900px;
   }
 
   .Informations {
@@ -304,7 +302,7 @@
     flex-direction: column;
     justify-content: center;
     width: auto;
-    margin-left: 90px;
+    margin: auto;
   }
 
   .Informations__A-propos {

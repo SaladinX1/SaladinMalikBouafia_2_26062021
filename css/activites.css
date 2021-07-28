@@ -1,10 +1,15 @@
 /* 3RD SECTION ACTIVITES*/
 
+.Marseille-align {
+  margin: 20px 0 20px 170px;
+}
+
 .activites_section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 100%;
+  width: auto;
+  margin: auto;
 }
 
 .activites_section img {
