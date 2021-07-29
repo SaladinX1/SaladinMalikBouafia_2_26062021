@@ -115,7 +115,7 @@ label a {
 
 .rubriques {
   display: flex;
-  width: auto;
+  width: 60%;
 }
 
 .logo__devise h3,
@@ -130,10 +130,10 @@ p {
 .display-icon-title {
   display: flex;
   margin-top: 20px;
-  margin-left: 25px;
+  margin-left: 15px;
   border-radius: 30px;
   border: 1px solid #b9b4b4;
-  width: 210px;
+  width: 100%;
   height: 50px;
   text-align: center;
   color: #0065fc;

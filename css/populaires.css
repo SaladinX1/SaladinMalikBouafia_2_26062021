@@ -12,7 +12,8 @@
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-  width: auto;
+  padding-left: 20px;
+  width: 92%;
   font-weight: bolder;
   font-size: 1.1em;
 }
@@ -39,7 +40,7 @@
   padding: 5px;
   width: 180px;
   height: 142px;
-  border-radius: 10px 0 0 10px;
+  border-radius: 20px 0 0 20px;
   object-fit: cover;
 }
 
@@ -48,9 +49,9 @@
   flex-direction: row;
   justify-content: flex-start;
   background-color: white;
-  margin: 0 20px 30px 20px;
-  width: auto;
-  border-radius: 10px;
+  margin: 0 20px 30px 45px;
+  width: 85%;
+  border-radius: 20px;
 }
 
 .populaires__Cellule--Hotel p {
