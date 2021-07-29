@@ -1,12 +1,12 @@
 /* Hebergements */
 
-.Hebergements_et_Populaires {
+.hebergements__Populaires {
   display: flex;
   height: auto;
   width: auto;
 }
 
-.Hebergements {
+.hebergements {
   background-color: #f2f2f2;
   border-radius: 15px;
   width: auto;
@@ -14,19 +14,19 @@
   margin: 10px;
 }
 
-.Hebergements__titre h3 {
+.hebergements__titre h3 {
   margin: 40px 0 0 50px;
   font-weight: bolder;
   font-size: 1.4em;
 }
 
-.Hebergements__cellule {
+.hebergements__cellule {
   display: flex;
   flex-wrap: wrap;
   margin-left: 15px;
 }
 
-.Hebergements__cellule img {
+.hebergements__cellule img {
   width: 320px;
   height: 150px;
   object-fit: cover;
@@ -37,7 +37,7 @@ strong {
   font-weight: bold;
 }
 
-.Hebergements__Cellule--Hotel {
+.hebergements__Cellule--Hotel {
   background-color: white;
   margin: 20px 0 0 30px;
   padding: 5px;
@@ -49,21 +49,21 @@ strong {
   font-weight: 900;
 }
 
-.Hebergements__Cellule--Hotel p,
+.hebergements__Cellule--Hotel p,
 i {
   margin: 0;
   padding: 2px;
 }
 
-.Hebergements__Cellule--Hotel .hotel_title {
+.hebergements__Cellule--Hotel .hotel_title {
   padding-left: 10px;
 }
 
-.Hebergements__Cellule--Hotel .Nuit {
+.hebergements__Cellule--Hotel .Nuit {
   padding-left: 10px;
 }
 
-.Rating_Star {
+.rating_Star {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -71,14 +71,14 @@ i {
   padding-left: 10px;
 }
 
-.Hebergements__Cellule--Hotel .Rating_Star i {
+.hebergements__Cellule--Hotel .Rating_Star i {
   color: #0065fc;
   padding: 0;
   margin: 0;
   font-size: 0.9em;
 }
 
-.Afficher_plus {
+.afficher_plus {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;

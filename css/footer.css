@@ -1,14 +1,14 @@
 /* 4TH SECTION FOOTER */
-.Informations_section {
+.informations_section {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 250px;
+
   width: auto;
   background-color: #f2f2f2;
 }
 
-.Informations {
+.informations {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.Informations__A-propos {
+.informations__A-propos {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -24,18 +24,18 @@
   max-width: 100%;
 }
 
-.Informations__A-propos strong {
+.informations__A-propos strong {
   font-weight: bolder;
 }
 
-.Informations__A-propos p {
+.informations__A-propos p {
   font-weight: normal;
 }
 
-.Informations__A-propos strong {
+.informations__A-propos strong {
   font-weight: bolder;
 }
 
-.Informations__A-propos p {
+.informations__A-propos p {
   font-weight: normal;
 }

@@ -1,6 +1,6 @@
 /* 2ND SECTION POPULAIRES*/
 
-.Populaires {
+.populaires {
   background-color: #f2f2f2;
   border-radius: 15px;
   margin: 10px;
@@ -8,7 +8,7 @@
   height: auto;
 }
 
-.Populaires__titre {
+.populaires__titre {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
@@ -17,16 +17,16 @@
   font-size: 1.1em;
 }
 
-.Populaires__titre h3 {
+.populaires__titre h3 {
   padding-left: 25px;
 }
 
-.Populaires__titre i {
+.populaires__titre i {
   padding-top: 25px;
   padding-right: 20px;
 }
 
-.Populaires__Cellule {
+.populaires__Cellule {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -35,7 +35,7 @@
   width: auto;
 }
 
-.Populaires__Cellule img {
+.populaires__Cellule img {
   padding: 5px;
   width: 180px;
   height: 142px;
@@ -43,7 +43,7 @@
   object-fit: cover;
 }
 
-.Populaires__Cellule--Hotel {
+.populaires__Cellule--Hotel {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -54,12 +54,12 @@
   border-radius: 10px;
 }
 
-.Populaires__Cellule--Hotel p {
+.populaires__Cellule--Hotel p {
   font-size: 0.8em;
   margin: 0;
 }
 
-.Populaires__Cellule--Desc {
+.populaires__Cellule--Desc {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -71,15 +71,15 @@
   font-size: 1.1em;
 }
 
-.Populaires__Cellule--Desc--Titre {
+.populaires__Cellule--Desc--Titre {
   font-weight: 900;
 }
 
-.Populaires__Cellule--Desc .Rating_Star {
+.populaires__Cellule--Desc .Rating_Star {
   color: #0065fc;
   padding: 0;
 }
 
-.Populaires__Cellule--Desc i {
+.populaires__Cellule--Desc i {
   padding: 0;
 }
