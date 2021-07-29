@@ -2,7 +2,7 @@
 
 .hebergements__Populaires {
   display: flex;
-  height: auto;
+
   width: auto;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .hebergements__titre h3 {
-  margin: 40px 0 0 50px;
+  margin: 40px 0 0 6%;
   font-weight: bolder;
   font-size: 1.4em;
 }
@@ -27,7 +27,7 @@
 }
 
 .hebergements__cellule img {
-  width: 320px;
+  width: 350px;
   height: 150px;
   object-fit: cover;
   border-radius: 10px 10px 0 0;
@@ -39,7 +39,7 @@ strong {
 
 .hebergements__Cellule--Hotel {
   background-color: white;
-  margin: 20px 0 0 30px;
+  margin: 20px 0 0 60px;
   padding: 5px;
   border-radius: 10px;
   height: auto;
@@ -49,8 +49,7 @@ strong {
   font-weight: 900;
 }
 
-.hebergements__Cellule--Hotel p,
-i {
+.hebergements__Cellule--Hotel p {
   margin: 0;
   padding: 2px;
 }
@@ -59,11 +58,12 @@ i {
   padding-left: 10px;
 }
 
-.hebergements__Cellule--Hotel .Nuit {
+.hebergements__Cellule--Hotel .nuit {
   padding-left: 10px;
 }
 
 .rating_Star {
+  color: #0065fc;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -71,7 +71,7 @@ i {
   padding-left: 10px;
 }
 
-.hebergements__Cellule--Hotel .Rating_Star i {
+.hebergements__Cellule--Hotel .rating_Star i {
   color: #0065fc;
   padding: 0;
   margin: 0;
@@ -83,5 +83,5 @@ i {
   flex-direction: column;
   justify-content: flex-end;
   font-weight: 900;
-  margin: 40px 0 30px 45px;
+  margin: 40px 0 30px 70px;
 }

@@ -1,14 +1,21 @@
 /* 3RD SECTION ACTIVITES*/
 
+.activity__Part {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: auto;
+}
+
 .marseille-align {
-  margin: 20px 0 20px 170px;
+  margin-left: 2%;
 }
 
 .activites_section {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: auto;
+  justify-content: space-between;
+  width: 100%;
   margin: auto;
 }
 
@@ -25,7 +32,6 @@ figure {
   border-radius: 15px;
   box-shadow: 0 2px 5px rgb(211, 206, 206);
   width: auto;
-  margin: auto;
 }
 
 .activites__Fort-et-Iles {
@@ -46,7 +52,7 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 10px 0 20px 10px;
+  margin: 15px 0 20px 10px;
 }
 
 .activites__Fort-de-Pomegues--align {

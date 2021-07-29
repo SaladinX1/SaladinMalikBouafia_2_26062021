@@ -49,7 +49,6 @@
   justify-content: flex-start;
   background-color: white;
   margin: 0 20px 30px 20px;
-  height: auto;
   width: auto;
   border-radius: 10px;
 }
@@ -60,24 +59,24 @@
 }
 
 .populaires__Cellule--Desc {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
   width: auto;
-
   margin-left: 15px;
-  line-height: 2em;
-  word-break: normal;
+  margin-top: 10px;
   font-size: 1.1em;
+}
+
+.populaires__Cellule--Desc .populaires__Cellule--Desc--Titre,
+.nuit_Populaires {
+  line-height: 2.5em;
+}
+
+.populaires__Cellule--Desc .rating_Star {
+  margin-top: 40px;
+  padding: 0;
 }
 
 .populaires__Cellule--Desc--Titre {
   font-weight: 900;
-}
-
-.populaires__Cellule--Desc .Rating_Star {
-  color: #0065fc;
-  padding: 0;
 }
 
 .populaires__Cellule--Desc i {
