@@ -99,7 +99,7 @@ body {
 label a {
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
+  justify-content: flex-start;
   background-color: #0065fc;
   color: white;
   padding: 12px 16px 12px 16px;

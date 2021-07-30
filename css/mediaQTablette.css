@@ -1,0 +1,162 @@
+/*MEDIA QUERRIES - Tablette FORMAT */
+
+@media (min-width: 500px) and (max-width: 1360px) {
+  main {
+    max-width: 100%;
+  }
+
+  body {
+    margin: auto;
+  }
+
+  /* HEADER QUERRIES TABLETTE */
+
+  .filters__searchbar {
+    line-height: 2em;
+    margin: 30px 0 0 10px;
+  }
+
+  .logo {
+    margin-bottom: 30px;
+    height: 50px;
+    width: 90px;
+  }
+
+  .logo__devise {
+    font-size: 1.1rem;
+    line-height: 1em;
+  }
+
+  /* Hébergements - QUERRIES - Tablette*/
+
+  .hebergements__Populaires {
+    display: flex;
+    max-width: 100%;
+  }
+
+  .hebergements__titre {
+    padding-top: 15px;
+    padding: 0 0 20px 0;
+    margin-left: 0;
+    font-weight: bolder;
+    font-size: 1.1em;
+  }
+
+  .hebergements {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    max-width: 100%;
+  }
+
+  .hebergements__cellule {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 1px;
+    max-width: 100%;
+    flex-wrap: nowrap;
+  }
+
+  .hebergements__Cellule--Hotel {
+    background-color: white;
+    margin: 0px 20px 30px 20px;
+    height: 310px;
+    max-width: 100%;
+    line-height: 0.6em;
+    border-radius: 10px;
+  }
+
+  .hebergements__cellule img {
+    width: 100%;
+    max-height: 100%;
+    margin-left: 3px;
+
+    border-radius: 10px 10px 0 0;
+  }
+
+  .hebergements__Cellule--Hotel .hotel_title {
+    padding-left: 10px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+  }
+
+  .hebergements__Cellule--Hotel .nuit {
+    padding-left: 10px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+  }
+
+  .hebergements__Cellule--Hotel .rating_Star {
+    margin-top: 40px;
+    padding-left: 10px;
+    font-size: 1.3rem;
+  }
+
+  .afficher_plus {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: 900;
+    margin: 30px 0 20px 25px;
+  }
+
+  /* Populaires Partie*/
+
+  .populaires {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    margin: 10px;
+    width: 900px;
+    max-height: 100%;
+  }
+
+  .populaires__Cellule {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    margin-top: 10px;
+    max-width: 100%;
+  }
+
+  .populaires__Cellule img {
+    padding: 5px;
+    max-width: 100%;
+    height: 600px;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+  }
+
+  .populaires__Cellule--Hotel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: white;
+    margin: 80px 20px 30px 30px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+  }
+
+  .populaires__Cellule--Hotel p {
+    font-size: 0.8em;
+    margin: 0;
+  }
+
+  .populaires__Cellule--Desc {
+    width: auto;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+
+  .populaires__Cellule--Desc .populaires__Cellule--Desc--Titre,
+  .nuit_Populaires {
+    line-height: 3.2em;
+  }
+
+  .populaires__Cellule--Desc .rating_Star {
+    margin-top: 350px;
+    padding: 0;
+  }
+}
