@@ -1,41 +1,25 @@
 /* 4TH SECTION FOOTER */
-.informations_section {
+footer {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+
   margin-top: 30px;
-  width: auto;
   background-color: #f2f2f2;
+  padding-left: 50px;
 }
 
-.informations {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: auto;
-  width: 100%;
-}
-
-.informations__A-propos {
+footer .informations__A-propos {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: auto;
-  max-width: 100%;
+  width: 100%;
+  padding-top: 20px;
 }
 
-.informations__A-propos strong {
+footer .informations__A-propos strong {
   font-weight: bolder;
 }
 
-.informations__A-propos p {
+footer .informations__A-propos p {
   font-weight: normal;
-}
-
-.informations__A-propos strong {
-  font-weight: bolder;
-}
-
-.informations__A-propos p {
-  font-weight: normal;
+  margin-left: 0;
 }

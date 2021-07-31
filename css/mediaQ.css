@@ -14,7 +14,7 @@
   }
 
   header .logo {
-    margin-left: 20px;
+    padding-left: 20px;
   }
 
   /* NAVIGATION LINKS - QUERRIES - IPHONE*/
@@ -297,33 +297,10 @@
   }
 
   /* 4TH SECTION FOOTER - QUERRIES IPHONE */
-  .informations_section {
+  footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin: auto;
-    width: auto;
-    background-color: rgba(238, 238, 231, 0.973);
-  }
-
-  .informations {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: auto;
-    margin: auto;
-  }
-
-  .informations__A-propos {
-    padding-left: 10px;
-    margin-left: 5px;
-  }
-
-  .informations__A-propos strong {
-    font-weight: bolder;
-  }
-
-  .informations__A-propos p {
-    font-weight: normal;
+    padding-left: 20px;
   }
 }
