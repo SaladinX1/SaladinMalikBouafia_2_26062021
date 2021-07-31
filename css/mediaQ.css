@@ -1,6 +1,6 @@
 /*MEDIA QUERRIES - IPHONE FORMAT */
 
-@media all and (max-width: 436px) {
+@media all and (max-width: 438px) {
   /* HEADER QUERRIES IPHONE */
 
   body {
@@ -22,10 +22,12 @@
   header .nav {
     order: 3;
     width: 100%;
+    
   }
 
   header .nav ul {
     padding: 0;
+    margin-right: 0;
   }
 
   header .nav ul li {
@@ -44,6 +46,7 @@
   header .sign-up {
     margin-left: auto;
     margin-right: 20px;
+    margin-bottom: 0px;
   }
 
   main:nth-child(1) {
@@ -52,45 +55,56 @@
 
   /* HEADER -- Filtre - Rubrique - QUERRIES - IPHONE */
 
+  .filters__searchbar {
+
+margin: 30px 0 0 0;
+padding: 0 0 0 0 ;
+
+  }
+
+  .filtre__recherche {
+
+    width: 100%;
+
+
+  }
+
   .filtre__recherche input {
     line-height: 2.1em;
     border: 1px solid white;
+    
   }
 
   .filtre__recherche i {
-    width: 25px;
-    padding-left: 16px;
-    padding-top: 15px;
-    background-color: rgb(202, 205, 207);
+    
+    
+    width: 15%;
     border-radius: 10px 0 0 10px;
   }
 
-  form {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 0px;
+   form {
+    
+    margin: 0;
   }
 
-  label a {
+   label a {
     background-color: #0065fc;
     color: white;
-    padding: 10px 17px 12px 10px;
+    padding: 10px 0 10px 10px;
     border-radius: 0 10px 10px 0;
     text-decoration: none;
   }
 
-  .filtre--recherche--align {
+   .filtre--recherche--align {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    position: relative;
-    left: 15px;
     margin-top: 10px;
     width: auto;
     font-size: 1em;
   }
 
-  .filtre--recherche--align p {
+   .filtre--recherche--align p {
     border-radius: 50px;
     margin-top: 0px;
     padding: 8px;
@@ -99,22 +113,23 @@
     width: 180px;
   }
 
-  .align--single {
+   .align--single {
     font-size: 1.5em;
     width: auto;
+    margin: 10px 0 10px 10px;
   }
 
   .unbold--single {
-    font-weight: normal;
-    margin-left: 45px;
+    margin:0;
+    
   }
 
-  .rubriques {
+   .rubriques {
     flex-wrap: wrap;
-    max-width: 100%;
+    
   }
 
-  .display-icon-title {
+ .display-icon-title {
     display: flex;
     margin: 10px 0 10px 10px;
     width: 100%;
@@ -122,11 +137,12 @@
     color: #0065fc;
   }
 
-  .display-icon-title span {
+ .display-icon-title span {
     border-radius: 50px;
     padding: 15px;
   }
-  .display-icon-title p {
+  
+ .display-icon-title p {
     margin: 0;
     padding: 8px 0 8px 8px;
   }
@@ -139,7 +155,7 @@
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-start;
-    width: 100%;
+    
     margin-bottom: 20px;
   }
 
@@ -194,26 +210,30 @@
   .populaires__titre {
     display: flex;
     justify-content: space-around;
-    padding-top: 10px;
-    width: auto;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    width: 100%;
     font-weight: bolder;
     font-size: 1.2em;
+
   }
 
   .populaires__titre h3 {
-    padding-right: 10px;
+    margin: 10px 25px 0 0px;
+    padding-right: 0;
     padding-left: 0;
   }
 
   .populaires__titre i {
-    padding-top: 25px;
+    padding-top: 15px;
     padding-right: 0;
-    padding-left: 30px;
+    padding-left: 20px;
   }
 
   .populaires {
     background-color: #f2f2f2;
-    width: 100%;
+    width: auto;
     border-radius: 0px;
     height: auto;
     margin-top: 25px;
@@ -265,6 +285,7 @@
 
   .activity__Part {
     margin-bottom: 20px;
+    margin-left: 25px;
   }
 
   .marseille-align {
@@ -283,7 +304,7 @@
 
   .activites_section img {
     height: 150px;
-    max-width: 100%;
+    width: 100%;
     border-radius: 15px 15px 0 0;
   }
 

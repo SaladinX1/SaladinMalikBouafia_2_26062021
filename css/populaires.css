@@ -4,27 +4,28 @@
   background-color: #f2f2f2;
   border-radius: 15px;
   margin: 10px;
-  width: 900px;
+  width: auto;
   height: auto;
 }
 
 .populaires__titre {
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 20px;
+  padding-top: 30px;
+  padding-left: 10px;
   width: 92%;
   font-weight: bolder;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 .populaires__titre h3 {
-  padding-left: 25px;
+  padding-right: 14px;
+  margin-bottom: 0px;
 }
 
 .populaires__titre i {
-  padding-top: 25px;
-  padding-right: 20px;
+  padding-top: 15px;
+  padding-right: 0px;
 }
 
 .populaires__Cellule {
@@ -49,8 +50,10 @@
   flex-direction: row;
   justify-content: flex-start;
   background-color: white;
-  margin: 0 20px 30px 45px;
+  box-shadow: 1px 1px 10px gray ;
+  margin: 22px 20px 30px 45px;
   width: 85%;
+  height: auto;
   border-radius: 20px;
 }
 
@@ -63,16 +66,16 @@
   width: auto;
   margin-left: 15px;
   margin-top: 10px;
-  font-size: 1.1em;
+  font-size: 1.1rem;
 }
 
 .populaires__Cellule--Desc .populaires__Cellule--Desc--Titre,
 .nuit_Populaires {
-  line-height: 2.5em;
+  line-height: 2em;
 }
 
 .populaires__Cellule--Desc .rating_Star {
-  margin-top: 40px;
+  margin-top:  40px;
   padding: 0;
 }
 

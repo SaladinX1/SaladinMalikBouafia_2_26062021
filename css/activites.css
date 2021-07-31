@@ -30,7 +30,7 @@
 figure {
   border: 1px solid white;
   border-radius: 15px;
-  box-shadow: 0 2px 5px rgb(211, 206, 206);
+  box-shadow: 1px 2px 5px rgb(211, 206, 206);
   width: auto;
 }
 

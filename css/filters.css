@@ -1,31 +1,35 @@
 .filters__searchbar {
   line-height: 2.1em;
-  margin: 30px 0 0 10px;
+  margin: 30px 0 0 0px;
+  padding-left: 40px;
 }
 
-.filtre__recherche form {
+.filters__searchbar .filtre__recherche form {
   margin: 0;
+  max-width: 100%;
 }
 
-.filtre__recherche {
+.filters__searchbar .filtre__recherche {
   display: flex;
 }
 
-.filtre__recherche i {
-  width: 30px;
-  padding-left: 20px;
-  padding-top: 15px;
+.filters__searchbar .filtre__recherche i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  width: auto;
   background-color: #f2f2f2;
   border-radius: 10px 0 0 10px;
 }
 
-.filtre__recherche input {
+ .filtre__recherche input {
   line-height: 2.1em;
   border: 1px solid #f2f2f2;
-  width: 250px;
+  width: 30%;
 }
 
-label a {
+.filters__searchbar label a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -36,45 +40,45 @@ label a {
   text-decoration: none;
 }
 
-.filtre--recherche--align {
+.filters__searchbar .filtre--recherche--align {
   display: flex;
+  margin: 15px 0 15px 0 ;
+  
 }
 
 /* Filtre - Rubrique  */
 
-.rubriques {
+.filters__searchbar .rubriques {
   display: flex;
   width: 60%;
 }
 
-.logo__devise h3,
-p {
-  margin: 10px;
-}
 
-.logo__devise h3 {
+
+.filters__searchbar .logo__devise h3 {
   font-size: 1.4rem;
 }
 
-.display-icon-title {
+.filters__searchbar .display-icon-title {
   display: flex;
   margin-top: 20px;
   margin-left: 15px;
   border-radius: 30px;
+  width: 100%;
   border: 1px solid #b9b4b4;
   height: 50px;
   text-align: center;
   color: #0065fc;
 }
 
-.display-icon-title i {
+.filters__searchbar .display-icon-title i {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: auto;
 }
 
-.display-icon-title span {
+.filters__searchbar .display-icon-title span {
   display: flex;
   border-radius: 50px;
   height: auto;
@@ -83,7 +87,7 @@ p {
   padding: 15px;
 }
 
-.display-icon-title p {
+.filters__searchbar .display-icon-title p {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,19 +97,24 @@ p {
   margin: 5px;
 }
 
-.display-icon-title:hover {
+.filters__searchbar .display-icon-title:hover {
   background-color: rgb(32, 211, 196);
   font-style: italic;
 }
 
-.align--single {
+.filters__searchbar .align--single {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin: 10px;
+  margin: 10px 0 10px 0;
   font-size: 1.5rem;
 }
 
-.unbold--single i {
+.filters__searchbar .unbold--single i {
   color: #0065fc;
+}
+
+.filters__searchbar .unbold--single {
+  font-weight: normal;
+  margin: 0;;
 }

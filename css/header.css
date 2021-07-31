@@ -16,6 +16,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  
 }
 
 /* HEADER */
@@ -29,18 +30,25 @@ header {
 header .logo {
   height: 50px;
   width: auto;
-  padding-left: 50px;
+  padding-left: 40px;
+}
+
+.logo__devise h3,
+p {
+  margin: 10px 0 10px 40px;
 }
 
 /* NAVIGATION LINKS*/
 
 header .nav {
   margin-left: auto;
+  
 }
 header .nav ul {
   list-style-type: none;
   display: flex;
   margin: 0;
+  
 }
 
 header .nav ul li {
@@ -67,4 +75,6 @@ header .sign-up {
   align-items: center;
   color: #0065fc;
   font-weight: bold;
+  margin-right:30px ;
+  margin-bottom: 3px;
 }
