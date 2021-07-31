@@ -1,7 +1,7 @@
 .filters__searchbar {
   line-height: 2.1em;
-  margin: 30px 0 0 0px;
-  padding-left: 40px;
+  margin: 30px 0 0 40px;
+  padding-left: 0px;
 }
 
 .filters__searchbar .filtre__recherche form {
@@ -23,7 +23,7 @@
   border-radius: 10px 0 0 10px;
 }
 
- .filtre__recherche input {
+.filtre__recherche input {
   line-height: 2.1em;
   border: 1px solid #f2f2f2;
   width: 30%;
@@ -42,8 +42,7 @@
 
 .filters__searchbar .filtre--recherche--align {
   display: flex;
-  margin: 15px 0 15px 0 ;
-  
+  margin: 15px 0 15px 0;
 }
 
 /* Filtre - Rubrique  */
@@ -52,8 +51,6 @@
   display: flex;
   width: 60%;
 }
-
-
 
 .filters__searchbar .logo__devise h3 {
   font-size: 1.4rem;
@@ -116,5 +113,5 @@
 
 .filters__searchbar .unbold--single {
   font-weight: normal;
-  margin: 0;;
+  margin: 0;
 }

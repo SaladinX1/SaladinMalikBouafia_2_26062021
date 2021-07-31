@@ -4,7 +4,7 @@
   /* HEADER QUERRIES IPHONE */
 
   body {
-    margin: 0;
+    margin: auto;
     width: 100%;
   }
 
@@ -22,7 +22,6 @@
   header .nav {
     order: 3;
     width: 100%;
-    
   }
 
   header .nav ul {
@@ -56,38 +55,29 @@
   /* HEADER -- Filtre - Rubrique - QUERRIES - IPHONE */
 
   .filters__searchbar {
-
-margin: 30px 0 0 0;
-padding: 0 0 0 0 ;
-
+    margin: auto;
+    padding: 0 0 0 0;
   }
 
   .filtre__recherche {
-
     width: 100%;
-
-
   }
 
   .filtre__recherche input {
     line-height: 2.1em;
     border: 1px solid white;
-    
   }
 
   .filtre__recherche i {
-    
-    
     width: 15%;
     border-radius: 10px 0 0 10px;
   }
 
-   form {
-    
+  form {
     margin: 0;
   }
 
-   label a {
+  label a {
     background-color: #0065fc;
     color: white;
     padding: 10px 0 10px 10px;
@@ -95,7 +85,7 @@ padding: 0 0 0 0 ;
     text-decoration: none;
   }
 
-   .filtre--recherche--align {
+  .filtre--recherche--align {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -104,7 +94,7 @@ padding: 0 0 0 0 ;
     font-size: 1em;
   }
 
-   .filtre--recherche--align p {
+  .filtre--recherche--align p {
     border-radius: 50px;
     margin-top: 0px;
     padding: 8px;
@@ -113,23 +103,21 @@ padding: 0 0 0 0 ;
     width: 180px;
   }
 
-   .align--single {
+  .align--single {
     font-size: 1.5em;
     width: auto;
     margin: 10px 0 10px 10px;
   }
 
   .unbold--single {
-    margin:0;
-    
+    margin-right: 15px;
   }
 
-   .rubriques {
+  .rubriques {
     flex-wrap: wrap;
-    
   }
 
- .display-icon-title {
+  .display-icon-title {
     display: flex;
     margin: 10px 0 10px 10px;
     width: 100%;
@@ -137,12 +125,12 @@ padding: 0 0 0 0 ;
     color: #0065fc;
   }
 
- .display-icon-title span {
+  .display-icon-title span {
     border-radius: 50px;
     padding: 15px;
   }
-  
- .display-icon-title p {
+
+  .display-icon-title p {
     margin: 0;
     padding: 8px 0 8px 8px;
   }
@@ -155,8 +143,7 @@ padding: 0 0 0 0 ;
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-start;
-    
-    margin-bottom: 20px;
+    padding-left: 0;
   }
 
   .hebergements__titre h3 {
@@ -216,7 +203,6 @@ padding: 0 0 0 0 ;
     width: 100%;
     font-weight: bolder;
     font-size: 1.2em;
-
   }
 
   .populaires__titre h3 {
@@ -284,8 +270,16 @@ padding: 0 0 0 0 ;
   /* 3RD SECTION ACTIVITES - QUERRIES - IPHONE*/
 
   .activity__Part {
+    margin: auto;
     margin-bottom: 20px;
-    margin-left: 25px;
+  }
+
+  h4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 15px 0 20px 10px;
+    font-size: 1.1rem;
   }
 
   .marseille-align {
@@ -311,7 +305,7 @@ padding: 0 0 0 0 ;
   .activites_section figure {
     border: 1px solid white;
     border-radius: 15px;
-    box-shadow: 0 3px 5px rgb(153, 139, 139);
+    box-shadow: 3px 3px 9px #f2f2f2;
     height: 200px;
     max-width: 100%;
     margin-top: 30px;
