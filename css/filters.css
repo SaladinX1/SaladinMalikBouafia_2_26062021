@@ -29,6 +29,13 @@
   width: 30%;
 }
 
+.input__style::placeholder {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 600;
+  text-align: start;
+}
+
 .filters__searchbar label a {
   display: flex;
   flex-direction: column;
