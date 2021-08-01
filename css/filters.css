@@ -36,13 +36,12 @@
   text-align: start;
 }
 
-.filters__searchbar label a {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+.filters__searchbar .button-research {
   background-color: #0065fc;
   color: white;
-  padding: 12px 16px 12px 16px;
+  padding: 0 20px 0 20px;
+  font-size: 1rem;
+  font-weight: bold;
   border-radius: 0 10px 10px 0;
   text-decoration: none;
 }
