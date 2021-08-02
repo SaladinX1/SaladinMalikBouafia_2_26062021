@@ -15,9 +15,10 @@
       <link rel="stylesheet" type="text/css" href="css/populaires.css"/>
       <link rel="stylesheet" type="text/css" href="css/activites.css"/>
       <link rel="stylesheet" type="text/css" href="css/footer.css"/>
-      <link rel="stylesheet" type="text/css" href="css/mediaQ.css"/>
+      <link rel="stylesheet" type="text/css" href="css/mediaQSmartphone.css"/>
       <link rel="stylesheet" type="text/css" href="css/filters.css"/>
-      <link rel="stylesheet" type="text/css" href="css/mediaQTablette.css"/>
+      <!--
+      <link rel="stylesheet" type="text/css" href="css/mediaQTablette.css"/>-->
 
       <script src="https://kit.fontawesome.com/5157d1a303.js" crossorigin="anonymous"></script>
 
@@ -68,12 +69,18 @@
               <form class="filtre__recherche" method="POST"  action="#">
                 <i class="fas fa-map-marker-alt"></i>
                 <input placeholder=" Marseille, France" type="search" id="Recherche"  class="input__style"> 
-                <button class="button-research" id="button-research">Rechercher</button>
-                <label for="Recherche"></label>
+
+                <button class="button-research">
+                  <span class="rechercher">Rechercher</span>
+                  
+                </button>
+
+                <span class="loupe"><i class="fas fa-search"></i></span>
+                
               </form>
           
 
-              <div class="filtre--recherche--align">
+              <div class="filtre--recherche--ajust">
             
                 <h2 class="align--single" >Filtres</h2> 
 
@@ -85,7 +92,7 @@
             
               </div>
           
-              <p class="unbold--single"> <i class="fas fa-info-circle"></i> *Plus de 500 logement sont disponibles dans cette ville </p>
+              <p class="unbold--single"><span><i class="fas fa-info"></i></span> *Plus de 500 logement sont disponibles dans cette ville </p>
 
             </section>
     

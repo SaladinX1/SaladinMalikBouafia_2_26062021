@@ -6,7 +6,6 @@
 
 .filters__searchbar .filtre__recherche form {
   margin: 0;
-  max-width: 100%;
 }
 
 .filters__searchbar .filtre__recherche {
@@ -26,7 +25,11 @@
 .filtre__recherche input {
   line-height: 2.1em;
   border: 1px solid #f2f2f2;
-  width: 30%;
+  width: 200px;
+}
+
+.filtre__recherche .loupe {
+  display: none;
 }
 
 .input__style::placeholder {
@@ -46,16 +49,17 @@
   text-decoration: none;
 }
 
-.filters__searchbar .filtre--recherche--align {
+.filters__searchbar .filtre--recherche--ajust {
   display: flex;
   margin: 15px 0 15px 0;
+  flex-wrap: wrap;
 }
 
 /* Filtre - Rubrique  */
 
 .filters__searchbar .rubriques {
   display: flex;
-  width: 60%;
+  flex-wrap: wrap;
 }
 
 .filters__searchbar .logo__devise h3 {
@@ -67,7 +71,6 @@
   margin-top: 20px;
   margin-left: 15px;
   border-radius: 30px;
-  width: 100%;
   border: 1px solid #b9b4b4;
   height: 50px;
   text-align: center;
@@ -83,9 +86,11 @@
 
 .filters__searchbar .display-icon-title span {
   display: flex;
-  border-radius: 50px;
-  height: auto;
-  width: auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
   background-color: #deebff;
   padding: 15px;
 }
@@ -98,6 +103,8 @@
   color: black;
   font-weight: bolder;
   margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .filters__searchbar .display-icon-title:hover {
@@ -113,11 +120,25 @@
   font-size: 1.5rem;
 }
 
-.filters__searchbar .unbold--single i {
+.filters__searchbar .unbold--single span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #f2f2f2;
+  margin-right: 10px;
+  padding: 8px;
+  width: 10px;
+  height: 10px;
+  font-size: 0.8rem;
+}
+
+.filters__searchbar .unbold--single span i {
   color: #0065fc;
 }
 
 .filters__searchbar .unbold--single {
+  display: flex;
   font-weight: normal;
   margin: 0;
 }

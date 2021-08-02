@@ -1,0 +1,324 @@
+/*MEDIA QUERRIES - IPHONE FORMAT */
+
+@media all and (max-width: 438px) {
+  /* HEADER QUERRIES IPHONE */
+
+  body {
+    margin: auto;
+    width: 100%;
+  }
+
+  header {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  header .logo {
+    padding-left: 20px;
+  }
+
+  /* NAVIGATION LINKS - QUERRIES - IPHONE*/
+
+  header .nav {
+    order: 3;
+    width: 100%;
+  }
+
+  header .nav ul {
+    padding: 0;
+    margin-right: 0;
+  }
+
+  header .nav ul li {
+    border-bottom: 2px solid #f2f2f2;
+    border-top: none;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  header .nav ul li:hover {
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
+  }
+
+  header .sign-up {
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+
+  main:nth-child(1) {
+    order: 1;
+  }
+
+  .logo__devise h3,
+  p {
+    margin: 10px 0 10px 20px;
+  }
+
+  /* HEADER -- Filtre - Rubrique - QUERRIES - IPHONE */
+
+  section.filters__searchbar {
+    margin: 30px 0 0 20px;
+    padding: 0 0 0 0;
+  }
+
+  .filtre__recherche input {
+    line-height: 2.1em;
+    border: 1px solid white;
+    width: 50%;
+  }
+
+  .filtre__recherche i {
+    width: 15%;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .button-research {
+    display: none;
+  }
+
+  .filters__searchbar .filtre__recherche .loupe {
+    display: inline-block;
+  }
+
+  .filters__searchbar .filtre__recherche .loupe i {
+    border-radius: 10px;
+    background-color: #0065fc;
+    color: white;
+  }
+
+  form {
+    margin: 0;
+  }
+
+  .filtre--recherche--ajust {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px;
+    width: auto;
+    font-size: 1em;
+  }
+
+  .filtre--recherche--ajust p {
+    border-radius: 50px;
+    margin-top: 0px;
+    padding: 8px;
+    flex-wrap: wrap;
+    margin-left: 5px;
+  }
+
+  .align--single {
+    font-size: 1.5em;
+    width: auto;
+    margin: 10px 0 10px 10px;
+  }
+
+  .unbold--single {
+    margin-right: 15px;
+  }
+
+  .rubriques {
+    flex-wrap: wrap;
+  }
+
+  .rubriques div.display-icon-title {
+    margin: 10px 10px 10px 0;
+  }
+
+  .display-icon-title span {
+    border-radius: 50px;
+    padding: 15px;
+  }
+
+  .display-icon-title p {
+    margin: 0;
+    padding: 8px 0 8px 8px;
+  }
+
+  /* 2ND SECTION QUERRIES - IPHONE*/
+
+  /* Hébergements - QUERRIES - IPHONE*/
+
+  .hebergements__Populaires {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    padding-left: 0;
+  }
+
+  .hebergements__titre h3 {
+    margin: 0 0 10px 25px;
+    font-size: 1.2em;
+  }
+
+  .hebergements {
+    background-color: white;
+    width: auto;
+  }
+
+  .hebergements__cellule {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    margin-left: 0;
+  }
+
+  .hebergements__Cellule--Hotel {
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px rgb(219, 216, 216);
+    background-color: rgb(255, 255, 255);
+    margin: 0px 20px 30px 20px;
+    height: 200px;
+    width: auto;
+    padding: 0;
+    border-radius: 10px;
+  }
+
+  .rating_Star {
+    margin: 0;
+    padding-left: 10px;
+  }
+
+  .hebergements__Cellule--Hotel p img {
+    padding: 2px 2px 0 2px;
+    max-width: 100%;
+    height: 115px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .afficher_plus {
+    font-weight: 900;
+    margin: 5px 0 0 30px;
+  }
+
+  /*Populaires Medias Querries */
+
+  .populaires__titre {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    width: auto;
+    font-weight: bolder;
+    font-size: 1.2em;
+  }
+
+  .populaires__titre h3 {
+    margin: 10px 25px 0 0px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .populaires__titre i {
+    padding-top: 15px;
+    padding-right: 0;
+    padding-left: 20px;
+  }
+
+  .populaires {
+    background-color: #f2f2f2;
+    width: auto;
+    border-radius: 0px;
+
+    margin: 25px 0 10px 0;
+  }
+
+  .populaires__Cellule {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 1px;
+    width: 100%;
+    flex: 1;
+  }
+
+  .populaires__Cellule img {
+    width: 120px;
+    height: 140px;
+    border-radius: 20px 0 0 20px;
+  }
+
+  .populaires__Cellule--Hotel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 20px 30px 20px;
+    height: 150px;
+    width: auto;
+    border-radius: 20px;
+  }
+
+  .populaires__Cellule--Desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    margin-left: 5px;
+  }
+
+  .populaires__Cellule--Desc .populaires__Cellule--Desc--Titre,
+  .nuit_Populaires {
+    font-size: 1.1rem;
+    line-height: 1.5em;
+  }
+
+  .populaires__Cellule--Desc .Rating_Star {
+    margin-top: 40px;
+  }
+
+  /* 3RD SECTION ACTIVITES - QUERRIES - IPHONE*/
+
+  .activity__Part {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 15px 0 20px 10px;
+    font-size: 1.1rem;
+  }
+
+  .marseille-align {
+    margin-left: 10%;
+  }
+
+  .activites_section {
+    width: 100%;
+  }
+
+  .activites_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .activites_section img {
+    height: 150px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .activites_section figure {
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 9px #f2f2f2;
+    height: 200px;
+    max-width: 100%;
+    margin-top: 30px;
+  }
+
+  /* 4TH SECTION FOOTER - QUERRIES IPHONE */
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 20px;
+  }
+}
