@@ -35,6 +35,13 @@ figure {
   width: auto;
 }
 
+h4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 15px 0 20px 15px;
+}
+
 .activites__Fort-et-Iles {
   display: flex;
   flex-direction: column;
@@ -47,13 +54,6 @@ figure {
   flex-direction: column;
   justify-content: stretch;
   width: auto;
-}
-
-h4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin: 15px 0 20px 10px;
 }
 
 .activites__Fort-de-Pomegues--align {
