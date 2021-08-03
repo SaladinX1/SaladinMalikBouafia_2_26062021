@@ -22,4 +22,5 @@ footer .informations__A-propos strong {
 footer .informations__A-propos p {
   font-weight: normal;
   margin-left: 0;
+  margin-bottom: 10px;
 }

@@ -4,7 +4,7 @@
   background-color: #f2f2f2;
   border-radius: 15px;
   margin: 10px;
-  width: auto;
+  width: 30%;
   height: auto;
 }
 
@@ -20,61 +20,71 @@
 
 .populaires__titre h3 {
   margin: 0px;
-  padding-left: 15px;
+  padding-left: 0px;
 }
 
 .populaires__titre i {
-  padding-left: 100px;
+  padding-left: 35px;
 }
 
-.populaires__Cellule {
+.populaires .populaires__Cellule {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: auto;
-  margin: auto;
-  width: auto;
+  margin-top: 20px;
+}
+
+.size-a {
+  margin: 0;
+  width: 149px;
 }
 
 .populaires__Cellule img {
-  padding: 5px;
-  width: 180px;
+  padding: 5px 5px 3px 5px;
+  width: 100%;
   height: 142px;
   border-radius: 20px 0 0 20px;
   object-fit: cover;
 }
 
-.populaires__Cellule--Hotel {
+.populaires .populaires__Cellule--Hotel {
   display: flex;
-  justify-content: center;
-
+  justify-content: flex-start;
+  width: 80%;
   background-color: white;
   box-shadow: 1px 1px 10px gray;
   margin-bottom: 30px;
-  width: 85%;
-  height: auto;
+
   border-radius: 20px;
 }
 
-.populaires__Cellule--Hotel p {
-  font-size: 0.8em;
-  margin: 0;
+.populaires .populaires__Cellule--Desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: 23px;
+  margin-bottom: 15px;
 }
 
-.populaires__Cellule--Desc {
-  width: auto;
-  margin-left: 15px;
-  font-size: 1.1rem;
+.p__Cellule--Desc--Title {
+}
+
+.populaires__Cellule--Desc p {
+  font-size: 1rem;
+  margin: 0;
 }
 
 .populaires__Cellule--Desc .populaires__Cellule--Desc--Titre,
 .nuit_Populaires {
-  line-height: 2em;
+  line-height: 1.5em;
+  flex-wrap: wrap;
 }
 
 .populaires__Cellule--Desc .rating_Star {
-  margin-top: 40px;
   padding: 0;
 }
 

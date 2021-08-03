@@ -32,8 +32,11 @@ header .logo {
   padding-left: 40px;
 }
 
-.logo__devise h3,
-p {
+.logo__devise h3 {
+  margin: 10px 0 10px 40px;
+}
+
+.logo__devise p {
   margin: 10px 0 10px 40px;
 }
 
@@ -41,12 +44,14 @@ p {
 
 header .nav {
   margin-left: auto;
+  width: auto;
 }
 header .nav ul {
   list-style-type: none;
   display: flex;
   padding-left: 0;
   margin: 0;
+  width: auto;
 }
 
 header .nav ul li {
@@ -80,5 +85,4 @@ header .sign-up {
   color: #0065fc;
   font-weight: bold;
   margin-right: 30px;
-  margin-bottom: 3px;
 }

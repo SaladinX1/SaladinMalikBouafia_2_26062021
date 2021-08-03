@@ -200,7 +200,7 @@
   .populaires__titre {
     display: flex;
     justify-content: space-around;
-    padding-top: 5px;
+    padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 0px;
     width: auto;
@@ -253,11 +253,14 @@
     border-radius: 20px;
   }
 
-  .populaires__Cellule--Desc {
+  .populaires .populaires__Cellule--Desc {
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
-    margin-left: 5px;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-right: 0;
+    margin-bottom: 5px;
   }
 
   .populaires__Cellule--Desc .populaires__Cellule--Desc--Titre,
@@ -266,8 +269,8 @@
     line-height: 1.5em;
   }
 
-  .populaires__Cellule--Desc .Rating_Star {
-    margin-top: 40px;
+  .populaires .populaires__Cellule--Desc .Rating_Star i {
+    font-size: 0.7rem;
   }
 
   /* 3RD SECTION ACTIVITES - QUERRIES - IPHONE*/
