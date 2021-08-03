@@ -51,7 +51,7 @@
 
 .filters__searchbar .filtre--recherche--ajust {
   display: flex;
-  margin: 15px 0 15px 0;
+  margin: 15px 0 25px 0;
   flex-wrap: wrap;
 }
 
@@ -69,7 +69,7 @@
 .filters__searchbar .display-icon-title {
   display: flex;
   margin-top: 20px;
-  margin-left: 15px;
+  margin-left: 35px;
   border-radius: 30px;
   border: 1px solid #b9b4b4;
   height: 50px;
@@ -140,5 +140,6 @@
 .filters__searchbar .unbold--single {
   display: flex;
   font-weight: normal;
+
   margin: 0;
 }
