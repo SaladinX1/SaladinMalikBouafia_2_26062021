@@ -44,7 +44,6 @@ header .logo {
 
 header .nav {
   margin-left: auto;
-  width: auto;
 }
 header .nav ul {
   list-style-type: none;
@@ -55,7 +54,7 @@ header .nav ul {
 }
 
 header .nav ul li {
-  margin-right: 60px;
+  margin-right: 30px;
   color: black;
   border-top: 2px solid #ffffff;
 }
