@@ -171,7 +171,7 @@
 
   .hebergements__Cellule--Hotel {
     border: 1px solid white;
-    box-shadow: 3px 3px 3px rgb(219, 216, 216);
+    box-shadow: 3px 3px 9px #f2f2f2;
     background-color: rgb(255, 255, 255);
     margin: 0px 20px 30px 20px;
     height: 200px;
@@ -311,13 +311,15 @@
     border-radius: 15px 15px 0 0;
   }
 
-  .activites_section figure {
+  .activity__Part .activites_section figure {
     border: 1px solid white;
     border-radius: 15px;
     box-shadow: 3px 3px 9px #f2f2f2;
     height: 200px;
+    width: 81%;
     max-width: 100%;
     margin-top: 30px;
+    margin-left: 40px;
   }
 
   /* 4TH SECTION FOOTER - QUERRIES IPHONE */
