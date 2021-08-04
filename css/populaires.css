@@ -85,6 +85,7 @@
 
 .populaires__Cellule--Desc .rating_Star {
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .populaires__Cellule--Desc--Titre {
