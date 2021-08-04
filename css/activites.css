@@ -16,13 +16,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
-  margin: auto;
+  width: 98.8%;
+  margin-left: 20px;
 }
 
 .activites_section img {
   height: 450px;
-  width: 333px;
+  width: 433px;
   border-radius: 15px 15px 0 0;
   max-width: 100%;
   object-fit: cover;
@@ -33,6 +33,8 @@ figure {
   border-radius: 15px;
   box-shadow: 1px 2px 5px rgb(211, 206, 206);
   width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 h4 {
@@ -45,24 +47,25 @@ h4 {
 .activites__Fort-et-Iles {
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  justify-content: space-between;
   width: auto;
 }
 
 .activites__Dame-et-Parc {
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  justify-content: space-between;
   width: auto;
 }
 
 .activites__Fort-de-Pomegues--align {
   height: 280px;
+  width: auto;
 }
 
 .activites__Fort-de-Pomegues--align img {
   height: 220px;
-  width: 275px;
+  width: 375px;
 }
 
 .activites__Iles-du-Frioul--align {
@@ -72,7 +75,7 @@ h4 {
 
 .activites__Iles-du-Frioul--align img {
   height: 135px;
-  width: 275px;
+  width: 375px;
 }
 
 .activites__Notre-Dame-de-la-Garde--align {
@@ -82,7 +85,7 @@ h4 {
 
 .activites__Notre-Dame-de-la-Garde--align img {
   height: 150px;
-  width: 275px;
+  width: 375px;
 }
 
 .activites__Parc-Longchamp--align {
@@ -93,5 +96,5 @@ h4 {
 
 .activites__Parc-Longchamp--align img {
   height: 210px;
-  width: 275px;
+  width: 375px;
 }
