@@ -217,9 +217,9 @@
     padding-left: 0;
   }
 
-  .populaires__titre i {
+  .populaires .populaires__titre i {
     padding-top: 15px;
-    padding-right: 0;
+    padding-right: 0px;
     padding-left: 20px;
   }
 
