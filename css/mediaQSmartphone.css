@@ -205,7 +205,6 @@
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 0px;
-
     width: auto;
     font-weight: bolder;
     font-size: 1.2em;
@@ -226,8 +225,8 @@
   .populaires {
     background-color: #f2f2f2;
     width: auto;
-    border-radius: 0px;
 
+    border-radius: 0px;
     margin: 25px 0 10px 0;
   }
 
@@ -237,22 +236,23 @@
     justify-content: flex-start;
     margin-left: 1px;
     width: 100%;
+
     flex: 1;
   }
 
   .populaires__Cellule img {
-    width: 120px;
-    height: 140px;
+    width: 80%;
+    height: 94%;
     border-radius: 20px 0 0 20px;
   }
 
-  .populaires__Cellule--Hotel {
+  .populaires .populaires__Cellule--Hotel {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     margin: 0 20px 30px 20px;
     height: 150px;
-    width: auto;
+    width: 80%;
     border-radius: 20px;
   }
 
