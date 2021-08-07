@@ -1,6 +1,6 @@
 /*MEDIA QUERRIES - IPHONE FORMAT */
 
-@media all and (max-width: 438px) {
+@media all and (max-width: 540px) {
   /* HEADER QUERRIES IPHONE */
 
   body {
@@ -20,6 +20,7 @@
   /* NAVIGATION LINKS - QUERRIES - IPHONE*/
 
   header .nav {
+    display: block;
     order: 3;
     width: 100%;
   }
