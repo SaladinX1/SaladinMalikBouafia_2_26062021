@@ -9,10 +9,11 @@
 
 .populaires__titre {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin-left: 10%;
+  width: 80%;
   padding-top: 37px;
-
   font-weight: bolder;
   font-size: 1.2em;
 }
