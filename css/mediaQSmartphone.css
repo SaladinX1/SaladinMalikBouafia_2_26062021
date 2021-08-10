@@ -5,7 +5,7 @@
 
   body {
     margin: auto;
-    width: auto;
+    width: 100%;
   }
 
   header {
@@ -148,7 +148,7 @@
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-start;
-    padding-left: 0;
+    padding-right: 1px;
     margin-top: 10px;
   }
 
@@ -292,7 +292,7 @@
   }
 
   .marseille-align {
-    margin-left: 10%;
+    margin-left: 8%;
   }
 
   .activites_section {
@@ -303,6 +303,19 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
+  }
+
+  .activites_section .activites__Fort-et-Iles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .activites_section .activites__Dame-et-Parc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .activites_section img {
@@ -319,7 +332,6 @@
     width: 85%;
     max-width: 100%;
     margin-top: 30px;
-    margin-left: 30px;
   }
 
   /* 4TH SECTION FOOTER - QUERRIES IPHONE */
