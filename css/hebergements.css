@@ -5,13 +5,13 @@
   width: auto;
 
   margin-top: 20px;
-  padding-left: 25px;
+  padding-left: 0px;
 }
 
 .hebergements {
   background-color: #f2f2f2;
   border-radius: 15px;
-  width: 60%;
+  width: 65%;
 
   margin: 10px 10px 10px 10px;
 }
@@ -24,9 +24,9 @@
 
 .hebergements__cellule {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 
-  margin-left: 4.5%;
   width: 100%;
   height: 75%;
 }
@@ -45,11 +45,11 @@ strong {
 .hebergements__Cellule--Hotel {
   background-color: white;
   box-shadow: 1px 1px 10px gray;
-  margin: 20px 1% 1% 2%;
+  margin: 20px 1% 1% 1%;
   padding: 5px;
   border-radius: 20px;
   height: auto;
-  width: 26%;
+  width: 26.5%;
 }
 
 .hotel_title {
