@@ -3,7 +3,7 @@
 .populaires {
   background-color: #f2f2f2;
   border-radius: 15px;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 1.5%;
   width: 35%;
 }
 
@@ -33,7 +33,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: 70%;
+  height: 88%;
   margin-top: 20px;
 }
 
