@@ -1,7 +1,0 @@
-/*MEDIA QUERRIES - Tablette FORMAT */
-
-@media all and (min-width: 540px) and (max-width: 720px) {
-  header .nav ul li {
-    margin-right: 10px;
-  }
-}
