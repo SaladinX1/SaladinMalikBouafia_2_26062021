@@ -311,6 +311,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 100%;
+    width: 100%;
   }
 
   .activites_section .activites__Dame-et-Parc {
@@ -318,6 +319,23 @@
     flex-direction: column;
     align-items: center;
     max-width: 100%;
+    width: 100%;
+  }
+
+  .activites_section .activites__Fort-et-Iles img {
+    width: 100%;
+  }
+
+  .activites_section .activites__Dame-et-Parc img {
+    width: 100%;
+  }
+
+  .activites_section .activites__Vieux-Port--align img {
+    width: 100%;
+  }
+
+  .activites_section .activites__Parc-national-des-Calanques img {
+    width: 100%;
   }
 
   .activites_section img {
