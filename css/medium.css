@@ -93,4 +93,78 @@
     margin-left: 1%;
     font-size: 1.1rem;
   }
+
+  /*Activity medium */
+
+  .activites_section {
+    width: 100%;
+  }
+
+  .marseille-align {
+    margin-left: 1.5%;
+    font-size: 1.1rem;
+  }
+
+  .activites_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .activites_section .activites__Fort-et-Iles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .activites_section .activites__Dame-et-Parc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .activites_section .activites__Fort-et-Iles img {
+    width: 100%;
+  }
+
+  .activites_section .activites__Dame-et-Parc img {
+    width: 100%;
+  }
+
+  .activites_section .activites__Vieux-Port--align img {
+    width: 100%;
+  }
+
+  .activites_section .activites__Parc-national-des-Calanques img {
+    width: 100%;
+  }
+
+  .activites_section img {
+    height: 170px;
+    max-width: 100%;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .activity__Part .activites_section figure {
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 9px #f2f2f2;
+    height: 220px;
+    width: 85%;
+    max-width: 100%;
+    margin-top: 30px;
+  }
+
+  h4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px 0 30px 10px;
+    font-size: 1.1rem;
+  }
 }
