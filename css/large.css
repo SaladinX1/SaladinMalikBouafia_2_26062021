@@ -12,4 +12,13 @@
     height: auto;
     width: 32%;
   }
+
+  .afficher_plus {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: 900;
+    height: auto;
+    margin: 21% 0 2% 15%;
+  }
 }
