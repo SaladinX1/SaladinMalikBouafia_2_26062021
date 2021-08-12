@@ -1,4 +1,4 @@
-@media all and (min-width: 721px) and (max-width: 960px) {
+@media all and (min-width: 1177px) and (max-width: 1385px) {
   header .nav ul li {
     margin-right: 30px;
   }
@@ -13,12 +13,23 @@
     width: 40%;
   }
 
+  .hebergements__titre h3 {
+    margin: 40px 0 10px 8%;
+    font-weight: bolder;
+    font-size: 1.4em;
+  }
+
   .afficher_plus {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     font-weight: 900;
     height: auto;
-    margin: 21% 0 2% 15%;
+    margin: 12% 0 2% 7%;
+  }
+
+  .marseille-align {
+    margin-left: 1%;
+    font-size: 1.1rem;
   }
 }

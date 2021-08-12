@@ -1,8 +1,31 @@
 /*MEDIA QUERRIES - Tablette FORMAT */
 
-@media all and (min-width: 540px) and (max-width: 720px) {
+@media all and (min-width: 540px) and (max-width: 1176px) {
   header .nav ul li {
     margin-right: 10px;
+  }
+
+  .hebergements__Populaires {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+    margin-top: 20px;
+    padding-left: 0px;
+  }
+
+  .hebergements {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    width: 98%;
+
+    margin: 10px 1.5% 10px 10px;
+  }
+
+  .hebergements__titre h3 {
+    margin: 40px 0 10px 10%;
+    font-weight: bolder;
+    font-size: 1.4em;
   }
 
   .hebergements__cellule {
@@ -28,7 +51,7 @@
 
   .hebergements__cellule img {
     width: 100%;
-    height: 110px;
+    height: 160px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
   }
@@ -38,7 +61,36 @@
     flex-direction: column;
     justify-content: flex-end;
     font-weight: 900;
+    font-size: 1.2rem;
     height: auto;
-    margin: 50% 0 2% 9%;
+    margin: 5% 0 5% 10%;
+  }
+
+  .populaires {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    margin: 10px 10px 10px 1.5%;
+    width: 98%;
+  }
+
+  .populaires__Cellule--Desc .rating_Star {
+    padding: 0;
+    flex-wrap: wrap;
+    padding-top: 3%;
+  }
+
+  .populaires__Cellule--Desc p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .populaires__Cellule--Desc i {
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  .marseille-align {
+    margin-left: 1%;
+    font-size: 1.1rem;
   }
 }
